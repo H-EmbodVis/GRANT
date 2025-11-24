@@ -1,0 +1,357 @@
+[
+    {
+        "question": "Please prepare the living room furniture for guests, including (1) tending the surface of the black leather chair with a spherical shape and folding structure positioned beside the table (10 minutes), (2) engaging with shows on the Samsung black flat screen TV placed on the wooden table (15 minutes), (3) airing the beige leather sofa with white trim behind the table and to the left of another sofa (9 minutes), (4) buffing the wooden surface of the rectangular coffee table next to another coffee table, aligned to the right of the sofa (15 minutes), (5) rubbing down the beige and white leather sofa in a living room, positioned to the left of a shelf (13 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 3, subtask 4, start subtask 2, subtask 5, recheck subtask 2.\n",
+        "name": "Adataset_task_id: 0, task_info"
+    },
+    {
+        "text": " 1.First, I will tune  <p> the surface of  <p> the black leather chair <ref> </p>  with a spherical shape and folding structure positioned beside the table. (subtask 1)",
+        "name": "task_id: 0, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will air  <p> the beige leather sofa <ref> </p>  with white trim behind the table and to the left of another sofa. (subtask 3)",
+        "name": "task_id: 0, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will buff the wooden surface of  <p> the rectangular coffee table <ref> </p>  next to another coffee table, aligned to the right of the sofa. (subtask 4)",
+        "name": "task_id: 0, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will start the show on  <p> the Samsung black flat screen TV <ref> </p>  placed on the wooden table. (start subtask 2)",
+        "name": "task_id: 0, action_id: 3"
+    },
+    {
+        "text": "6.Before 15 minutes are up, I will return to  <p> the TV <ref> </p>  and turn it off. (recheck subtask 2)",
+        "name": "task_id: 0, action_id: 4"
+    },
+    {
+        "text": "1.First, I will tend the surface of <p> the black leather chair </p> with a spherical shape and folding structure positioned beside the table.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will air <p> the beige leather sofa </p> with white trim behind the table and to the left of another sofa.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will buff the wooden surface of <p> the rectangular coffee table </p> next to another coffee table, aligned to the right of the sofa.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 2"
+    },
+    {
+        "text": "4.After polishing, I will start playing shows on <p> the Samsung black flat screen TV </p> placed on the wooden table. While the shows are playing, I will attend to the next task.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 3"
+    },
+    {
+        "text": "5.I will rub down <p> the beige and white leather sofa </p> in the living room, positioned to the left of a shelf.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before the 15 minutes are up, I will return to <p> the TV </p> to stop playing shows.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 5"
+    },
+    {
+        "question": "Please prepare the living room furniture for guests, including (1) refreshing the surface of the black leather chair with a spherical shape and folding structure positioned beside the table (8 minutes), (2) activating shows on the Samsung black flat screen TV placed on the wooden table (28 minutes), (3) buffing the beige leather sofa with white trim behind the table and to the left of another sofa (12 minutes), (4) buffing the wooden surface of the rectangular coffee table next to another coffee table, aligned to the right of the sofa (12 minutes), (5) brushing down the beige and white leather sofa in a living room, positioned to the left of a shelf (15 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 3, start subtask 2, subtask 4, subtask 5, recheck subtask 2.\n",
+        "name": "Adataset_task_id: 1, task_info"
+    },
+    {
+        "text": " 1.First, I will refresh the surface of  <p> the black leather chair <ref> </p>  with a spherical shape and folding structure positioned beside the table. (subtask 1)",
+        "name": "task_id: 1, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will buff  <p> the beige leather sofa <ref> </p>  with white trim behind the table and to the left of another sofa. (subtask 3)",
+        "name": "task_id: 1, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will activate shows on  <p> the Samsung black flat screen TV <ref> </p>  placed on the wooden table. (start subtask 2)",
+        "name": "task_id: 1, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will buff the wooden surface of  <p> the rectangular coffee table <ref> </p>  next to another coffee table, aligned to the right of the sofa. (subtask 4)",
+        "name": "task_id: 1, action_id: 3"
+    },
+    {
+        "text": "5.Next, I will brush down  <p> the beige and white leather sofa <ref> </p>  in a living room, positioned to the left of a shelf. (subtask 5)",
+        "name": "task_id: 1, action_id: 4"
+    },
+    {
+        "text": "6.Before 28 minutes are up, I will return to check and turn off  <p> the Samsung black flat screen TV <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 1, action_id: 5"
+    },
+    {
+        "text": "1.First, I will refresh the surface of <p> the black leather chair </p> with a spherical shape and folding structure positioned beside the table.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will buff <p> the beige leather sofa </p> with white trim behind the table and to the left of another sofa.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will start playing shows on <p> the Samsung black flat screen TV </p> placed on the wooden table to continue for 28 minutes.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 2"
+    },
+    {
+        "text": "4.After that's set, I will buff the wooden surface of <p> the rectangular coffee table </p> next to another coffee table, aligned to the right of the sofa.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Next, I will brush down <p> the beige and white leather sofa </p> in a living room, positioned to the left of a shelf.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before 28 minutes are up, I will return to manage <p> the Samsung black flat screen TV </p> and stop it from playing shows.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 5"
+    },
+    {
+        "question": "Please prepare the living room furniture for guests, including (1) maintaining the surface of the black leather chair with a spherical shape and folding structure positioned beside the table (9 minutes), (2) starting shows on the Samsung black flat screen TV placed on the wooden table (11 minutes), (3) brushing the beige leather sofa with white trim behind the table and to the left of another sofa (11 minutes), (4) touching up the wooden surface of the rectangular coffee table next to another coffee table, aligned to the right of the sofa (12 minutes), (5) brushing down the beige and white leather sofa in a living room, positioned to the left of a shelf (15 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: start subtask 2, subtask 1, recheck subtask 2, subtask 3, subtask 4, subtask 5.\n",
+        "name": "Adataset_task_id: 2, task_info"
+    },
+    {
+        "text": " 1.First, I will maintain the surface of  <p> the black leather chair <ref> </p>  with a spherical shape and folding structure positioned beside the table. (subtask 1)",
+        "name": "task_id: 2, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will brush  <p> the beige leather sofa <ref> </p>  with white trim behind the table and to the left of another sofa. (subtask 3)",
+        "name": "task_id: 2, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will touch up  <p> the wooden surface <ref> </p>  of  <p> the rectangular coffee table <ref> </p>  next to another coffee table, aligned to the right of the sofa. (subtask 4)",
+        "name": "task_id: 2, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will start shows on  <p> the Samsung black flat screen TV <ref> </p>  placed on the wooden table. (start subtask 2)",
+        "name": "task_id: 2, action_id: 3"
+    },
+    {
+        "text": "5.While the TV is on, I will brush down  <p> the beige and white leather sofa <ref> </p>  in a living room, positioned to the left of a shelf. (subtask 5)",
+        "name": "task_id: 2, action_id: 4"
+    },
+    {
+        "text": "6.Before 11 minutes are up, I will return to turn off  <p> the TV <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 2, action_id: 5"
+    },
+    {
+        "text": "1.First, I will start playing shows on <p> the Samsung black flat screen TV </p> placed on the wooden table. Once the shows are playing, I can leave to perform other tasks.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the TV shows are playing, I will maintain the surface of <p> the black leather chair </p> with a spherical shape and folding structure positioned beside the table.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Before 11 minutes are up, I will return to check if the shows are playing properly and then turn off <p> the Samsung TV </p>.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Next, I will brush <p> the beige leather sofa </p> with white trim behind the table and to the left of another sofa.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Then, I will touch up the wooden surface of <p> the rectangular coffee table </p> next to another coffee table, aligned to the right of the sofa.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Finally, I will brush down <p> the beige and white leather sofa </p> in the living room, positioned to the left of a shelf.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 5"
+    },
+    {
+        "question": "Please organize the seating area and tidy up key objects, including (1) brushing the brown, rectangular, wooden table next to the chair and used for dining (7 minutes), (2) brushing down the black, wooden desk chair with a spherical shape located in the middle of the table area (8 minutes), (3) airing the wooden table with a shabby chic texture used for storing shoes and clothes, placed to the left of the chair (5 minutes), (4) smoothing the brown wooden bookshelf with a rectangular shape stocked with various books, located to the right of the coffee table (12 minutes), (5) tending the black, leather, oblong-shaped chair with a spherical backrest, positioned within the desk area (8 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: None.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5.\n",
+        "name": "Adataset_task_id: 3, task_info"
+    },
+    {
+        "text": " 1.First, I will brush  <p> the brown, rectangular, wooden table <ref> </p>  next to the chair and used for dining. (subtask 1)",
+        "name": "task_id: 3, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will brush down  <p> the black, wooden desk chair <ref> </p>  with a spherical shape located in the middle of the table area. (subtask 2)",
+        "name": "task_id: 3, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will flush  <p> the brown, rectangular, wooden table <ref> </p>  next to the chair and used for dining. (subtask 3)",
+        "name": "task_id: 3, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will smooth  <p> the brown wooden bookshelf <ref> </p>  with a rectangular shape stocked with various books, located to the right of the coffee table. (subtask 4)",
+        "name": "task_id: 3, action_id: 3"
+    },
+    {
+        "text": "5.Finally, I will tune  <p> the black, leather, oblong-shaped chair <ref> </p>  with a spherical backrest, positioned within the desk area. (subtask 5)",
+        "name": "task_id: 3, action_id: 4"
+    },
+    {
+        "text": "1.First, I will brush <p> the brown, rectangular, wooden table </p> next to the chair and used for dining.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will brush down <p> the black, wooden desk chair </p> with a spherical shape located in the middle of the table area.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will air <p> the wooden table </p> with a shabby chic texture used for storing shoes and clothes, placed to the left of the chair.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will smooth <p> the brown wooden bookshelf </p> with a rectangular shape stocked with various books, located to the right of the coffee table.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Finally, I will tend <p> the black, leather, oblong-shaped chair </p> with a spherical backrest, positioned within the desk area.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 4"
+    },
+    {
+        "question": "Please prepare the living room furniture for guests, including (1) tending the surface of the black leather chair with a spherical shape and folding structure positioned beside the table (8 minutes), (2) starting shows on the Samsung black flat screen TV placed on the wooden table (16 minutes), (3) buffing the beige leather sofa with white trim behind the table and to the left of another sofa (9 minutes), (4) smoothing the wooden surface of the rectangular coffee table next to another coffee table, aligned to the right of the sofa (11 minutes), (5) rubbing down the beige and white leather sofa in a living room, positioned to the left of a shelf (16 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 3, start subtask 2, subtask 4, recheck subtask 2, subtask 5.\n",
+        "name": "Adataset_task_id: 4, task_info"
+    },
+    {
+        "text": " 1.First, I will tune  <p> the surface of  <p> the black leather chair <ref> </p>  with a spherical shape and folding structure positioned beside the table. (subtask 1)",
+        "name": "task_id: 4, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will buff  <p> the beige leather sofa <ref> </p>  with white trim behind the table and to the left of another sofa. (subtask 3)",
+        "name": "task_id: 4, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will smooth the wooden surface of  <p> the rectangular coffee table <ref> </p>  next to another coffee table, aligned to the right of the sofa. (subtask 4)",
+        "name": "task_id: 4, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will start shows on  <p> the Samsung black flat screen TV <ref> </p>  placed on the wooden table. (start subtask 2)",
+        "name": "task_id: 4, action_id: 3"
+    },
+    {
+        "text": "5.While the TV is on, I will buff  <p> the beige leather sofa <ref> </p>  with white trim behind the table and to the left of another sofa. (subtask 5)",
+        "name": "task_id: 4, action_id: 4"
+    },
+    {
+        "text": "6.Before 16 minutes are up, I will return to turn off  <p> the TV <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 4, action_id: 5"
+    },
+    {
+        "text": "1.First, I will tend the surface of <p> the black leather chair </p> with a spherical shape and folding structure positioned beside the table.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will buff <p> the beige leather sofa </p> with white trim behind the table and to the left of another sofa.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will start playing shows on <p> the Samsung black flat screen TV </p> placed on the wooden table.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will smooth the wooden surface of <p> the rectangular coffee table </p> next to another coffee table, aligned to the right of the sofa.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before 16 minutes are up, I will check the shows and turn off <p> the Samsung black flat screen TV </p>.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Finally, I will rub down <p> the beige and white leather sofa </p> in a living room, positioned to the left of a shelf.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 5"
+    },
+    {
+        "question": "Please prepare the living room furniture for guests, including (1) refreshing the surface of the black leather chair with a spherical shape and folding structure positioned beside the table (10 minutes), (2) starting shows on the Samsung black flat screen TV placed on the wooden table (23 minutes), (3) brushing the beige leather sofa with white trim behind the table and to the left of another sofa (7 minutes), (4) buffing the wooden surface of the rectangular coffee table next to another coffee table, aligned to the right of the sofa (13 minutes), (5) brushing down the beige and white leather sofa in a living room, positioned to the left of a shelf (14 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: subtask 1, start subtask 2, subtask 3, subtask 5, recheck subtask 2, subtask 4.\n",
+        "name": "Adataset_task_id: 5, task_info"
+    },
+    {
+        "text": " 1.First, I will refresh the surface of  <p> the black leather chair <ref> </p>  with a spherical shape and folding structure positioned beside the table. (subtask 1)",
+        "name": "task_id: 5, action_id: 0"
+    },
+    {
+        "text": "3.Then, I will start shows on  <p> the Samsung black flat screen TV <ref> </p>  placed on the wooden table. (start subtask 2)",
+        "name": "task_id: 5, action_id: 1"
+    },
+    {
+        "text": "4.While the TV is running, I will buff the wooden surface of  <p> the rectangular coffee table <ref> </p>  next to another coffee table, aligned to the right of the sofa. (subtask 4)",
+        "name": "task_id: 5, action_id: 2"
+    },
+    {
+        "text": "5.Next, I will brush down  <p> the beige and white leather sofa <ref> </p>  in a living room, positioned to the left of a shelf. (subtask 5)",
+        "name": "task_id: 5, action_id: 3"
+    },
+    {
+        "text": "6.Before 23 minutes are up, I will return to check and finish the show on  <p> the Samsung black flat screen TV <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 5, action_id: 4"
+    },
+    {
+        "text": "1.First, I will refresh the surface of <p> the black leather chair </p> with a spherical shape and folding structure positioned beside the table.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Subsequently, I will start playing shows on <p> the Samsung black flat screen TV </p> placed on the wooden table and leave it playing.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 1"
+    },
+    {
+        "text": "3.While the show is playing, I will brush <p> the beige leather sofa </p> with white trim behind the table and to the left of another sofa.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Following that, I will brush down <p> the beige and white leather sofa </p> in the living room, positioned to the left of a shelf.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Following that, I will return to check the TV show and turn off <p> the Samsung black flat screen TV </p> before the 23 minutes are up.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 4"
+    },
+    {
+        "text": "6.To finish, I will buff the wooden surface of <p> the rectangular coffee table </p> next to another coffee table, aligned to the right of the sofa.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 5"
+    },
+    {
+        "question": "Please prepare the living room furniture for guests, including (1) maintaining the surface of the black leather chair with a spherical shape and folding structure positioned beside the table (8 minutes), (2) starting shows on the Samsung black flat screen TV placed on the wooden table (20 minutes), (3) buffing the beige leather sofa with white trim behind the table and to the left of another sofa (8 minutes), (4) smoothing the wooden surface of the rectangular coffee table next to another coffee table, aligned to the right of the sofa (12 minutes), (5) brushing down the beige and white leather sofa in a living room, positioned to the left of a shelf (11 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: start subtask 2, subtask 1, subtask 5, recheck subtask 2, subtask 3, subtask 4.\n",
+        "name": "Adataset_task_id: 6, task_info"
+    },
+    {
+        "text": " 1.First, I will maintain the surface of  <p> the black leather chair <ref> </p>  with a spherical shape and folding structure positioned beside the table. (subtask 1)",
+        "name": "task_id: 6, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will buff  <p> the beige leather sofa <ref> </p>  with white trim behind the table and to the left of another sofa. (subtask 3)",
+        "name": "task_id: 6, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will smooth  <p> the wooden surface <ref> </p>  of  <p> the rectangular coffee table <ref> </p>  next to another coffee table, aligned to the right of the sofa. (subtask 4)",
+        "name": "task_id: 6, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will start shows on  <p> the Samsung black flat screen TV <ref> </p>  placed on the wooden table. (start subtask 2)",
+        "name": "task_id: 6, action_id: 3"
+    },
+    {
+        "text": "5.Next, I will brush down  <p> the beige and white leather sofa <ref> </p>  in a living room, positioned to the left of a shelf. (subtask 5)",
+        "name": "task_id: 6, action_id: 4"
+    },
+    {
+        "text": "6.Before 20 minutes are up, I will return to  <p> the TV <ref> </p>  to check the shows and turn it off. (recheck subtask 2)",
+        "name": "task_id: 6, action_id: 5"
+    },
+    {
+        "text": "1.First, I will start shows on <p> the Samsung black flat screen TV </p> placed on the wooden table. Once the show has started playing, I can leave to complete other tasks.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the TV is playing shows, I will maintain the surface of <p> the black leather chair </p> with a spherical shape and folding structure positioned beside the table.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 1"
+    },
+    {
+        "text": "3.In the next step, I will brush down <p> the beige and white leather sofa </p> in a living room, positioned to the left of a shelf.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Before 20 minutes are up, I will return to the Samsung TV to stop <p> the shows </p>.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Following that, I will buff <p> the beige leather sofa </p> with white trim behind the table and to the left of another sofa.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Finally, I will smooth the wooden surface of <p> the rectangular coffee table </p> next to another coffee table, aligned to the right of the sofa.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 5"
+    }
+]

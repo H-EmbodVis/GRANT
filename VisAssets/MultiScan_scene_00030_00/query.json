@@ -1,0 +1,420 @@
+[
+    {
+        "question": "Please prepare the laundry area for efficient use, including (1) rubbing down the surface of the table positioned below an orange, rectangular plastic box with a smooth, shiny surface (9 minutes), (2) utilizing the silver front load washing machine with a shiny finish and supported by a green and white striped towel for washing clothes (29 minutes), (3) buffing the white, rectangular, oblong-shaped sink below a cabinet and located in front of a wooden cabinet for cleanliness (10 minutes), (4) buffing the tall wooden storage cabinet with a brown finish that is above a faucet and higher than two sinks and a knife block to ensure it remains dust-free (11 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: subtask 1, start subtask 2, subtask 3, subtask 4, recheck subtask 2.\n",
+        "name": "Adataset_task_id: 0, task_info"
+    },
+    {
+        "text": " 1.First, I will sand down the surface of  <p> the table <ref> </p>  positioned below an orange, rectangular plastic box with a smooth, shiny surface. (subtask 1)",
+        "name": "task_id: 0, action_id: 0"
+    },
+    {
+        "text": "2.Then, I will start  <p> the silver frontload washing machine <ref> </p>  with a shiny finish and supported by a green and white striped towel for washing clothes. (start subtask 2)",
+        "name": "task_id: 0, action_id: 1"
+    },
+    {
+        "text": "3.While the washing machine is running, I will buff  <p> the white, rectangular, oblong-shaped sink <ref> </p>  below a cabinet and located in front of a wooden cabinet for cleanliness. (subtask 3)",
+        "name": "task_id: 0, action_id: 2"
+    },
+    {
+        "text": "4.Next, I will buff  <p> the tall wooden storage cabinet <ref> </p>  with a brown finish that is above a faucet and higher than two sinks and a knike block to ensure it remains dust-free. (subtask 4)",
+        "name": "task_id: 0, action_id: 3"
+    },
+    {
+        "text": "5.Before 29 minutes are up, I will return to check and finish the washing process by turning off  <p> the silver frontload washing machine <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 0, action_id: 4"
+    },
+    {
+        "text": "1.First, I will rub down the surface of <p> the table </p> positioned below an orange, rectangular plastic box with a smooth, shiny surface.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will start using <p> the silver front load washing machine </p> with a shiny finish, supported by a green and white striped towel, to wash clothes.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 1"
+    },
+    {
+        "text": "3.While the washing machine is running, I will buff <p> the white, rectangular, oblong-shaped sink </p> below a cabinet and located in front of a wooden cabinet.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Then, I will buff <p> the tall wooden storage cabinet </p> with a brown finish that is above a faucet.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before 29 minutes are up, I will return to <p> the washing machine </p> to check if the clothes are properly washed and stop the machine.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 4"
+    },
+    {
+        "question": "Please perform a detailed cleaning of the kitchen area, including (1) buffing the wooden knife block inside the cabinet supporting a stainless steel sink to maintain its shine (9 minutes), (2) rubbing down the white, stainless steel basin with a smooth, shiny surface and a faucet on top to keep it spotless (9 minutes), (3) buffing and arranging the wooden cabinet with a brown door that supports a faucet and is near a white stainless steel sink (9 minutes), (4) tending the white plastic shelf with a box on top, positioned above a silver clothes dryer, ensuring it remains tidy (11 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: None.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, subtask 3, subtask 4.\n",
+        "name": "Adataset_task_id: 1, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the wooden knobs <ref> </p>  inside the cabinet supporting a stainless steel sink to maintain its shine. (subtask 1)",
+        "name": "task_id: 1, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will rub down  <p> the white, stainless steel basin <ref> </p>  with a smooth, shiny surface and a faucet on top to keep it spotless. (subtask 2)",
+        "name": "task_id: 1, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will buff and arrange  <p> the wooden cabinet <ref> </p>  with a brown door that supports a faucet and is near a white stainless steel sink. (subtask 3)",
+        "name": "task_id: 1, action_id: 2"
+    },
+    {
+        "text": "4.Lastly, I will tune  <p> the white plastic shelf <ref> </p>  with a box on top, positioned above a silver clothes dryer, ensuring it remains tidy. (subtask 4)",
+        "name": "task_id: 1, action_id: 3"
+    },
+    {
+        "text": "1.First, I will buff <p> the wooden knife block </p> inside the cabinet supporting a stainless steel sink to maintain its shine.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will rub down <p> the white, stainless steel basin </p> with a smooth, shiny surface and a faucet on top to keep it spotless.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will buff and arrange <p> the wooden cabinet </p> with a brown door that supports a faucet and is near a white stainless steel sink.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Finally, I will tend <p> the white plastic shelf </p> with a box on top, positioned above a silver clothes dryer, ensuring it remains tidy.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 3"
+    },
+    {
+        "question": "Please ensure all storage containers and dispensers are ready for use, including (1) airing the orange, rectangular plastic box aligned with a red plastic container and placed above a white wooden table (6 minutes), (2) setting down the orange, oblong-shaped plastic container above a silver washing machine and lower than a wooden cabinet open to air it out (14 minutes), (3) maintaining the brown, wooden rectangular box placed higher than a cupboard with a brown door (6 minutes), (4) smoothing the red, oblong, plastic container with a lid higher than a silver clothes dryer to maintain its cleanliness (9 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: start subtask 2, subtask 1, subtask 3, recheck subtask 2, subtask 4.\n",
+        "name": "Adataset_task_id: 2, task_info"
+    },
+    {
+        "text": "2.Next, I will maintain  <p> the brown, wooden rectangular box <ref> </p>  placed higher than a cupboard with a brown door. (subtask 3)",
+        "name": "task_id: 2, action_id: 0"
+    },
+    {
+        "text": "3.Then, I will set down  <p> the orange, oblong-shaped plastic container <ref> </p>  above a silver washing machine and lower than a wooden cabinet open to air it out. (start subtask 2)",
+        "name": "task_id: 2, action_id: 1"
+    },
+    {
+        "text": "4.Afterward, I will smooth  <p> the red, oblong, plastic container <ref> </p>  with a lid higher than a silver clothes dryer to maintain its cleanliness. (subtask 4)",
+        "name": "task_id: 2, action_id: 2"
+    },
+    {
+        "text": "5.Before 14 minutes are up, I will return to close  <p> the orange, oblong-shaped plastic box <ref> </p>  after it has been aired out. (recheck subtask 2)",
+        "name": "task_id: 2, action_id: 3"
+    },
+    {
+        "text": "1.First, I will set down <p> the orange, oblong-shaped plastic container </p> above a silver washing machine and lower than a wooden cabinet open to air it out.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the container is airing, I will air <p> the orange, rectangular plastic box </p> aligned with a red plastic container and placed above a white wooden table.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Next, I will maintain <p> the brown, wooden rectangular box </p> placed higher than a cupboard with a brown door.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Before 14 minutes are up, I will return to check if <p> the orange plastic container </p> has sufficiently aired and close it.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Finally, I will smooth <p> the red, oblong, plastic container </p> with a lid higher than a silver clothes dryer to maintain its cleanliness.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 4"
+    },
+    {
+        "question": "Please organize and clean the room for aesthetic appeal and functionality, including (1) touching up the white plastic, square single pole switch aligned with a rectangular switch to remove dust (9 minutes), (2) treating down the surface of the white, rectangular wall switch with a smooth texture, below a wooden cabinet, and aligned with a square switch for cleanliness (10 minutes), (3) maintaining the white, stainless steel, spherical-shaped sink above the clothes dryer and underneath a cabinet to ensure it is bright and clean (10 minutes), (4) airing the smooth, white stainless steel tube with a spherical shape to keep it clean (8 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: None.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, subtask 3, subtask 4.\n",
+        "name": "Adataset_task_id: 3, task_info"
+    },
+    {
+        "text": " 1.First, I will touch up  <p> the white plastic, square single pole switch <ref> </p>  aligned with a rectangular switch to remove dust. (subtask 1)",
+        "name": "task_id: 3, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will sanitize the surface of  <p> the white, rectangular wall switch <ref> </p>  with a smooth texture, below a wooden cabinet, and aligned with a square switch for cleanliness. (subtask 2)",
+        "name": "task_id: 3, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will maintain  <p> the white, stainless steel, spherical-shaped sink <ref> </p>  above the clothes dryer and underneath a cabinet to ensure it is bright and clean. (subtask 3)",
+        "name": "task_id: 3, action_id: 2"
+    },
+    {
+        "text": "1.First, I will touch up <p> the white plastic, square single pole switch </p> aligned with a rectangular switch to remove dust.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will treat down the surface of <p> the white, rectangular wall switch </p> with a smooth texture, below a wooden cabinet.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will maintain <p> the white, stainless steel, spherical-shaped sink </p> above the clothes dryer and underneath a cabinet to ensure it is bright and clean.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Lastly, I will air <p> the smooth, white stainless steel tube </p> with a spherical shape to keep it clean.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 3"
+    },
+    {
+        "question": "Please enhance the room's organization and increase accessibility to items, including (1) rubbing down the white, rectangular metal electric panel box with two circuit breakers to keep its surface clean and dust-free (9 minutes), (2) verifying the orange, plastic storage box with a smooth texture and lid aligned with a red plastic container is properly arranged (12 minutes), (3) grouping and folding the green and white striped towel made of cotton or terry cloth, supported by a silver washing machine for better organization (9 minutes), (4) grouping the wooden rectangular box that is higher than a towel and positioned above a cupboard that is 7 o'clock near a white sink (13 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: None.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, subtask 3, subtask 4.\n",
+        "name": "Adataset_task_id: 4, task_info"
+    },
+    {
+        "text": " 1.First, I will rub down  <p> the white, rectangular metal electric panel box <ref> </p>  with two circular motion to keep its surface clean and dust-free. (subtask 1)",
+        "name": "task_id: 4, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will verify  <p> the orange, plastic storage box <ref> </p>  with a smooth texture and lid aligned with a red plastic container is properly arranged. (subtask 2)",
+        "name": "task_id: 4, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will group and fold  <p> the green and white striped towel <ref> </p>  made of cotton or terry cloth, supported by a silver washing machine for better organization. (subtask 3)",
+        "name": "task_id: 4, action_id: 2"
+    },
+    {
+        "text": "4.Lastly, I will place  <p> the wooden rectangular box <ref> </p>  that is higher than a towel and positioned above a cupboard that is 7 o'clock near a white sink. (subtask 4)",
+        "name": "task_id: 4, action_id: 3"
+    },
+    {
+        "text": "1.First, I will rub down <p> the white, rectangular metal electric panel box </p> with two circuit breakers to keep its surface clean and dust-free.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will verify <p> the orange, plastic storage box </p> with a smooth texture and lid aligned with a red plastic container is properly arranged.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will group and fold <p> the green and white striped towel </p> made of cotton or terry cloth, supported by a silver washing machine for better organization.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Finally, I will group <p> the wooden rectangular box </p> that is higher than a towel and positioned above a cupboard that is 7 o'clock near a white sink.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 3"
+    },
+    {
+        "question": "Please prepare the laundry area for efficient use, including (1) treating down the surface of the table positioned below an orange, rectangular plastic box with a smooth, shiny surface (15 minutes), (2) leveraging the silver front load washing machine with a shiny finish and supported by a green and white striped towel for washing clothes (32 minutes), (3) smoothing the white, rectangular, oblong-shaped sink below a cabinet and located in front of a wooden cabinet for cleanliness (9 minutes), (4) airing the tall wooden storage cabinet with a brown finish that is above a faucet and higher than two sinks and a knife block to ensure it remains dust-free (10 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: start subtask 2, subtask 1, subtask 4, recheck subtask 2, subtask 3.\n",
+        "name": "Adataset_task_id: 5, task_info"
+    },
+    {
+        "text": " 1.First, I will start by cleaning  <p> the table <ref> </p>  positioned below an orange, rectangular plastic box with a smooth, shiny surface. (subtask 1)",
+        "name": "task_id: 5, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will polish  <p> the white, rectangular, oblong-shaped sink <ref> </p>  below a cabinet and located in front of a wooden cabinet for cleanliness. (subtask 3)",
+        "name": "task_id: 5, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will start  <p> the silver frontload washing machine <ref> </p>  with a shiny finish and supported by a green and white striped towel for washing clothes. (start subtask 2)",
+        "name": "task_id: 5, action_id: 2"
+    },
+    {
+        "text": "4.While the washing machine is running, I will smooth  <p> the white, rectangular, oblong-shaped sink <ref> </p>  below a cabinet and located in front of a wooden cabinet for cleanliness. (subtask 4)",
+        "name": "task_id: 5, action_id: 3"
+    },
+    {
+        "text": "5.Before 32 minutes are up, I will return to check if the clothes are properly washed and stop  <p> the washing machine <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 5, action_id: 4"
+    },
+    {
+        "text": "1.First, I will start <p> the silver front load washing machine </p> with a shiny finish to wash clothes.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the washing machine is operating, I will treat down the surface of <p> the table </p> positioned below an orange, rectangular plastic box with a smooth, shiny surface.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 1"
+    },
+    {
+        "text": "3.In the next step, I will air <p> the tall wooden storage cabinet </p> with a brown finish that is above a faucet and higher than two sinks and a knife block to ensure it remains dust-free.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 2"
+    },
+    {
+        "text": "4.As the washing cycle nears completion, I will return to check and finish the operation of <p> the washing machine </p>.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Finally, I will smooth <p> the white, rectangular, oblong-shaped sink </p> below a cabinet and located in front of a wooden cabinet for cleanliness.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 4"
+    },
+    {
+        "question": "Please ensure all storage containers and dispensers are ready for use, including (1) brushing the orange, rectangular plastic box aligned with a red plastic container and placed above a white wooden table (8 minutes), (2) placing the orange, oblong-shaped plastic container above a silver washing machine and lower than a wooden cabinet open to air it out (16 minutes), (3) tending the brown, wooden rectangular box placed higher than a cupboard with a brown door (9 minutes), (4) touching up the red, oblong, plastic container with a lid higher than a silver clothes dryer to maintain its cleanliness (9 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 3, start subtask 2, subtask 4, recheck subtask 2.\n",
+        "name": "Adataset_task_id: 6, task_info"
+    },
+    {
+        "text": " 1.First, I will brush  <p> the orange, rectangular plastic box <ref> </p>  aligned with a red plastic container and placed above a white wooden table. (subtask 1)",
+        "name": "task_id: 6, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will open  <p> the orange, oblong-shaped plastic container <ref> </p>  above a silver washing machine and lower than a wooden cabinet to air it out. (start subtask 2)",
+        "name": "task_id: 6, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will tune  <p> the brown, wooden rectangular box <ref> </p>  placed higher than a cupboard with a brown door. (subtask 3)",
+        "name": "task_id: 6, action_id: 2"
+    },
+    {
+        "text": "4.Before 16 minutes are up, I will return to close  <p> the orange, oblong-shaped plastic container <ref> </p>  after it has been aired out. (recheck subtask 2)",
+        "name": "task_id: 6, action_id: 3"
+    },
+    {
+        "text": "5.Finally, I will polish  <p> the red, oblong, plastic container <ref> </p>  with a lid higher than a silver clothes dryer to maintain its cleanliness. (subtask 4)",
+        "name": "task_id: 6, action_id: 4"
+    },
+    {
+        "text": "1.First, I will brush <p> the orange, rectangular plastic box </p> aligned with a red plastic container and placed above a white wooden table.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will tend <p> the brown, wooden rectangular box </p> placed higher than a cupboard with a brown door.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will open <p> the orange, oblong-shaped plastic container </p> above a silver washing machine and lower than a wooden cabinet to air it out.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will touch up <p> the red, oblong, plastic container </p> with a lid higher than a silver clothes dryer to maintain its cleanliness.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before 16 minutes are up, I will return to <p> the orange, oblong-shaped plastic container </p> and close it after it has aired out.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 4"
+    },
+    {
+        "question": "Please ensure all storage containers and dispensers are ready for use, including (1) buffing the orange, rectangular plastic box aligned with a red plastic container and placed above a white wooden table (8 minutes), (2) placing the orange, oblong-shaped plastic container above a silver washing machine and lower than a wooden cabinet open to air it out (17 minutes), (3) refreshing the brown, wooden rectangular box placed higher than a cupboard with a brown door (7 minutes), (4) buffing the red, oblong, plastic container with a lid higher than a silver clothes dryer to maintain its cleanliness (9 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: subtask 1, start subtask 2, subtask 3, subtask 4, recheck subtask 2.\n",
+        "name": "Adataset_task_id: 7, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the orange, rectangular plastic box <ref> </p>  aligned with a red plastic container and placed above a white wooden table. (subtask 1)",
+        "name": "task_id: 7, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will place  <p> the orange, oblong-shaped plastic container <ref> </p>  above a silver washing machine and lower than a wooden cabinet open to air it out. (subtask 3)",
+        "name": "task_id: 7, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will refresh  <p> the brown, wooden rectangular box <ref> </p>  placed higher than a cupboard with a brown door. (start subtask 2)",
+        "name": "task_id: 7, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will buff  <p> the red, oblong, plastic container <ref> </p>  with a lid higher than a silver clothes dryer to maintain its cleanliness. (subtask 4)",
+        "name": "task_id: 7, action_id: 3"
+    },
+    {
+        "text": "5.Before 17 minutes are up, I will return to close  <p> the brown, wooden rectangular box <ref> </p>  after it has been adequately aired out. (recheck subtask 2)",
+        "name": "task_id: 7, action_id: 4"
+    },
+    {
+        "text": "1.First, I will buff <p> the orange, rectangular plastic box </p> aligned with a red plastic container and placed above a white wooden table.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Then, I will place <p> the orange, oblong-shaped plastic container </p> above a silver washing machine and lower than a wooden cabinet open to air it out.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 1"
+    },
+    {
+        "text": "3.While the plastic container is airing out, I will refresh <p> the brown, wooden rectangular box </p> placed higher than a cupboard with a brown door.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Next, I will buff <p> the red, oblong, plastic container </p> with a lid higher than a silver clothes dryer.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before 17 minutes are up, I will check back and close <p> the orange, oblong-shaped plastic container </p> that I left open to air out.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 4"
+    },
+    {
+        "question": "Please ensure all storage containers and dispensers are ready for use, including (1) buffing the orange, rectangular plastic box aligned with a red plastic container and placed above a white wooden table (9 minutes), (2) placing the orange, oblong-shaped plastic container above a silver washing machine and lower than a wooden cabinet open to air it out (12 minutes), (3) refreshing the brown, wooden rectangular box placed higher than a cupboard with a brown door (8 minutes), (4) smoothing the red, oblong, plastic container with a lid higher than a silver clothes dryer to maintain its cleanliness (7 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: start subtask 2, subtask 1, recheck subtask 2, subtask 3, subtask 4.\n",
+        "name": "Adataset_task_id: 8, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the orange, rectangular plastic box <ref> </p>  aligned with a red plastic container and placed above a white wooden table. (subtask 1)",
+        "name": "task_id: 8, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will open  <p> the orange, oblong-shaped plastic container <ref> </p>  above a silver washing machine and lower than a wooden cabinet to refresh it. (start subtask 2)",
+        "name": "task_id: 8, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will place  <p> the orange, oblong-shaped plastic container <ref> </p>  above a silver washing machine and lower than a wooden cabinet open to air it out. (subtask 3)",
+        "name": "task_id: 8, action_id: 2"
+    },
+    {
+        "text": "4.Before 12 minutes are up, I will return to close  <p> the orange, oblong-shaped plastic container <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 8, action_id: 3"
+    },
+    {
+        "text": "5.Finally, I will smooth  <p> the red, oblong, plastic container <ref> </p>  with a lid higher than a silver clothes dryer to maintain its cleanliness. (subtask 4)",
+        "name": "task_id: 8, action_id: 4"
+    },
+    {
+        "text": "1.First, I will place <p> the orange, oblong-shaped plastic container </p> above a silver washing machine and lower than a wooden cabinet open to air it out.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the plastic container is airing out, I will buff <p> the orange, rectangular plastic box </p> aligned with a red plastic container and placed above a white wooden table.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Before the 12 minutes are up, I will return to close <p> the orange, oblong-shaped plastic container </p>.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Then, I will refresh <p> the brown, wooden rectangular box </p> placed higher than a cupboard with a brown door.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Finally, I will smooth <p> the red, oblong, plastic container </p> with a lid higher than a silver clothes dryer to maintain its cleanliness.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 4"
+    },
+    {
+        "question": "Please prepare the laundry area for efficient use, including (1) rubbing down the surface of the table positioned below an orange, rectangular plastic box with a smooth, shiny surface (11 minutes), (2) leveraging the silver front load washing machine with a shiny finish and supported by a green and white striped towel for washing clothes (36 minutes), (3) buffing the white, rectangular, oblong-shaped sink below a cabinet and located in front of a wooden cabinet for cleanliness (10 minutes), (4) buffing the tall wooden storage cabinet with a brown finish that is above a faucet and higher than two sinks and a knife block to ensure it remains dust-free (11 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: start subtask 2, subtask 1, subtask 3, subtask 4, recheck subtask 2.\n",
+        "name": "Adataset_task_id: 9, task_info"
+    },
+    {
+        "text": " 1.First, I will start  <p> the silver frontload washing machine <ref> </p>  with a shiny finish and supported by a green and white striped towel for washing clothes. (start subtask 2)",
+        "name": "task_id: 9, action_id: 0"
+    },
+    {
+        "text": "2.While the washing machine is running, I will dust  <p> the table <ref> </p>  positioned below an orange, rectangular plastic box with a smooth, shiny surface. (subtask 1)",
+        "name": "task_id: 9, action_id: 1"
+    },
+    {
+        "text": "3.Next, I will buff  <p> the white, rectangular, oblong-shaped sink <ref> </p>  below a cabinet and located in front of a wooden cabinet for cleanliness. (subtask 3)",
+        "name": "task_id: 9, action_id: 2"
+    },
+    {
+        "text": "4.Then, I will buff  <p> the tall wooden storage cabinet <ref> </p>  with a brown finish that is above a faucet and higher than two sinks and a knike block to ensure it remains dust-free. (subtask 4)",
+        "name": "task_id: 9, action_id: 3"
+    },
+    {
+        "text": "5.Before the 36 minutes are up, I will return to  <p> the washing machine <ref> </p>  and finish the washing process. (recheck subtask 2)",
+        "name": "task_id: 9, action_id: 4"
+    },
+    {
+        "text": "1.First, I will start <p> the silver front load washing machine </p> with a shiny finish and supported by a green and white striped towel to begin washing clothes.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the washing machine is running, I will rub down the surface of <p> the table </p> positioned below an orange, rectangular plastic box with a smooth, shiny surface.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 1"
+    },
+    {
+        "text": "3.After wiping the table, I will buff <p> the white, rectangular, oblong-shaped sink </p> below a cabinet and located in front of a wooden cabinet for cleanliness.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Next, I will buff <p> the tall wooden storage cabinet </p> with a brown finish that is above a faucet and higher than two sinks and a knife block to ensure it remains dust-free.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before the 36 minutes are up, I will return to finish the washing process by checking and stopping <p> the washing machine </p>.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 4"
+    }
+]

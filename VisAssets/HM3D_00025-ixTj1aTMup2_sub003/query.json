@@ -1,0 +1,181 @@
+[
+    {
+        "question": "Please organize the kitchen space and ensure all key areas are clean and functional, including (1) brushing the towel located inside the sink and below a kitchen cabinet (6 minutes), (2) unsealing the kitchen cabinet higher than a towel and aligned with another kitchen cabinet for air ventilation (15 minutes), (3) brushing the picture without specified spatial relations (15 minutes), (4) smoothing the plate with no specified relations in the kitchen (7 minutes), (5) verifying the kitchen cabinet in front of the kitchen cabinet situated at the 12 o'clock direction remains dust-free (7 minutes), (6) refreshing the cooking pot placed within the area of kitchen cabinet positioned at the 6 o'clock direction (10 minutes), (7) refreshing the kitchen cabinet above the stove to remove any dust (9 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 3, start subtask 2, subtask 4, subtask 5, recheck subtask 2, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 0, task_info"
+    },
+    {
+        "text": " 1.First, I will brush  <p> the towel <ref> </p>  located inside the sink and below a kitchen cabinet. (subtask 1)",
+        "name": "task_id: 0, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will dust  <p> the plate <ref> </p>  with no specified relations in the kitchen. (subtask 3)",
+        "name": "task_id: 0, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will spruce  <p> the picture <ref> </p>  without specified spatial relations. (subtask 4)",
+        "name": "task_id: 0, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will verify  <p> the kitchen cabinet <ref> </p>  in front of the kitchen cabinet situated at the 12 o'clock direction remains dust-free. (subtask 5)",
+        "name": "task_id: 0, action_id: 3"
+    },
+    {
+        "text": "5.Next, I will refresh  <p> the cooking pot <ref> </p>  placed within the area of kitchen cabinet positioned at the 6 o'clock direction. (subtask 6)",
+        "name": "task_id: 0, action_id: 4"
+    },
+    {
+        "text": "6.Then, I will start the process of refreshing  <p> the kitchen cabinet <ref> </p>  situated at the 12 o'clock direction. (start subtask 2)",
+        "name": "task_id: 0, action_id: 5"
+    },
+    {
+        "text": "8.Before 15 minutes are up, I will return to check and finish the task of refreshing  <p> the kitchen cabinet <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 0, action_id: 6"
+    },
+    {
+        "text": "1.First, I will brush <p> the towel </p> located inside the sink and below a kitchen cabinet.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will brush <p> the picture </p> without specified spatial relations.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will unseal <p> the kitchen cabinet </p> higher than a towel and aligned with another kitchen cabinet for air ventilation. This can be left open for a while, so I will proceed with other tasks.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 2"
+    },
+    {
+        "text": "4.I will then smooth <p> the plate </p> with no specified relations in the kitchen.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Subsequently, I will verify <p> the kitchen cabinet </p> in front of the kitchen cabinet situated at the 12 o'clock direction remains dust-free.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before the 15 minutes are up, I will return to <p> the kitchen cabinet </p> and close it to finish air ventilation.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Afterward, I will refresh <p> the cooking pot </p> placed within the area of kitchen cabinet positioned at the 6 o'clock direction.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will refresh <p> the kitchen cabinet </p> above the stove to remove any dust.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 7"
+    },
+    {
+        "question": "Please organize the kitchen space and ensure all key areas are clean and functional, including (1) brushing the towel located inside the sink and below a kitchen cabinet (5 minutes), (2) making accessible the kitchen cabinet higher than a towel and aligned with another kitchen cabinet for air ventilation (18 minutes), (3) rubbing the picture without specified spatial relations (9 minutes), (4) touching up the plate with no specified relations in the kitchen (7 minutes), (5) verifying the kitchen cabinet in front of the kitchen cabinet situated at the 12 o'clock direction remains dust-free (8 minutes), (6) tending the cooking pot placed within the area of kitchen cabinet positioned at the 6 o'clock direction (10 minutes), (7) tending the kitchen cabinet above the stove to remove any dust (9 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: subtask 1, start subtask 2, subtask 3, subtask 5, recheck subtask 2, subtask 4, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 1, task_info"
+    },
+    {
+        "text": " 1.First, I will brush  <p> the towel <ref> </p>  located inside the sink and below a kitchen cabinet. (subtask 1)",
+        "name": "task_id: 1, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will dust  <p> the picture <ref> </p>  without specified spatial relations. (subtask 3)",
+        "name": "task_id: 1, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will make accessible  <p> the kitchen cabinet <ref> </p>  higher than a towel and aligned with another kitchen cabinet for air ventilation. (subtask 4)",
+        "name": "task_id: 1, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will verify  <p> the kitchen cabinet <ref> </p>  in front of the kitchen cabinet situated at the 12 o'clock direction remains dust-free. (subtask 5)",
+        "name": "task_id: 1, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will start verifying  <p> the kitchen cabinet <ref> </p>  in front of the kitchen cabinet situated at the 12 o'clock direction to remove any dust. (start subtask 2)",
+        "name": "task_id: 1, action_id: 4"
+    },
+    {
+        "text": "6.While the cabinet is being dusted, I will tending  <p> the cooking pot <ref> </p>  placed within the area of kitchen cabinet positioned at the 6 o'clock direction. (subtask 6)",
+        "name": "task_id: 1, action_id: 5"
+    },
+    {
+        "text": "7.Next, I will tending  <p> the kitchen cabinet <ref> </p>  above the stove to remove any dust. (subtask 7)",
+        "name": "task_id: 1, action_id: 6"
+    },
+    {
+        "text": "8.Before 18 minutes are up, I will return to  <p> the kitchen cabinet <ref> </p>  to ensure it has been properly ventilated and finish the task. (recheck subtask 2)",
+        "name": "task_id: 1, action_id: 7"
+    },
+    {
+        "text": "1.First, I will brush <p> the towel </p> located inside the sink and below a kitchen cabinet.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Afterwards, I will make accessible <p> the kitchen cabinet </p> higher than a towel and aligned with another kitchen cabinet for air ventilation. The cabinet will remain open for 18 minutes.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 1"
+    },
+    {
+        "text": "3.While the cabinet is open, I will rub <p> the picture </p> without specified spatial relations.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterwards, I will verify <p> the kitchen cabinet </p> in front of the kitchen cabinet situated at the 12 o'clock direction remains dust-free.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before the 18 minutes are up, I will return to close <p> the kitchen cabinet </p>.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Afterwards, I will touch up <p> the plate </p> with no specified relations in the kitchen.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 5"
+    },
+    {
+        "text": "7.After that, I will tend <p> the cooking pot </p> placed within the area of kitchen cabinet positioned at the 6 o'clock direction.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finishing up, I will tend <p> the kitchen cabinet </p> above the stove to remove any dust.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 7"
+    },
+    {
+        "question": "Please organize the kitchen space and ensure all key areas are clean and functional, including (1) brushing the towel located inside the sink and below a kitchen cabinet (5 minutes), (2) accessing the kitchen cabinet higher than a towel and aligned with another kitchen cabinet for air ventilation (15 minutes), (3) treating the picture without specified spatial relations (15 minutes), (4) touching up the plate with no specified relations in the kitchen (8 minutes), (5) safeguarding the kitchen cabinet in front of the kitchen cabinet situated at the 12 o'clock direction remains dust-free (7 minutes), (6) maintaining the cooking pot placed within the area of kitchen cabinet positioned at the 6 o'clock direction (8 minutes), (7) tending the kitchen cabinet above the stove to remove any dust (10 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: start subtask 2, subtask 1, subtask 4, recheck subtask 2, subtask 3, subtask 5, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 2, task_info"
+    },
+    {
+        "text": " 1.First, I will brush  <p> the towel <ref> </p>  located inside the sink and below a kitchen cabinet. (subtask 1)",
+        "name": "task_id: 2, action_id: 0"
+    },
+    {
+        "text": "6.Then, I will sanitize  <p> the kitchen cabinet <ref> </p>  higher than a towel and aligned with another kitchen cabinet for air ventilation. (subtask 5)",
+        "name": "task_id: 2, action_id: 1"
+    },
+    {
+        "text": "1.First, I will access <p> the kitchen cabinet </p> higher than a towel and aligned with another kitchen cabinet for air ventilation and let it ventilate.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the cabinet is open, I will brush <p> the towel </p> located inside the sink and below a kitchen cabinet.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Afterwards, I will touch up <p> the plate </p> with no specified relations in the kitchen.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Before the 15 minutes are up, I will return to close and finish ventilating <p> the kitchen cabinet </p>.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Thereafter, I will treat <p> the picture </p> without specified spatial relations.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Thereafter, I will safeguard <p> the kitchen cabinet </p> in front of the kitchen cabinet situated at the 12 o'clock direction remains dust-free.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Thereafter, I will maintain <p> the cooking pot </p> placed within the area of the kitchen cabinet positioned at the 6 o'clock direction.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Lastly, I will tend <p> the kitchen cabinet </p> above the stove to remove any dust.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 7"
+    }
+]

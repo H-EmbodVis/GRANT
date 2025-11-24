@@ -1,0 +1,389 @@
+{
+    "Camera_0": {
+        "type": "camera",
+        "position": [
+            3.0,
+            3.0,
+            3.0
+        ],
+        "look_at": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "up": [
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "RGB Input": {
+        "type": "points",
+        "visible": true,
+        "alpha": 1.0,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 211406,
+        "binary_filename": "RGB Input.bin"
+    },
+    "task_0; action_0": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 6059,
+        "binary_filename": "task_0; action_0.bin"
+    },
+    "task_0; action_0_gt": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 4400,
+        "binary_filename": "task_0; action_0_gt.bin"
+    },
+    "task_0; action_1": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 1565,
+        "binary_filename": "task_0; action_1.bin"
+    },
+    "task_0; action_1_gt": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 794,
+        "binary_filename": "task_0; action_1_gt.bin"
+    },
+    "task_0; action_2": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 6642,
+        "binary_filename": "task_0; action_2.bin"
+    },
+    "task_0; action_2_gt": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 209,
+        "binary_filename": "task_0; action_2_gt.bin"
+    },
+    "task_0; action_3": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 4927,
+        "binary_filename": "task_0; action_3.bin"
+    },
+    "task_0; action_3_gt": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 4824,
+        "binary_filename": "task_0; action_3_gt.bin"
+    },
+    "task_0; action_4": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 1565,
+        "binary_filename": "task_0; action_4.bin"
+    },
+    "task_0; action_4_gt": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 794,
+        "binary_filename": "task_0; action_4_gt.bin"
+    },
+    "Adataset_task_0; dataset_action_0": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 794,
+        "binary_filename": "Adataset_task_0; dataset_action_0.bin"
+    },
+    "Adataset_task_0; dataset_action_1": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 4400,
+        "binary_filename": "Adataset_task_0; dataset_action_1.bin"
+    },
+    "Adataset_task_0; dataset_action_2": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 4824,
+        "binary_filename": "Adataset_task_0; dataset_action_2.bin"
+    },
+    "Adataset_task_0; dataset_action_3": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 794,
+        "binary_filename": "Adataset_task_0; dataset_action_3.bin"
+    },
+    "Adataset_task_0; dataset_action_4": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 209,
+        "binary_filename": "Adataset_task_0; dataset_action_4.bin"
+    },
+    "task_1; action_0": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 6059,
+        "binary_filename": "task_1; action_0.bin"
+    },
+    "task_1; action_0_gt": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 4400,
+        "binary_filename": "task_1; action_0_gt.bin"
+    },
+    "task_1; action_1": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 2050,
+        "binary_filename": "task_1; action_1.bin"
+    },
+    "task_1; action_1_gt": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 794,
+        "binary_filename": "task_1; action_1_gt.bin"
+    },
+    "task_1; action_2": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 813,
+        "binary_filename": "task_1; action_2.bin"
+    },
+    "task_1; action_2_gt": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 209,
+        "binary_filename": "task_1; action_2_gt.bin"
+    },
+    "task_1; action_3": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 6445,
+        "binary_filename": "task_1; action_3.bin"
+    },
+    "task_1; action_3_gt": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 4824,
+        "binary_filename": "task_1; action_3_gt.bin"
+    },
+    "Adataset_task_1; dataset_action_0": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 794,
+        "binary_filename": "Adataset_task_1; dataset_action_0.bin"
+    },
+    "Adataset_task_1; dataset_action_1": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 4400,
+        "binary_filename": "Adataset_task_1; dataset_action_1.bin"
+    },
+    "Adataset_task_1; dataset_action_2": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 794,
+        "binary_filename": "Adataset_task_1; dataset_action_2.bin"
+    },
+    "Adataset_task_1; dataset_action_3": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 209,
+        "binary_filename": "Adataset_task_1; dataset_action_3.bin"
+    },
+    "Adataset_task_1; dataset_action_4": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 4824,
+        "binary_filename": "Adataset_task_1; dataset_action_4.bin"
+    },
+    "task_2; action_0": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 5757,
+        "binary_filename": "task_2; action_0.bin"
+    },
+    "task_2; action_0_gt": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 4574,
+        "binary_filename": "task_2; action_0_gt.bin"
+    },
+    "task_2; action_1": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 502,
+        "binary_filename": "task_2; action_1.bin"
+    },
+    "task_2; action_1_gt": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 177,
+        "binary_filename": "task_2; action_1_gt.bin"
+    },
+    "task_2; action_2": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 1730,
+        "binary_filename": "task_2; action_2.bin"
+    },
+    "task_2; action_2_gt": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 1177,
+        "binary_filename": "task_2; action_2_gt.bin"
+    },
+    "task_2; action_3": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 15312,
+        "binary_filename": "task_2; action_3.bin"
+    },
+    "task_2; action_3_gt": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 10811,
+        "binary_filename": "task_2; action_3_gt.bin"
+    },
+    "Adataset_task_2; dataset_action_0": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 4574,
+        "binary_filename": "Adataset_task_2; dataset_action_0.bin"
+    },
+    "Adataset_task_2; dataset_action_1": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 177,
+        "binary_filename": "Adataset_task_2; dataset_action_1.bin"
+    },
+    "Adataset_task_2; dataset_action_2": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 1177,
+        "binary_filename": "Adataset_task_2; dataset_action_2.bin"
+    },
+    "Adataset_task_2; dataset_action_3": {
+        "type": "points",
+        "visible": false,
+        "alpha": 0.8,
+        "shading_type": 0,
+        "point_size": 20,
+        "num_points": 10811,
+        "binary_filename": "Adataset_task_2; dataset_action_3.bin"
+    }
+}

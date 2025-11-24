@@ -1,0 +1,189 @@
+[
+    {
+        "question": "Please prepare the living space for a cozy and refreshing atmosphere, including (1) brushing down the couch to ensure a neat appearance (13 minutes), (2) shifting on the washing machine aligned with the cabinet to run a cycle (29 minutes), (3) smoothing the ottoman in the room (9 minutes), (4) airing the vase supporting a decoration (6 minutes), (5) touching up the table situated in the room (12 minutes), (6) refreshing the picture housed inside a kitchen cabinet and placed within the area of another kitchen cabinet (8 minutes), (7) airing the curtain rod to keep it clean (4 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: start subtask 2, subtask 1, subtask 3, subtask 4, recheck subtask 2, subtask 5, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 0, task_info"
+    },
+    {
+        "text": " 1.First, I will brush down  <p> the couch <ref> </p>  to ensure a neat appearance. (subtask 1)",
+        "name": "task_id: 0, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will shine on  <p> the washing machine <ref> </p>  aligned with the cabinet to run a cycle. (subtask 3)",
+        "name": "task_id: 0, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will clean  <p> the picture <ref> </p>  housed inside a kitchen cabinet and placed within the area of another kitchen cabinet. (subtask 4)",
+        "name": "task_id: 0, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will start  <p> the washing machine <ref> </p>  to run a cycle and leave it running. (start subtask 2)",
+        "name": "task_id: 0, action_id: 3"
+    },
+    {
+        "text": "5.While the washing machine is running, I will smooth  <p> the ottoman <ref> </p>  in the room. (subtask 5)",
+        "name": "task_id: 0, action_id: 4"
+    },
+    {
+        "text": "8.Before the 29 minutes are up, I will return to  <p> the washing machine <ref> </p>  to check and finish the cycle. (recheck subtask 2)",
+        "name": "task_id: 0, action_id: 5"
+    },
+    {
+        "text": "1.First, I will shift on <p> the washing machine </p> aligned with the cabinet to begin a cycle. Once it is running, I can continue with other tasks.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will brush down <p> the couch </p> to ensure a neat appearance.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will smooth <p> the ottoman </p> in the room.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 2"
+    },
+    {
+        "text": "4.After that, I will air <p> the vase </p> supporting a decoration.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before 29 minutes are up, I will return to <p> the washing machine </p> and stop the cycle once it is completed.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Moving on, I will touch up <p> the table </p> situated in the room.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Subsequently, I will refresh <p> the picture </p> housed inside a kitchen cabinet and placed within the area of another kitchen cabinet.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will air <p> the curtain rod </p> to keep it clean.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 7"
+    },
+    {
+        "question": "Please prepare the living space for a cozy and refreshing atmosphere, including (1) treating down the couch to ensure a neat appearance (12 minutes), (2) shifting on the washing machine aligned with the cabinet to run a cycle (18 minutes), (3) touching up the ottoman in the room (9 minutes), (4) buffing the vase supporting a decoration (8 minutes), (5) smoothing the table situated in the room (9 minutes), (6) maintaining the picture housed inside a kitchen cabinet and placed within the area of another kitchen cabinet (7 minutes), (7) airing the curtain rod to keep it clean (6 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: subtask 1, start subtask 2, subtask 3, subtask 4, recheck subtask 2, subtask 5, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 1, task_info"
+    },
+    {
+        "text": " 1.First, I will start a cycle on  <p> the washing machine <ref> </p>  aligned with the cabinet to run a cycle. (start subtask 2)",
+        "name": "task_id: 1, action_id: 0"
+    },
+    {
+        "text": "2.While the washing machine is running, I will clean  <p> the couch <ref> </p>  to ensure a neat appearance. (subtask 1)",
+        "name": "task_id: 1, action_id: 1"
+    },
+    {
+        "text": "3.Before the 18 minutes are up, I will return to check and finish the cycle on  <p> the washing machine <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 1, action_id: 2"
+    },
+    {
+        "text": "4.Next, I will shuff on  <p> the washing machine <ref> </p>  aligned with the cabinet to run a cycle. (subtask 3)",
+        "name": "task_id: 1, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will buff  <p> the vase <ref> </p>  supporting a decoration. (subtask 4)",
+        "name": "task_id: 1, action_id: 4"
+    },
+    {
+        "text": "6.Afterward, I will smooth  <p> the table <ref> </p>  situated in the room. (subtask 5)",
+        "name": "task_id: 1, action_id: 5"
+    },
+    {
+        "text": "7.Next, I will maintain  <p> the picture <ref> </p>  housed inside a kitchen cabinet and placed within the area of another kitchen cabinet. (subtask 6)",
+        "name": "task_id: 1, action_id: 6"
+    },
+    {
+        "text": "1.First, I will treat down <p> the couch </p> to ensure a neat appearance.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Then, I will shift on <p> the washing machine </p> aligned with the cabinet to run a cycle and leave it to operate.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Next, I will touch up <p> the ottoman </p> in the room.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 2"
+    },
+    {
+        "text": "4.After that, I will buff <p> the vase </p> supporting a decoration.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before the 18 minutes are up, I will check and stop <p> the washing machine </p> when the cycle is complete.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Next, I will smooth <p> the table </p> situated in the room.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Then, I will maintain <p> the picture </p> housed inside a kitchen cabinet and placed within the area of another kitchen cabinet.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Lastly, I will air <p> the curtain rod </p> to keep it clean.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 7"
+    },
+    {
+        "question": "Please set up the kitchen area for a delightful cooking experience, including (1) touching up the stovetop placed within the area of the kitchen counter and on the kitchen cabinet (14 minutes), (2) treating down the kitchen cabinet supporting the kitchen cabinet which contains various objects (8 minutes), (3) brushing the clock found in the area (7 minutes), (4) refreshing the countertop supporting assorted items like paper towels and soap (10 minutes), (5) accessing the vent for air circulation (16 minutes), (6) refreshing the coffee maker positioned in the 5 o'clock direction near a faucet and atop the kitchen cabinet (11 minutes), (7) brushing the picture higher than a lamp (7 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 1, start subtask 5, subtask 2, subtask 3, recheck subtask 5, subtask 4, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 2, task_info"
+    },
+    {
+        "text": "3.Then, I will brush  <p> the clock <ref> </p>  found in the area. (subtask 3)",
+        "name": "task_id: 2, action_id: 0"
+    },
+    {
+        "text": "4.Afterward, I will start refreshing  <p> the countertop <ref> </p>  supporting assorted items like paper towels and soap. (start subtask 5)",
+        "name": "task_id: 2, action_id: 1"
+    },
+    {
+        "text": "5.Next, I will refresh  <p> the countertop <ref> </p>  supporting assorted items like paper towels and soap. (subtask 4)",
+        "name": "task_id: 2, action_id: 2"
+    },
+    {
+        "text": "6.Before 16 minutes are up, I will return to check and finish refreshing  <p> the countertop <ref> </p> . (recheck subtask 5)",
+        "name": "task_id: 2, action_id: 3"
+    },
+    {
+        "text": "7.Then, I will refresh  <p> the coffee maker <ref> </p>  positioned in the 5 o'clock direction near a faucet and atop the kitchen cabinet. (subtask 6)",
+        "name": "task_id: 2, action_id: 4"
+    },
+    {
+        "text": "8.Finally, I will brush  <p> the picture <ref> </p>  higher than a lamp. (subtask 7)",
+        "name": "task_id: 2, action_id: 5"
+    },
+    {
+        "text": "1.First, I will touch up <p> the stovetop </p> placed within the area of the kitchen counter and on the kitchen cabinet.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Then, I will access <p> the vent </p> for air circulation to start while proceeding with other tasks.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 1"
+    },
+    {
+        "text": "3.I will treat down <p> the kitchen cabinet </p> supporting the kitchen cabinet which contains various objects.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Next, I will brush <p> the clock </p> found in the area.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before the 16 minutes are up, I will return to <p> the vent </p> and close it if needed, ensuring effective air circulation.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Afterward, I will refresh <p> the countertop </p> supporting assorted items like paper towels and soap.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Then, I will refresh <p> the coffee maker </p> positioned in the 5 o'clock direction near a faucet and atop the kitchen cabinet.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will brush <p> the picture </p> higher than a lamp.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 7"
+    }
+]

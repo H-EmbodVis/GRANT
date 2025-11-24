@@ -1,0 +1,231 @@
+#chain-name {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+#chain-name {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+
+.choose {
+    width: 100%;
+    flex-direction: row;
+}
+
+#chain-body {
+    width: 100%;
+    height: 100%;
+}
+
+#mesh_viewer {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.text-option {
+    width: 100%;
+}
+
+.custom-select {
+    width: 100%;
+}
+
+#scene_list {
+    width: 100%;
+}
+
+#chat-container {
+    /* width: 600px; */
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    border: 1px solid #ccc;
+}
+
+.chat-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow-y: auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+#txtInput {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+.send {
+    height: 55%;
+    flex: 1;
+    padding-right: 2%;
+}
+.send img {
+    height: 100%;
+    width: 150%;
+}
+
+.chatbot-message,
+.user-message {
+    padding: 8px;
+    font-size: 12px;
+    background: #19cc22;
+    margin: 5px;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 100%;
+}
+.chatbot-message {
+    background: #ccc;
+    color: var(--light-color);
+    align-self: flex-start;
+}
+
+.chatbot-message.scene_cap {
+    background: hsl(35, 96%, 61%);
+    color: #fff;
+    align-self: flex-start;
+}
+
+.chatbot-message.template {
+    background: hsl(204, 86%, 53%);
+    color: #fff;
+    align-self: flex-start;
+}
+
+.chatbot-message.rewrite {
+    background: hsl(171, 100%, 41%);
+    color: #fff;
+    align-self: flex-start;
+}
+
+.chatbot-message.anno {
+    background: hsl(290, 82%, 74%);
+    color: #fff;
+    align-self: flex-start;
+}
+
+.chatbot-message.obj_cap {
+    background: hsl(348, 100%, 61%);
+    color: #fff;
+    align-self: flex-start;
+}
+
+.chatbot-message.seq_grounding {
+    background: hsl(35, 96%, 61%);
+    color: #fff;
+    align-self: flex-start;
+}
+
+#segmentation {
+    width: 100%;
+    flex-direction: column;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.card {
+    height: 450px;
+}
+
+.card-content {
+    width: 30%;
+    height: 150px;
+}
+
+.card-content.is-overlay {
+    position: absolute;
+    /* right: 0;
+    bottom: 0; */
+    left: 0;
+    top: 0;
+}
+
+/* Hide the default checkbox */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Change styles when the checkbox is checked */
+input[type="checkbox"]:checked + label.button {
+    background-color: transparent;
+    color: #fff;
+}
+
+button.scene_caption:hover {
+    background-color: hsl(35, 96%, 61%);
+    color: #fff;
+}
+
+input[type="checkbox"]:checked + label.button.rewrite {
+    background-color: hsl(171, 100%, 41%);
+}
+
+input[type="checkbox"]:checked + label.button.anno {
+    background-color: hsl(290, 82%, 74%);
+}
+
+input[type="checkbox"]:checked + label.button.template {
+    background-color: hsl(204, 86%, 53%);
+}
+
+
+input[type="checkbox"]:checked + label.button.obj_cap {
+    background-color: hsl(348, 100%, 61%);
+}
+
+input[type="checkbox"]:checked + label.button.seq_grounding {
+    background-color: hsl(35, 96%, 61%);
+}
+
+label.custom-checkbox.scene_caption {
+    border: 2px solid hsl(141, 71%, 48%);
+    background-color: #fff;
+    color: hsl(141, 71%, 48%);
+}
+
+label.custom-checkbox.rewrite {
+    border: 2px solid hsl(171, 100%, 41%);
+    background-color: #fff;
+    color: hsl(171, 100%, 41%);
+}
+
+label.custom-checkbox.anno {
+    border: 2px solid hsl(290, 82%, 74%);
+    background-color: #fff;
+    color: hsl(48, 100%, 67%);
+}
+
+label.custom-checkbox.template {
+    border: 2px solid hsl(204, 86%, 53%);
+    background-color: #fff;
+    color: hsl(204, 86%, 53%);
+}
+
+label.custom-checkbox.obj_cap {
+    border: 2px solid hsl(348, 100%, 61%);
+    background-color: #fff;
+    color: #9b59b6;
+}
+
+.bubble-text {
+    display: block; 
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    /* max-width: 200px; */
+    /* width: 100%; */
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.bubble-text:hover {
+    background-color: #e0e0e0;
+}

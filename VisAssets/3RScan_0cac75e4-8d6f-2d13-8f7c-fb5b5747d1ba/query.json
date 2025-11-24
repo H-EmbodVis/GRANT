@@ -1,0 +1,1211 @@
+[
+    {
+        "question": "Please organize and freshen up the kitchen space to be more welcoming, including (1) airing the brown leather chair with a wooden structure seated beside the table and behind another chair for a clean dining experience (6 minutes), (2) touching up the white wooden kitchen cabinet with a shiny finish situated next to another kitchen cabinet for optimal organization (5 minutes), (3) tending the items on the brown wooden shelf with a cubic shape beside the kitchen cabinet to ensure a tidy presentation (16 minutes), (4) arranging the white and black striped curtain for an inviting appearance in the dining space (10 minutes), (5) employing the stainless steel gas stove supporting the kitchen counter and below the range hood to simmer food efficiently (18 minutes), (6) touching up the brown wooden rectangular storage shelf 3 o'clock direction from the chairs and adjacent to the table for tidiness (9 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, start subtask 5, subtask 3, recheck subtask 5, subtask 4, subtask 6.\n",
+        "name": "Adataset_task_id: 0, task_info"
+    },
+    {
+        "text": " 1.First, I will air  <p> the brown leather chair <ref> </p>  with a wooden structure seated beside the table and behind another chair for a clean dining experience. (subtask 1)",
+        "name": "task_id: 0, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will touch up  <p> the white wooden kitchen cabinet <ref> </p>  with a shiny finish situated next to another kitchen cabinet for optimal organization. (subtask 2)",
+        "name": "task_id: 0, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will tune  <p> the items <ref> </p>  on the brown wooden shelf with a cubic shape beside the kitchen cabinet to ensure a tidy presentation. (subtask 3)",
+        "name": "task_id: 0, action_id: 2"
+    },
+    {
+        "text": "5.While the stove is simmering, I will arrange  <p> the white and black striped curtain <ref> </p>  for an inviting appearance in the dining space. (subtask 4)",
+        "name": "task_id: 0, action_id: 3"
+    },
+    {
+        "text": "6.Next, I will touch up  <p> the brown wooden rectangular storage shelf <ref> </p>  3 o'clock direction from the chairs and adjacent to the table for tidiness. (subtask 6)",
+        "name": "task_id: 0, action_id: 4"
+    },
+    {
+        "text": "1.First, I will air <p> the brown leather chair </p> with a wooden structure seated beside the table and behind another chair for a clean dining experience.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will touch up <p> the white wooden kitchen cabinet </p> with a shiny finish situated next to another kitchen cabinet for optimal organization.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will employ <p> the stainless steel gas stove </p> supporting the kitchen counter and below the range hood to simmer food. I need to manage the stove's operation carefully for 18 minutes.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 2"
+    },
+    {
+        "text": "4.While the stove is simmering food, I will tend the items on <p> the brown wooden shelf </p> with a cubic shape beside the kitchen cabinet to ensure a tidy presentation.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before 18 minutes are up, I will check and turn off <p> the stainless steel gas stove </p>.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Then, I will arrange <p> the white and black striped curtain </p> for an inviting appearance in the dining space.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will touch up <p> the brown wooden rectangular storage shelf </p> 3 o'clock direction from the chairs and adjacent to the table for tidiness.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 6"
+    },
+    {
+        "question": "Please organize and freshen up the kitchen space to be more welcoming, including (1) buffing the brown leather chair with a wooden structure seated beside the table and behind another chair for a clean dining experience (7 minutes), (2) smoothing the white wooden kitchen cabinet with a shiny finish situated next to another kitchen cabinet for optimal organization (7 minutes), (3) maintaining the items on the brown wooden shelf with a cubic shape beside the kitchen cabinet to ensure a tidy presentation (18 minutes), (4) arranging the white and black striped curtain for an inviting appearance in the dining space (8 minutes), (5) leveraging the stainless steel gas stove supporting the kitchen counter and below the range hood to simmer food efficiently (18 minutes), (6) buffing the brown wooden rectangular storage shelf 3 o'clock direction from the chairs and adjacent to the table for tidiness (10 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 2, subtask 3, subtask 4, start subtask 5, subtask 1, subtask 6, recheck subtask 5.\n",
+        "name": "Adataset_task_id: 1, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the brown leather chair <ref> </p>  with a wooden structure seated beside the table and behind another chair for a clean dining experience. (subtask 1)",
+        "name": "task_id: 1, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will smooth  <p> the white wooden kitchen cabinet <ref> </p>  with a shiny finish situated next to another kitchen cabinet for optimal organization. (subtask 2)",
+        "name": "task_id: 1, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will maintain the items on  <p> the brown wooden shelf <ref> </p>  with a cubic shape beside the kitchen cabinet to ensure a tidy presentation. (subtask 3)",
+        "name": "task_id: 1, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will arrange  <p> the white and black striped curtain <ref> </p>  for an inviting appearance in the dining space. (subtask 4)",
+        "name": "task_id: 1, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will switch on  <p> the stainless steel gas stove <ref> </p>  supporting the kitchen counter and below the range hood to simmer food efficiently. Once set, I can leave it while it simmers. (start subtask 5)",
+        "name": "task_id: 1, action_id: 4"
+    },
+    {
+        "text": "6.While the stove is simmering, I will buff  <p> the brown wooden rectangular storage shelf <ref> </p>  at the 3 o'clock direction from the chairs and adjacent to the table for tidiness. (subtask 6)",
+        "name": "task_id: 1, action_id: 5"
+    },
+    {
+        "text": "7.Before 18 minutes are up, I will return to check if the food is properly simmered and turn off  <p> the stainless steel gas stove <ref> </p> . (recheck subtask 5)",
+        "name": "task_id: 1, action_id: 6"
+    },
+    {
+        "text": "1.First, I will smooth <p> the white wooden kitchen cabinet </p> with a shiny finish situated next to another kitchen cabinet for optimal organization.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will maintain the items on <p> the brown wooden shelf </p> with a cubic shape beside the kitchen cabinet to ensure a tidy presentation.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Subsequently, I will arrange <p> the white and black striped curtain </p> for an inviting appearance in the dining space.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Next, I will turn on <p> the stainless steel gas stove </p> supporting the kitchen counter and begin to simmer food efficiently.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 3"
+    },
+    {
+        "text": "5.While the food is simmering on the stove, I will buff <p> the brown leather chair </p> with a wooden structure seated beside the table and behind another chair for a clean dining experience.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Thereafter, I will buff <p> the brown wooden rectangular storage shelf </p> at the 3 o'clock direction from the chairs and adjacent to the table for tidiness.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 5"
+    },
+    {
+        "text": "7.After the simmering time is near completion, I will return to check and turn off <p> the stainless steel gas stove </p>.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 6"
+    },
+    {
+        "question": "Please organize and freshen up the kitchen space to be more welcoming, including (1) buffing the brown leather chair with a wooden structure seated beside the table and behind another chair for a clean dining experience (6 minutes), (2) touching up the white wooden kitchen cabinet with a shiny finish situated next to another kitchen cabinet for optimal organization (6 minutes), (3) refreshing the items on the brown wooden shelf with a cubic shape beside the kitchen cabinet to ensure a tidy presentation (11 minutes), (4) arranging the white and black striped curtain for an inviting appearance in the dining space (12 minutes), (5) employing the stainless steel gas stove supporting the kitchen counter and below the range hood to simmer food efficiently (29 minutes), (6) smoothing the brown wooden rectangular storage shelf 3 o'clock direction from the chairs and adjacent to the table for tidiness (9 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 2, subtask 3, start subtask 5, subtask 1, subtask 4, subtask 6, recheck subtask 5.\n",
+        "name": "Adataset_task_id: 2, task_info"
+    },
+    {
+        "text": " 1.First, I will touch up  <p> the white wooden kitchen cabinet <ref> </p>  with a shiny finish situated next to another kitchen cabinet for optimal organization. (subtask 2)",
+        "name": "task_id: 2, action_id: 0"
+    },
+    {
+        "text": "2.Following that, I will refresh the items on  <p> the brown wooden shelf <ref> </p>  with a cubic shape beside the kitchen cabinet to ensure a tidy presentation. (subtask 3)",
+        "name": "task_id: 2, action_id: 1"
+    },
+    {
+        "text": "3.Afterwards, I will arrange  <p> the white and black striped curtain <ref> </p>  for an inviting appearance in the dining space. (subtask 4)",
+        "name": "task_id: 2, action_id: 2"
+    },
+    {
+        "text": "5.While the stove is simmering, I will buff  <p> the brown leather chair <ref> </p>  with a wooden structure seated beside the table and behind another chair for a clean dining experience. (subtask 1)",
+        "name": "task_id: 2, action_id: 3"
+    },
+    {
+        "text": "6.Later, I will smooth  <p> the brown wooden rectangular storage shelf <ref> </p>  at the 3 o'clock direction from the chairs and adjacent to the table for tidiness. (subtask 6)",
+        "name": "task_id: 2, action_id: 4"
+    },
+    {
+        "text": "1.First, I will touch up <p> the white wooden kitchen cabinet </p> with a shiny finish situated next to another kitchen cabinet.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 0"
+    },
+    {
+        "text": "2.After that, I will refresh the items on <p> the brown wooden shelf </p> with a cubic shape beside the kitchen cabinet to ensure a tidy presentation.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Thereafter, I will use <p> the stainless steel gas stove </p> supporting the kitchen counter and below the range hood to start simmering food efficiently. The simmering process will continue for a while.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 2"
+    },
+    {
+        "text": "4.While the food is simmering, I will buff <p> the brown leather chair </p> with a wooden structure seated beside the table and behind another chair.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Afterwards, I will arrange <p> the white and black striped curtain </p> for an inviting appearance in the dining space.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Next, I will smooth <p> the brown wooden rectangular storage shelf </p> at 3 o'clock direction from the chairs and adjacent to the table for tidiness.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before the 29 minutes are up, I will return to <p> the gas stove </p> to check on the simmering food and finish this subtask.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 6"
+    },
+    {
+        "question": "Please prepare the dining area for a pleasant meal and ensure functionality of key features, including (1) spinning on the white lamp with a glass or fabric shade positioned above the table to illuminate the dining area (27 minutes), (2) smoothing the brown wooden kitchen cabinet higher than the stove and the kitchen counter to maintain its shine (10 minutes), (3) airing the brown or black wooden bench with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area (5 minutes), (4) preparing the contents of the brown rectangular rattan basket placed on the dark brown kitchen counter (8 minutes), (5) rubbing down the surface of the brown wooden table with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness (8 minutes), (6) maintaining the stainless steel range hood with a triangular shape above the kitchen stove to ensure proper ventilation (15 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 2, subtask 3, subtask 4, subtask 5, subtask 6.\nSubtasks that do not need continuous attention to operate: subtask 1.\n<plan> I will complete the subtasks in the optimal order: start subtask 1, subtask 2, subtask 4, subtask 5, recheck subtask 1, subtask 3, subtask 6.\n",
+        "name": "Adataset_task_id: 3, task_info"
+    },
+    {
+        "text": " 1.First, I will smooth  <p> the brown wooden kitchen cabinet <ref> </p>  higher than the stove and the kitchen counter to maintain its shine. (subtask 2)",
+        "name": "task_id: 3, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will air  <p> the brown or black wooden bench <ref> </p>  with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area. (subtask 3)",
+        "name": "task_id: 3, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will turn on  <p> the white lamp <ref> </p>  with a glass or fabric shade positioned above the table to illuminate the dining area. (start subtask 1)",
+        "name": "task_id: 3, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will prepare the contents of  <p> the brown rectangular rattan basket <ref> </p>  placed on the dark brown kitchen counter. (subtask 4)",
+        "name": "task_id: 3, action_id: 3"
+    },
+    {
+        "text": "5.Next, I will dust the surface of  <p> the brown wooden table <ref> </p>  with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness. (subtask 5)",
+        "name": "task_id: 3, action_id: 4"
+    },
+    {
+        "text": "6.Before 27 minutes are up, I will return to check and turn off  <p> the white lamp <ref> </p> . (recheck subtask 1)",
+        "name": "task_id: 3, action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will maintain  <p> the stainless steel range hood <ref> </p>  with a triangular shape above the kitchen stove to ensure proper ventilation. (subtask 6)",
+        "name": "task_id: 3, action_id: 6"
+    },
+    {
+        "text": "1.First, I will spin on <p> the white lamp </p> with a glass or fabric shade positioned above the table to illuminate the dining area.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, while the lamp is on, I will smooth <p> the brown wooden kitchen cabinet </p> higher than the stove and the kitchen counter to maintain its shine.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 1"
+    },
+    {
+        "text": "3.After that, I will prepare the contents of <p> the brown rectangular rattan basket </p> placed on the dark brown kitchen counter.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Following that, I will rub down the surface of <p> the brown wooden table </p> with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before the 27 minutes are completed, I will return to spin off <p> the white lamp </p>.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Afterwards, I will air <p> the brown or black wooden bench </p> with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will maintain <p> the stainless steel range hood </p> with a triangular shape above the kitchen stove to ensure proper ventilation.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 6"
+    },
+    {
+        "question": "Please prepare the dining area for a pleasant meal and ensure functionality of key features, including (1) rotating on the white lamp with a glass or fabric shade positioned above the table to illuminate the dining area (21 minutes), (2) buffing the brown wooden kitchen cabinet higher than the stove and the kitchen counter to maintain its shine (10 minutes), (3) brushing the brown or black wooden bench with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area (6 minutes), (4) grouping the contents of the brown rectangular rattan basket placed on the dark brown kitchen counter (13 minutes), (5) brushing down the surface of the brown wooden table with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness (9 minutes), (6) refreshing the stainless steel range hood with a triangular shape above the kitchen stove to ensure proper ventilation (15 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 2, subtask 3, subtask 4, subtask 5, subtask 6.\nSubtasks that do not need continuous attention to operate: subtask 1.\n<plan> I will complete the subtasks in the optimal order: subtask 2, start subtask 1, subtask 3, subtask 4, recheck subtask 1, subtask 5, subtask 6.\n",
+        "name": "Adataset_task_id: 4, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the brown wooden kitchen cabinet <ref> </p>  higher than the stove and the kitchen counter to maintain its shine. (subtask 2)",
+        "name": "task_id: 4, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will brush  <p> the brown or black wooden bench <ref> </p>  with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area. (subtask 3)",
+        "name": "task_id: 4, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will dust  <p> the brown or black wooden bench <ref> </p>  with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area. (subtask 4)",
+        "name": "task_id: 4, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will rotate on  <p> the white lamp <ref> </p>  with a glass or fabric shade positioned above the table to illuminate the dining area. (start subtask 1)",
+        "name": "task_id: 4, action_id: 3"
+    },
+    {
+        "text": "5.Next, I will brush down the surface of  <p> the brown wooden table <ref> </p>  with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness. (subtask 5)",
+        "name": "task_id: 4, action_id: 4"
+    },
+    {
+        "text": "6.Before 21 minutes are up, I will return to  <p> the white lamp <ref> </p>  and turn it off. (recheck subtask 1)",
+        "name": "task_id: 4, action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will refresh  <p> the stainless steel range hood <ref> </p>  with a triangular shape above the kitchen stove to ensure proper ventilation. (subtask 6)",
+        "name": "task_id: 4, action_id: 6"
+    },
+    {
+        "text": "1.First, I will buff <p> the brown wooden kitchen cabinet </p> higher than the stove and the kitchen counter to maintain its shine.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Then, I will rotate on <p> the white lamp </p> with a glass or fabric shade positioned above the table to illuminate the dining area. Once set, I can leave it on while performing other tasks.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 1"
+    },
+    {
+        "text": "3.While the lamp is on, I will brush <p> the brown or black wooden bench </p> with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Next, I will group the contents of <p> the brown rectangular rattan basket </p> placed on the dark brown kitchen counter.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before 21 minutes are up, I will check if the dining area is well illuminated and rotate off <p> the white lamp </p>.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 4"
+    },
+    {
+        "text": "6.I will then proceed to brush down the surface of <p> the brown wooden table </p> with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will refresh <p> the stainless steel range hood </p> with a triangular shape above the kitchen stove to ensure proper ventilation.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 6"
+    },
+    {
+        "question": "Please prepare the dining area for a pleasant meal and ensure functionality of key features, including (1) rotating on the white lamp with a glass or fabric shade positioned above the table to illuminate the dining area (25 minutes), (2) buffing the brown wooden kitchen cabinet higher than the stove and the kitchen counter to maintain its shine (8 minutes), (3) brushing the brown or black wooden bench with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area (8 minutes), (4) structuring the contents of the brown rectangular rattan basket placed on the dark brown kitchen counter (12 minutes), (5) treating down the surface of the brown wooden table with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness (9 minutes), (6) tending the stainless steel range hood with a triangular shape above the kitchen stove to ensure proper ventilation (15 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 2, subtask 3, subtask 4, subtask 5, subtask 6.\nSubtasks that do not need continuous attention to operate: subtask 1.\n<plan> I will complete the subtasks in the optimal order: subtask 2, subtask 3, subtask 4, start subtask 1, subtask 5, subtask 6, recheck subtask 1.\n",
+        "name": "Adataset_task_id: 5, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the brown wooden kitchen cabinet <ref> </p>  higher than the stove and the kitchen counter to maintain its shine. (subtask 2)",
+        "name": "task_id: 5, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will brush  <p> the brown or black wooden bench <ref> </p>  with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area. (subtask 3)",
+        "name": "task_id: 5, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will turn on  <p> the white lamp <ref> </p>  with a glass or fabric shade positioned above the table to illuminate the dining area. (start subtask 1)",
+        "name": "task_id: 5, action_id: 2"
+    },
+    {
+        "text": "4.While the lamp is illuminating the area, I will spruce up  <p> the contents of  <p> the brown rectangular rattan basket <ref> </p>  placed on the dark brown kitchen counter. (subtask 4)",
+        "name": "task_id: 5, action_id: 3"
+    },
+    {
+        "text": "5.Before 25 minutes are up, I will check the lighting and turn off  <p> the lamp <ref> </p> . (recheck subtask 1)",
+        "name": "task_id: 5, action_id: 4"
+    },
+    {
+        "text": "6.Next, I will start to tune  <p> the stainless steel range hood <ref> </p>  with a triangular shape above the kitchen stove to ensure proper ventilation. (subtask 5)",
+        "name": "task_id: 5, action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will tune  <p> the stainless steel range hood <ref> </p>  with a triangular shape above the kitchen stove to ensure proper ventilation. (subtask 6)",
+        "name": "task_id: 5, action_id: 6"
+    },
+    {
+        "text": "1.First, I will buff <p> the brown wooden kitchen cabinet </p> higher than the stove and the kitchen counter to maintain its shine.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will brush <p> the brown or black wooden bench </p> with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will structure the contents of <p> the brown rectangular rattan basket </p> placed on the dark brown kitchen counter.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 2"
+    },
+    {
+        "text": "4.After organizing the basket, I will rotate on <p> the white lamp </p> with a glass or fabric shade positioned above the table to illuminate the dining area.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Then, I will treat down the surface of <p> the brown wooden table </p> with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Next, I will tend <p> the stainless steel range hood </p> with a triangular shape above the kitchen stove to ensure proper ventilation.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before the 25 minutes are up, I will return to check that the dining area is adequately illuminated and rotate off <p> the lamp </p> if needed.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 6"
+    },
+    {
+        "question": "Please set up the space for an enjoyable kitchen experience, including (1) buffing the triangular-shaped stainless steel range hood higher than the kitchen stove and cabinet for effective kitchen ventilation (8 minutes), (2) monitoring the green, white cotton napkins placed on the wooden table are neatly arranged for a pleasant dining setup (5 minutes), (3) brushing the brown leather and wooden chair placed within the area of the table and in front of the kitchen cabinet for fresh seating (9 minutes), (4) smoothing the dark brown wooden kitchen counter embedded into a cabinet and supporting a basket for cleanliness in food preparation areas (16 minutes), (5) brushing the rectangular wooden kitchen cabinet with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance (9 minutes), (6) accessing the white kitchen cabinet with a rectangular shape higher than the basket to freshen its contents (15 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 6.\n<plan> I will complete the subtasks in the optimal order: subtask 1, start subtask 6, subtask 2, subtask 3, recheck subtask 6, subtask 4, subtask 5.\n",
+        "name": "Adataset_task_id: 6, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the triangular-shaped stainless steel range hood <ref> </p>  higher than the kitchen stove and cabinet for effective kitchen ventilation. (subtask 1)",
+        "name": "task_id: 6, action_id: 0"
+    },
+    {
+        "text": "3.Then, I will brush  <p> the brown leather and wooden chair <ref> </p>  placed within the area of the table and in front of the kitchen cabinet for fresh seating. (subtask 3)",
+        "name": "task_id: 6, action_id: 1"
+    },
+    {
+        "text": "4.Afterward, I will smooth  <p> the dark brown wooden kitchen counter <ref> </p>  embedded into a cabinet and supporting a basket for cleanliness in food preparation areas. (subtask 4)",
+        "name": "task_id: 6, action_id: 2"
+    },
+    {
+        "text": "5.Next, I will brush  <p> the rectangular wooden kitchen cabinet <ref> </p>  with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance. (subtask 5)",
+        "name": "task_id: 6, action_id: 3"
+    },
+    {
+        "text": "6.Finally, I will access  <p> the white kitchen cabinet <ref> </p>  with a rectangular shape higher than the basket to freshen its contents. (subtask 6)",
+        "name": "task_id: 6, action_id: 4"
+    },
+    {
+        "text": "1.First, I will buff <p> the triangular-shaped stainless steel range hood </p> higher than the kitchen stove and cabinet for effective kitchen ventilation.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Then, I will access <p> the white kitchen cabinet </p> with a rectangular shape higher than the basket to freshen its contents.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 1"
+    },
+    {
+        "text": "3.While the cabinet is open, I will monitor <p> the green, white cotton napkins </p> placed on the wooden table are neatly arranged for a pleasant dining setup.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Next, I will brush <p> the brown leather and wooden chair </p> placed within the area of the table and in front of the kitchen cabinet for fresh seating.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before 15 minutes are up, I will close <p> the white kitchen cabinet </p> to complete the freshening process.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 4"
+    },
+    {
+        "text": "6.After that, I will smooth <p> the dark brown wooden kitchen counter </p> embedded into a cabinet and supporting a basket for cleanliness in food preparation areas.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will brush <p> the rectangular wooden kitchen cabinet </p> with a brown finish placed 5 o'clock direction away from the table and near the stove for a neat appearance.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 6"
+    },
+    {
+        "question": "Please set up the space for an enjoyable kitchen experience, including (1) airing the triangular-shaped stainless steel range hood higher than the kitchen stove and cabinet for effective kitchen ventilation (7 minutes), (2) safeguarding the green, white cotton napkins placed on the wooden table are neatly arranged for a pleasant dining setup (6 minutes), (3) brushing the brown leather and wooden chair placed within the area of the table and in front of the kitchen cabinet for fresh seating (10 minutes), (4) smoothing the dark brown wooden kitchen counter embedded into a cabinet and supporting a basket for cleanliness in food preparation areas (13 minutes), (5) buffing the rectangular wooden kitchen cabinet with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance (12 minutes), (6) making accessible the white kitchen cabinet with a rectangular shape higher than the basket to freshen its contents (12 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 6.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, start subtask 6, subtask 3, recheck subtask 6, subtask 4, subtask 5.\n",
+        "name": "Adataset_task_id: 7, task_info"
+    },
+    {
+        "text": " 1.First, I will start airing  <p> the triangular-shaped stainless steel range hood <ref> </p>  higher than the kitchen stove and cabinet for effective kitchen ventilation. (start subtask 1)",
+        "name": "task_id: 7, action_id: 0"
+    },
+    {
+        "text": "2.While the range hood is airing, I will ensure  <p> the brown leather and wooden chair <ref> </p>  placed within the area of the table and in front of the kitchen cabinet for fresh seating. (subtask 2)",
+        "name": "task_id: 7, action_id: 1"
+    },
+    {
+        "text": "3.Before 7 minutes are up, I will return to check and finish airing  <p> the range hood <ref> </p> . (recheck subtask 1)",
+        "name": "task_id: 7, action_id: 2"
+    },
+    {
+        "text": "4.Next, I will brush  <p> the brown leather and wooden chair <ref> </p>  placed within the area of the table and in front of the kitchen cabinet for fresh seating. (subtask 3)",
+        "name": "task_id: 7, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will smooth  <p> the dark brown wooden kitchen counter <ref> </p>  embedded into a cabinet and supporting a basket for cleanliness in food preparation areas. (subtask 4)",
+        "name": "task_id: 7, action_id: 4"
+    },
+    {
+        "text": "6.Afterward, I will buff  <p> the rectangular wooden kitchen cabinet <ref> </p>  with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance. (subtask 5)",
+        "name": "task_id: 7, action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will make accessible  <p> the white kitchen cabinet <ref> </p>  with a rectangular shape higher than the basket to freshen its contents. (subtask 6)",
+        "name": "task_id: 7, action_id: 6"
+    },
+    {
+        "text": "1.First, I will air <p> the triangular-shaped stainless steel range hood </p> higher than the kitchen stove and cabinet for effective kitchen ventilation.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will safeguard the green, white cotton napkins placed on <p> the wooden table </p> are neatly arranged for a pleasant dining setup.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will make accessible <p> the white kitchen cabinet </p> with a rectangular shape higher than the basket to freshen its contents and leave it open.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 2"
+    },
+    {
+        "text": "4.During the time, I will brush <p> the brown leather and wooden chair </p> placed within the area of the table and in front of the kitchen cabinet for fresh seating.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before the 12 minutes are up, I will go back to close <p> the white kitchen cabinet </p>.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Afterward, I will smooth <p> the dark brown wooden kitchen counter </p> embedded into a cabinet and supporting a basket for cleanliness in food preparation areas.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will buff <p> the rectangular wooden kitchen cabinet </p> with a brown finish placed 5 o'clock direction away from the table and near the stove for a neat appearance.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 6"
+    },
+    {
+        "question": "Please prepare the dining area for a pleasant meal and ensure functionality of key features, including (1) spinning on the white lamp with a glass or fabric shade positioned above the table to illuminate the dining area (22 minutes), (2) smoothing the brown wooden kitchen cabinet higher than the stove and the kitchen counter to maintain its shine (7 minutes), (3) buffing the brown or black wooden bench with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area (6 minutes), (4) preparing the contents of the brown rectangular rattan basket placed on the dark brown kitchen counter (16 minutes), (5) rubbing down the surface of the brown wooden table with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness (11 minutes), (6) maintaining the stainless steel range hood with a triangular shape above the kitchen stove to ensure proper ventilation (14 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 2, subtask 3, subtask 4, subtask 5, subtask 6.\nSubtasks that do not need continuous attention to operate: subtask 1.\n<plan> I will complete the subtasks in the optimal order: start subtask 1, subtask 2, subtask 6, recheck subtask 1, subtask 3, subtask 4, subtask 5.\n",
+        "name": "Adataset_task_id: 8, task_info"
+    },
+    {
+        "text": " 1.First, I will smooth  <p> the brown wooden kitchen cabinet <ref> </p>  higher than the stove and the kitchen counter to maintain its shine. (subtask 2)",
+        "name": "task_id: 8, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will buff  <p> the brown or black wooden bench <ref> </p>  with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area. (subtask 3)",
+        "name": "task_id: 8, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will prepare the contents of  <p> the brown rectangular rattan basket <ref> </p>  placed on the dark brown kitchen counter. (subtask 4)",
+        "name": "task_id: 8, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will turn on  <p> the white lamp <ref> </p>  with a glass or fabric shade positioned above the table to illuminate the dining area. Once set, I can leave it while it illuminates. (start subtask 1)",
+        "name": "task_id: 8, action_id: 3"
+    },
+    {
+        "text": "5.While the lamp is illuminating, I will dust  <p> the brown wooden table <ref> </p>  with a smooth texture placed near the bench and adjacent to two chairs for a clean seating area. (subtask 5)",
+        "name": "task_id: 8, action_id: 4"
+    },
+    {
+        "text": "6.Before 22 minutes are up, I will return to turn off  <p> the white lamp <ref> </p> . (recheck subtask 1)",
+        "name": "task_id: 8, action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will maintain  <p> the stainless steel range hood <ref> </p>  with a triangular shape above the kitchen stove to ensure proper ventilation. (subtask 6)",
+        "name": "task_id: 8, action_id: 6"
+    },
+    {
+        "text": "1.First, I will spin on <p> the white lamp </p> with a glass or fabric shade positioned above the table to illuminate the dining area, which will run for 22 minutes.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 0"
+    },
+    {
+        "text": "2.After that, I will smooth <p> the brown wooden kitchen cabinet </p> higher than the stove and the kitchen counter to maintain its shine.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Thereafter, I will maintain <p> the stainless steel range hood </p> with a triangular shape above the kitchen stove to ensure proper ventilation.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Before the 22 minutes are up, I will return to spin off <p> the white lamp </p> once the dining area is sufficiently illuminated.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Later, I will buff <p> the brown or black wooden bench </p> with a cushioned seat located in front of the kitchen cabinets to the left of a chair for a clean seating area.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Subsequently, I will prepare the contents of <p> the brown rectangular rattan basket </p> placed on the dark brown kitchen counter.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finishing up, I will rub down the surface of <p> the brown wooden table </p> with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 6"
+    },
+    {
+        "question": "Please prepare the dining area for a pleasant meal and ensure functionality of key features, including (1) shifting on the white lamp with a glass or fabric shade positioned above the table to illuminate the dining area (17 minutes), (2) buffing the brown wooden kitchen cabinet higher than the stove and the kitchen counter to maintain its shine (9 minutes), (3) airing the brown or black wooden bench with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area (9 minutes), (4) structuring the contents of the brown rectangular rattan basket placed on the dark brown kitchen counter (10 minutes), (5) rubbing down the surface of the brown wooden table with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness (9 minutes), (6) maintaining the stainless steel range hood with a triangular shape above the kitchen stove to ensure proper ventilation (16 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 2, subtask 3, subtask 4, subtask 5, subtask 6.\nSubtasks that do not need continuous attention to operate: subtask 1.\n<plan> I will complete the subtasks in the optimal order: subtask 2, subtask 3, subtask 4, subtask 5, start subtask 1, subtask 6, recheck subtask 1.\n",
+        "name": "Adataset_task_id: 9, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the brown wooden kitchen cabinet <ref> </p>  higher than the stove and the kitchen counter to maintain its shine. (subtask 2)",
+        "name": "task_id: 9, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will air  <p> the brown or black wooden bench <ref> </p>  with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area. (subtask 3)",
+        "name": "task_id: 9, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will structured the contents of  <p> the brown rectangular rattan basket <ref> </p>  placed on the dark brown kitchen counter. (subtask 4)",
+        "name": "task_id: 9, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will start  <p> the lamp <ref> </p>  with a glass or fabric shade positioned above the table to illuminate the dining area. (start subtask 1)",
+        "name": "task_id: 9, action_id: 3"
+    },
+    {
+        "text": "5.While the lamp is illuminating the area, I will dust  <p> the brown wooden table <ref> </p>  with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness. (subtask 5)",
+        "name": "task_id: 9, action_id: 4"
+    },
+    {
+        "text": "6.Before 17 minutes are up, I will return to check and turn off  <p> the lamp <ref> </p> . (recheck subtask 1)",
+        "name": "task_id: 9, action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will maintain  <p> the stainless steel range hood <ref> </p>  with a triangular shape above the kitchen stove to ensure proper ventilation. (subtask 6)",
+        "name": "task_id: 9, action_id: 6"
+    },
+    {
+        "text": "1.First, I will buff <p> the brown wooden kitchen cabinet </p> higher than the stove and the kitchen counter to maintain its shine.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will air <p> the brown or black wooden bench </p> with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will structure the contents of <p> the brown rectangular rattan basket </p> placed on the dark brown kitchen counter.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will rub down the surface of <p> the brown wooden table </p> with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Then, I will shift on <p> the white lamp </p> with a glass or fabric shade positioned above the table to illuminate the dining area. I can move on to another task.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 4"
+    },
+    {
+        "text": "6.While the lamp is illuminating, I will maintain <p> the stainless steel range hood </p> with a triangular shape above the kitchen stove to ensure proper ventilation.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before the 17 minutes are up, I will shift off <p> the white lamp </p>.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 6"
+    },
+    {
+        "question": "Please organize and freshen up the kitchen space to be more welcoming, including (1) brushing the brown leather chair with a wooden structure seated beside the table and behind another chair for a clean dining experience (8 minutes), (2) smoothing the white wooden kitchen cabinet with a shiny finish situated next to another kitchen cabinet for optimal organization (7 minutes), (3) tending the items on the brown wooden shelf with a cubic shape beside the kitchen cabinet to ensure a tidy presentation (16 minutes), (4) arranging the white and black striped curtain for an inviting appearance in the dining space (10 minutes), (5) employing the stainless steel gas stove supporting the kitchen counter and below the range hood to simmer food efficiently (21 minutes), (6) buffing the brown wooden rectangular storage shelf 3 o'clock direction from the chairs and adjacent to the table for tidiness (9 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, subtask 3, start subtask 5, subtask 4, subtask 6, recheck subtask 5.\n",
+        "name": "Adataset_task_id: 10, task_info"
+    },
+    {
+        "text": " 1.First, I will brush  <p> the brown leather chair <ref> </p>  with a wooden structure seated beside the table and behind another chair for a clean dining experience. (subtask 1)",
+        "name": "task_id: 10, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will smooth  <p> the white wooden kitchen cabinet <ref> </p>  with a shiny finish situated next to another kitchen cabinet for optimal organization. (subtask 2)",
+        "name": "task_id: 10, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will tune  <p> the items <ref> </p>  on the brown wooden shelf with a cubic shape beside the kitchen cabinet to ensure a tidy presentation. (subtask 3)",
+        "name": "task_id: 10, action_id: 2"
+    },
+    {
+        "text": "5.While the stove is simmering food, I will arrange  <p> the white and black striped curtain <ref> </p>  for an inviting appearance in the dining space. (subtask 4)",
+        "name": "task_id: 10, action_id: 3"
+    },
+    {
+        "text": "6.Next, I will buff  <p> the brown wooden rectangular storage shelf <ref> </p>  3 o'clock direction from the chairs and adjacent to the table for tidiness. (subtask 6)",
+        "name": "task_id: 10, action_id: 4"
+    },
+    {
+        "text": "1.First, I will brush <p> the brown leather chair </p> with a wooden structure seated beside the table and behind another chair.",
+        "name": "Adataset_task_id: 10, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will smooth <p> the white wooden kitchen cabinet </p> with a shiny finish situated next to another kitchen cabinet.",
+        "name": "Adataset_task_id: 10, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will tend the items on <p> the brown wooden shelf </p> with a cubic shape beside the kitchen cabinet.",
+        "name": "Adataset_task_id: 10, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will turn on <p> the stainless steel gas stove </p> to simmer food efficiently. I will check it regularly to make sure the simmer process is going smoothly.",
+        "name": "Adataset_task_id: 10, dataset_action_id: 3"
+    },
+    {
+        "text": "5.While the stove is simmering the food, I will arrange <p> the white and black striped curtain </p> for an inviting appearance in the dining space.",
+        "name": "Adataset_task_id: 10, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Then, I will buff <p> the brown wooden rectangular storage shelf </p> 3 o'clock direction from the chairs and adjacent to the table for tidiness.",
+        "name": "Adataset_task_id: 10, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before the 21 minutes are up, I will return to <p> the stainless steel gas stove </p> and ensure that the simmer process is complete, then turn off the stove.",
+        "name": "Adataset_task_id: 10, dataset_action_id: 6"
+    },
+    {
+        "question": "Please organize and freshen up the kitchen space to be more welcoming, including (1) buffing the brown leather chair with a wooden structure seated beside the table and behind another chair for a clean dining experience (7 minutes), (2) smoothing the white wooden kitchen cabinet with a shiny finish situated next to another kitchen cabinet for optimal organization (6 minutes), (3) tending the items on the brown wooden shelf with a cubic shape beside the kitchen cabinet to ensure a tidy presentation (16 minutes), (4) arranging the white and black striped curtain for an inviting appearance in the dining space (8 minutes), (5) leveraging the stainless steel gas stove supporting the kitchen counter and below the range hood to simmer food efficiently (13 minutes), (6) buffing the brown wooden rectangular storage shelf 3 o'clock direction from the chairs and adjacent to the table for tidiness (10 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, subtask 3, subtask 4, start subtask 5, subtask 6, recheck subtask 5.\n",
+        "name": "Adataset_task_id: 11, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the brown leather chair <ref> </p>  with a wooden structure seated beside the table and behind another chair for a clean dining experience. (subtask 1)",
+        "name": "task_id: 11, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will smooth  <p> the white wooden kitchen cabinet <ref> </p>  with a shiny finish situated next to another kitchen cabinet for optimal organization. (subtask 2)",
+        "name": "task_id: 11, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will tune  <p> the items <ref> </p>  on the brown wooden shelf with a cubic shape beside the kitchen cabinet to ensure a tidy presentation. (subtask 3)",
+        "name": "task_id: 11, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will arrange  <p> the white and black striped curtain <ref> </p>  for an inviting appearance in the dining space. (subtask 4)",
+        "name": "task_id: 11, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will switch on  <p> the stainless steel gas stove <ref> </p>  supporting the kitchen counter and below the range hood to simmer food efficiently. Once set, I can leave it while it simmers. (start subtask 5)",
+        "name": "task_id: 11, action_id: 4"
+    },
+    {
+        "text": "6.While the stove is simmering, I will buff  <p> the brown wooden rectangular storage shelf <ref> </p>  3 o'clock direction from the chairs and adjacent to the table for tidiness. (subtask 6)",
+        "name": "task_id: 11, action_id: 5"
+    },
+    {
+        "text": "7.Before 13 minutes are up, I will return to check the food and turn off  <p> the stainless steel gas stove <ref> </p> . (recheck subtask 5)",
+        "name": "task_id: 11, action_id: 6"
+    },
+    {
+        "text": "1.First, I will buff <p> the brown leather chair </p> with a wooden structure seated beside the table and behind another chair.",
+        "name": "Adataset_task_id: 11, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will smooth <p> the white wooden kitchen cabinet </p> with a shiny finish situated next to another kitchen cabinet.",
+        "name": "Adataset_task_id: 11, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will tend the items on <p> the brown wooden shelf </p> with a cubic shape beside the kitchen cabinet.",
+        "name": "Adataset_task_id: 11, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will arrange <p> the white and black striped curtain </p> for an inviting appearance in the dining space.",
+        "name": "Adataset_task_id: 11, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Then, I will start <p> the stainless steel gas stove </p> to simmer food efficiently.",
+        "name": "Adataset_task_id: 11, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Next, I will buff <p> the brown wooden rectangular storage shelf </p> at the 3 o'clock direction from the chairs and adjacent to the table.",
+        "name": "Adataset_task_id: 11, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before the 13 minutes are up, I will return to check if the food has simmered properly and turn off <p> the stainless steel gas stove </p>.",
+        "name": "Adataset_task_id: 11, dataset_action_id: 6"
+    },
+    {
+        "question": "Please set up the space for an enjoyable kitchen experience, including (1) airing the triangular-shaped stainless steel range hood higher than the kitchen stove and cabinet for effective kitchen ventilation (7 minutes), (2) monitoring the green, white cotton napkins placed on the wooden table are neatly arranged for a pleasant dining setup (6 minutes), (3) rubbing the brown leather and wooden chair placed within the area of the table and in front of the kitchen cabinet for fresh seating (8 minutes), (4) buffing the dark brown wooden kitchen counter embedded into a cabinet and supporting a basket for cleanliness in food preparation areas (15 minutes), (5) airing the rectangular wooden kitchen cabinet with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance (12 minutes), (6) making accessible the white kitchen cabinet with a rectangular shape higher than the basket to freshen its contents (19 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 6.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 3, subtask 4, start subtask 6, subtask 2, subtask 5, recheck subtask 6.\n",
+        "name": "Adataset_task_id: 12, task_info"
+    },
+    {
+        "text": "2.Next, I will dust  <p> the brown leather and wooden chair <ref> </p>  placed within the area of the table and in front of the kitchen cabinet for fresh seating. (subtask 3)",
+        "name": "task_id: 12, action_id: 0"
+    },
+    {
+        "text": "3.Then, I will start airing  <p> the triangular-shaped stainless steel range hood <ref> </p>  higher than the kitchen stove and cabinet for effective kitchen ventilation. (start subtask 1)",
+        "name": "task_id: 12, action_id: 1"
+    },
+    {
+        "text": "4.While the range hood is airing, I will buff  <p> the dark brown wooden kitchen counter <ref> </p>  embedded into a cabinet and supporting a basket for cleanliness in food preparation areas. (subtask 4)",
+        "name": "task_id: 12, action_id: 2"
+    },
+    {
+        "text": "5.Before the 7 minutes are up, I will return to  <p> the range hood <ref> </p>  to check and finish airing it. (recheck subtask 1)",
+        "name": "task_id: 12, action_id: 3"
+    },
+    {
+        "text": "6.Afterward, I will air  <p> the rectangular wooden kitchen cabinet <ref> </p>  with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance. (subtask 5)",
+        "name": "task_id: 12, action_id: 4"
+    },
+    {
+        "text": "7.Finally, I will make accessible  <p> the white kitchen cabinet <ref> </p>  with a rectangular shape higher than the basket to freshen its contents. (subtask 6)",
+        "name": "task_id: 12, action_id: 5"
+    },
+    {
+        "text": "1.First, I will air <p> the triangular-shaped stainless steel range hood </p> higher than the kitchen stove and cabinet for effective kitchen ventilation.",
+        "name": "Adataset_task_id: 12, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Afterwards, I will rub <p> the brown leather and wooden chair </p> placed within the area of the table and in front of the kitchen cabinet for fresh seating.",
+        "name": "Adataset_task_id: 12, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Subsequently, I will buff <p> the dark brown wooden kitchen counter </p> embedded into a cabinet and supporting a basket for cleanliness in food preparation areas.",
+        "name": "Adataset_task_id: 12, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Subsequently, I will make accessible <p> the white kitchen cabinet </p> with a rectangular shape higher than the basket to freshen its contents.",
+        "name": "Adataset_task_id: 12, dataset_action_id: 3"
+    },
+    {
+        "text": "5.While the cabinet is open, I will monitor <p> the green, white cotton napkins </p> placed on the wooden table are neatly arranged for a pleasant dining setup.",
+        "name": "Adataset_task_id: 12, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Next, I will air <p> the rectangular wooden kitchen cabinet </p> with a brown finish placed 5 o'clock direction away from the table and near the stove for a neat appearance.",
+        "name": "Adataset_task_id: 12, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before the 19 minutes are up, I will return and close <p> the white kitchen cabinet </p>.",
+        "name": "Adataset_task_id: 12, dataset_action_id: 6"
+    },
+    {
+        "question": "Please set up the space for an enjoyable kitchen experience, including (1) brushing the triangular-shaped stainless steel range hood higher than the kitchen stove and cabinet for effective kitchen ventilation (8 minutes), (2) monitoring the green, white cotton napkins placed on the wooden table are neatly arranged for a pleasant dining setup (7 minutes), (3) treating the brown leather and wooden chair placed within the area of the table and in front of the kitchen cabinet for fresh seating (8 minutes), (4) smoothing the dark brown wooden kitchen counter embedded into a cabinet and supporting a basket for cleanliness in food preparation areas (11 minutes), (5) brushing the rectangular wooden kitchen cabinet with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance (10 minutes), (6) unsealing the white kitchen cabinet with a rectangular shape higher than the basket to freshen its contents (20 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 6.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, start subtask 6, subtask 3, subtask 4, recheck subtask 6, subtask 5.\n",
+        "name": "Adataset_task_id: 13, task_info"
+    },
+    {
+        "text": " 1.First, I will brush  <p> the triangular-shaped stainless steel range hood <ref> </p>  higher than the kitchen stove and cabinet for effective kitchen ventilation. (subtask 1)",
+        "name": "task_id: 13, action_id: 0"
+    },
+    {
+        "text": "3.Then, I will dust  <p> the brown leather and wooden chair <ref> </p>  placed within the area of the table and in front of the kitchen cabinet for fresh seating. (subtask 3)",
+        "name": "task_id: 13, action_id: 1"
+    },
+    {
+        "text": "4.Afterward, I will smooth  <p> the dark brown wooden kitchen counter <ref> </p>  embedded into a cabinet and supporting a basket for cleanliness in food preparation areas. (subtask 4)",
+        "name": "task_id: 13, action_id: 2"
+    },
+    {
+        "text": "6.Finally, I will unseal  <p> the white kitchen cabinet <ref> </p>  with a rectangular shape higher than the basket to freshen its contents. (subtask 6)",
+        "name": "task_id: 13, action_id: 3"
+    },
+    {
+        "text": "1.First, I will brush <p> the triangular-shaped stainless steel range hood </p> higher than the kitchen stove and cabinet.",
+        "name": "Adataset_task_id: 13, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will monitor <p> the green, white cotton napkins </p> placed on the wooden table are neatly arranged for a pleasant dining setup.",
+        "name": "Adataset_task_id: 13, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will unseal <p> the white kitchen cabinet </p> with a rectangular shape higher than the basket to freshen its contents, allowing the cabinet to air out.",
+        "name": "Adataset_task_id: 13, dataset_action_id: 2"
+    },
+    {
+        "text": "4.While the cabinet is airing, I will treat <p> the brown leather and wooden chair </p> placed within the area of the table and in front of the kitchen cabinet for fresh seating.",
+        "name": "Adataset_task_id: 13, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Then, I will smooth <p> the dark brown wooden kitchen counter </p> embedded into a cabinet and supporting a basket for cleanliness in food preparation areas.",
+        "name": "Adataset_task_id: 13, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before 20 minutes are up, I will return to <p> the white kitchen cabinet </p> to close it after it has been thoroughly aired out.",
+        "name": "Adataset_task_id: 13, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will brush <p> the rectangular wooden kitchen cabinet </p> with a brown finish placed in the 5 o'clock direction away from the table and near the stove for a neat appearance.",
+        "name": "Adataset_task_id: 13, dataset_action_id: 6"
+    },
+    {
+        "question": "Please organize and freshen up the kitchen space to be more welcoming, including (1) brushing the brown leather chair with a wooden structure seated beside the table and behind another chair for a clean dining experience (6 minutes), (2) buffing the white wooden kitchen cabinet with a shiny finish situated next to another kitchen cabinet for optimal organization (6 minutes), (3) refreshing the items on the brown wooden shelf with a cubic shape beside the kitchen cabinet to ensure a tidy presentation (17 minutes), (4) arranging the white and black striped curtain for an inviting appearance in the dining space (11 minutes), (5) leveraging the stainless steel gas stove supporting the kitchen counter and below the range hood to simmer food efficiently (29 minutes), (6) buffing the brown wooden rectangular storage shelf 3 o'clock direction from the chairs and adjacent to the table for tidiness (10 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, start subtask 5, subtask 3, subtask 4, recheck subtask 5, subtask 6.\n",
+        "name": "Adataset_task_id: 14, task_info"
+    },
+    {
+        "text": " 1.First, I will brush  <p> the brown leather chair <ref> </p>  with a wooden structure seated beside the table and behind another chair for a clean dining experience. (subtask 1)",
+        "name": "task_id: 14, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will buff  <p> the white wooden kitchen cabinet <ref> </p>  with a shiny finish situated next to another kitchen cabinet for optimal organization. (subtask 2)",
+        "name": "task_id: 14, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will refresh the items on  <p> the brown wooden shelf <ref> </p>  with a cubic shape beside the kitchen cabinet to ensure a tidy presentation. (subtask 3)",
+        "name": "task_id: 14, action_id: 2"
+    },
+    {
+        "text": "5.While the stove is simmering food, I will arrange  <p> the white and black striped curtain <ref> </p>  for an inviting appearance in the dining space. (subtask 4)",
+        "name": "task_id: 14, action_id: 3"
+    },
+    {
+        "text": "6.Next, I will buff  <p> the brown wooden rectangular storage shelf <ref> </p>  3 o'clock direction from the chairs and adjacent to the table for tidiness. (subtask 6)",
+        "name": "task_id: 14, action_id: 4"
+    },
+    {
+        "text": "1.First, I will brush <p> the brown leather chair </p> with a wooden structure seated beside the table and behind another chair.",
+        "name": "Adataset_task_id: 14, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will buff <p> the white wooden kitchen cabinet </p> with a shiny finish situated next to another kitchen cabinet.",
+        "name": "Adataset_task_id: 14, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will turn on <p> the stainless steel gas stove </p> supporting the kitchen counter and below the range hood to start simmering food.",
+        "name": "Adataset_task_id: 14, dataset_action_id: 2"
+    },
+    {
+        "text": "4.While the food simmers, I will refresh the items on <p> the brown wooden shelf </p> with a cubic shape beside the kitchen cabinet.",
+        "name": "Adataset_task_id: 14, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Then, I will arrange <p> the white and black striped curtain </p> for an inviting appearance in the dining space.",
+        "name": "Adataset_task_id: 14, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before the 29 minutes are up, I will return to check the food and turn off <p> the stainless steel gas stove </p>.",
+        "name": "Adataset_task_id: 14, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will buff <p> the brown wooden rectangular storage shelf </p> at the 3 o'clock direction from the chairs and adjacent to the table.",
+        "name": "Adataset_task_id: 14, dataset_action_id: 6"
+    },
+    {
+        "question": "Please set up the space for an enjoyable kitchen experience, including (1) airing the triangular-shaped stainless steel range hood higher than the kitchen stove and cabinet for effective kitchen ventilation (6 minutes), (2) verifying the green, white cotton napkins placed on the wooden table are neatly arranged for a pleasant dining setup (7 minutes), (3) rubbing the brown leather and wooden chair placed within the area of the table and in front of the kitchen cabinet for fresh seating (8 minutes), (4) smoothing the dark brown wooden kitchen counter embedded into a cabinet and supporting a basket for cleanliness in food preparation areas (9 minutes), (5) brushing the rectangular wooden kitchen cabinet with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance (10 minutes), (6) accessing the white kitchen cabinet with a rectangular shape higher than the basket to freshen its contents (13 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 6.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, subtask 3, subtask 4, start subtask 6, subtask 5, recheck subtask 6.\n",
+        "name": "Adataset_task_id: 15, task_info"
+    },
+    {
+        "text": " 1.First, I will verify  <p> the green, white cotton napkins <ref> </p>  placed on the wooden table are neatly arranged for a pleasant dining setup. (subtask 2)",
+        "name": "task_id: 15, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will dust  <p> the brown leather and wooden chair <ref> </p>  placed within the area of the table and in front of the kitchen cabinet for fresh seating. (subtask 3)",
+        "name": "task_id: 15, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will smooth  <p> the dark brown wooden kitchen counter <ref> </p>  embedded into a cabinet and supporting a basket for cleanliness in food preparation areas. (subtask 4)",
+        "name": "task_id: 15, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will start airing  <p> the triangular-shaped stainless steel range hood <ref> </p>  higher than the kitchen stove and cabinet for effective kitchen ventilation. (start subtask 1)",
+        "name": "task_id: 15, action_id: 3"
+    },
+    {
+        "text": "5.While the range hood is airing, I will brush  <p> the rectangular wooden kitchen cabinet <ref> </p>  with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance. (subtask 5)",
+        "name": "task_id: 15, action_id: 4"
+    },
+    {
+        "text": "6.Before 6 minutes are up, I will return to check and finish airing  <p> the triangular-shaped stainless steel range hood <ref> </p> . (recheck subtask 1)",
+        "name": "task_id: 15, action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will access  <p> the white kitchen cabinet <ref> </p>  with a rectangular shape higher than the basket to freshen its contents. (subtask 6)",
+        "name": "task_id: 15, action_id: 6"
+    },
+    {
+        "text": "1.First, I will air <p> the triangular-shaped stainless steel range hood </p> higher than the kitchen stove and cabinet for effective kitchen ventilation.",
+        "name": "Adataset_task_id: 15, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will verify <p> the green, white cotton napkins </p> placed on the wooden table are neatly arranged for a pleasant dining setup.",
+        "name": "Adataset_task_id: 15, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will rub <p> the brown leather and wooden chair </p> placed within the area of the table and in front of the kitchen cabinet for fresh seating.",
+        "name": "Adataset_task_id: 15, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will smooth <p> the dark brown wooden kitchen counter </p> embedded into a cabinet and supporting a basket for cleanliness in food preparation areas.",
+        "name": "Adataset_task_id: 15, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Then, I will access <p> the white kitchen cabinet </p> with a rectangular shape higher than the basket to freshen its contents. While it is open, I will proceed to the next task.",
+        "name": "Adataset_task_id: 15, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Next, I will brush <p> the rectangular wooden kitchen cabinet </p> with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance.",
+        "name": "Adataset_task_id: 15, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before the 13 minutes are up, I will return to <p> the white kitchen cabinet </p> and close it to finish freshening its contents.",
+        "name": "Adataset_task_id: 15, dataset_action_id: 6"
+    },
+    {
+        "question": "Please set up the space for an enjoyable kitchen experience, including (1) airing the triangular-shaped stainless steel range hood higher than the kitchen stove and cabinet for effective kitchen ventilation (8 minutes), (2) safeguarding the green, white cotton napkins placed on the wooden table are neatly arranged for a pleasant dining setup (7 minutes), (3) treating the brown leather and wooden chair placed within the area of the table and in front of the kitchen cabinet for fresh seating (7 minutes), (4) buffing the dark brown wooden kitchen counter embedded into a cabinet and supporting a basket for cleanliness in food preparation areas (13 minutes), (5) brushing the rectangular wooden kitchen cabinet with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance (7 minutes), (6) unsealing the white kitchen cabinet with a rectangular shape higher than the basket to freshen its contents (10 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 6.\n<plan> I will complete the subtasks in the optimal order: start subtask 6, subtask 1, recheck subtask 6, subtask 2, subtask 3, subtask 4, subtask 5.\n",
+        "name": "Adataset_task_id: 16, task_info"
+    },
+    {
+        "text": " 1.First, I will start airing  <p> the triangular-shaped stainless steel range hood <ref> </p>  higher than the kitchen stove and cabinet for effective kitchen ventilation. (start subtask 1)",
+        "name": "task_id: 16, action_id: 0"
+    },
+    {
+        "text": "2.While the range hood is airing, I will sanitize  <p> the brown, white cotton napkins <ref> </p>  placed on the wooden table are neatly arranged for a pleasant dining setup. (subtask 2)",
+        "name": "task_id: 16, action_id: 1"
+    },
+    {
+        "text": "3.Before the 8 minutes are up, I will return to  <p> the range hood <ref> </p>  to ensure it has provided sufficient ventilation. (recheck subtask 1)",
+        "name": "task_id: 16, action_id: 2"
+    },
+    {
+        "text": "4.Next, I will dust  <p> the chair <ref> </p>  placed within the area of the table and in front of the kitchen cabinet for fresh seating. (subtask 3)",
+        "name": "task_id: 16, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will buff  <p> the dark brown wooden kitchen counter <ref> </p>  embedded into a cabinet and supporting a basket for cleanliness in food preparation areas. (subtask 4)",
+        "name": "task_id: 16, action_id: 4"
+    },
+    {
+        "text": "6.Afterward, I will brush  <p> the rectangular wooden kitchen cabinet <ref> </p>  with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance. (subtask 5)",
+        "name": "task_id: 16, action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will unseal  <p> the white kitchen cabinet <ref> </p>  with a rectangular shape higher than the basket to freshen its contents. (subtask 6)",
+        "name": "task_id: 16, action_id: 6"
+    },
+    {
+        "text": "1.First, I will unseal <p> the white kitchen cabinet </p> with a rectangular shape higher than the basket to freshen its contents. I will start this action and let it remain open while attending to other tasks.",
+        "name": "Adataset_task_id: 16, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the cabinet is airing out, I will air <p> the triangular-shaped stainless steel range hood </p> higher than the kitchen stove and cabinet for effective kitchen ventilation.",
+        "name": "Adataset_task_id: 16, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Before 10 minutes are up, I will close <p> the white kitchen cabinet </p> after ensuring its contents are fresh.",
+        "name": "Adataset_task_id: 16, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Next, I will safeguard <p> the green, white cotton napkins </p> placed on the wooden table are neatly arranged for a pleasant dining setup.",
+        "name": "Adataset_task_id: 16, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Then, I will treat <p> the brown leather and wooden chair </p> placed within the area of the table and in front of the kitchen cabinet for fresh seating.",
+        "name": "Adataset_task_id: 16, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Next, I will buff <p> the dark brown wooden kitchen counter </p> embedded into a cabinet and supporting a basket for cleanliness in food preparation areas.",
+        "name": "Adataset_task_id: 16, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will brush <p> the rectangular wooden kitchen cabinet </p> with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance.",
+        "name": "Adataset_task_id: 16, dataset_action_id: 6"
+    },
+    {
+        "question": "Please organize and freshen up the kitchen space to be more welcoming, including (1) airing the brown leather chair with a wooden structure seated beside the table and behind another chair for a clean dining experience (7 minutes), (2) smoothing the white wooden kitchen cabinet with a shiny finish situated next to another kitchen cabinet for optimal organization (4 minutes), (3) maintaining the items on the brown wooden shelf with a cubic shape beside the kitchen cabinet to ensure a tidy presentation (16 minutes), (4) arranging the white and black striped curtain for an inviting appearance in the dining space (9 minutes), (5) leveraging the stainless steel gas stove supporting the kitchen counter and below the range hood to simmer food efficiently (21 minutes), (6) smoothing the brown wooden rectangular storage shelf 3 o'clock direction from the chairs and adjacent to the table for tidiness (10 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 1, start subtask 5, subtask 2, subtask 3, recheck subtask 5, subtask 4, subtask 6.\n",
+        "name": "Adataset_task_id: 17, task_info"
+    },
+    {
+        "text": " 1.First, I will air  <p> the brown leather chair <ref> </p>  with a wooden structure seated beside the table and behind another chair for a clean dining experience. (subtask 1)",
+        "name": "task_id: 17, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will smooth  <p> the white wooden kitchen cabinet <ref> </p>  with a shiny finish situated next to another kitchen cabinet for optimal organization. (subtask 2)",
+        "name": "task_id: 17, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will maintain the items on  <p> the brown wooden shelf <ref> </p>  with a cubic shape beside the kitchen cabinet to ensure a tidy presentation. (subtask 3)",
+        "name": "task_id: 17, action_id: 2"
+    },
+    {
+        "text": "5.While the stove is simmering food, I will arrange  <p> the white and black striped curtain <ref> </p>  for an inviting appearance in the dining space. (subtask 4)",
+        "name": "task_id: 17, action_id: 3"
+    },
+    {
+        "text": "6.Next, I will smooth  <p> the brown wooden rectangular storage shelf <ref> </p>  3 o'clock direction from the chairs and adjacent to the table for tidiness. (subtask 6)",
+        "name": "task_id: 17, action_id: 4"
+    },
+    {
+        "text": "1.First, I will air <p> the brown leather chair </p> with a wooden structure seated beside the table and behind another chair for a clean dining experience.",
+        "name": "Adataset_task_id: 17, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Afterwards, I will leverage <p> the stainless steel gas stove </p> supporting the kitchen counter and below the range hood to start simmering food efficiently.",
+        "name": "Adataset_task_id: 17, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Next, while the stove is simmering food, I will smooth <p> the white wooden kitchen cabinet </p> with a shiny finish situated next to another kitchen cabinet.",
+        "name": "Adataset_task_id: 17, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Then, I will maintain the items on <p> the brown wooden shelf </p> with a cubic shape beside the kitchen cabinet to ensure a tidy presentation.",
+        "name": "Adataset_task_id: 17, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Approximately 21 minutes later, I will check the simmering food and turn off <p> the stainless steel gas stove </p>.",
+        "name": "Adataset_task_id: 17, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Next, I will arrange <p> the white and black striped curtain </p> for an inviting appearance in the dining space.",
+        "name": "Adataset_task_id: 17, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will smooth <p> the brown wooden rectangular storage shelf </p> 3 o'clock direction from the chairs and adjacent to the table for tidiness.",
+        "name": "Adataset_task_id: 17, dataset_action_id: 6"
+    },
+    {
+        "question": "Please prepare the dining area for a pleasant meal and ensure functionality of key features, including (1) rotating on the white lamp with a glass or fabric shade positioned above the table to illuminate the dining area (18 minutes), (2) smoothing the brown wooden kitchen cabinet higher than the stove and the kitchen counter to maintain its shine (8 minutes), (3) brushing the brown or black wooden bench with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area (9 minutes), (4) structuring the contents of the brown rectangular rattan basket placed on the dark brown kitchen counter (11 minutes), (5) treating down the surface of the brown wooden table with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness (12 minutes), (6) tending the stainless steel range hood with a triangular shape above the kitchen stove to ensure proper ventilation (17 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 2, subtask 3, subtask 4, subtask 5, subtask 6.\nSubtasks that do not need continuous attention to operate: subtask 1.\n<plan> I will complete the subtasks in the optimal order: start subtask 1, subtask 2, subtask 3, recheck subtask 1, subtask 4, subtask 5, subtask 6.\n",
+        "name": "Adataset_task_id: 18, task_info"
+    },
+    {
+        "text": " 1.First, I will smooth  <p> the brown wooden kitchen cabinet <ref> </p>  higher than the stove and the kitchen counter to maintain its shine. (subtask 2)",
+        "name": "task_id: 18, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will brush  <p> the brown or black wooden bench <ref> </p>  with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area. (subtask 3)",
+        "name": "task_id: 18, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will structured the contents of  <p> the brown rectangular rattan basket <ref> </p>  placed on the dark brown kitchen counter. (subtask 4)",
+        "name": "task_id: 18, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will tune  <p> the stainless steel range hood <ref> </p>  with a triangular shape above the kitchen stove to ensure proper ventilation. (subtask 5)",
+        "name": "task_id: 18, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will rotate on  <p> the white lamp <ref> </p>  with a glass or fabric shade positioned above the table to illuminate the dining area. (start subtask 1)",
+        "name": "task_id: 18, action_id: 4"
+    },
+    {
+        "text": "6.While the lamp is illuminating, I will tending  <p> the stainless steel range hood <ref> </p>  with a triangular shape above the kitchen stove to ensure proper ventilation. (subtask 6)",
+        "name": "task_id: 18, action_id: 5"
+    },
+    {
+        "text": "7.Before 18 minutes are up, I will return to check and turn off  <p> the lamp <ref> </p> . (recheck subtask 1)",
+        "name": "task_id: 18, action_id: 6"
+    },
+    {
+        "text": "1.First, I will rotate on <p> the white lamp </p> with a glass or fabric shade positioned above the table to illuminate the dining area.",
+        "name": "Adataset_task_id: 18, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Then, I will smooth <p> the brown wooden kitchen cabinet </p> higher than the stove and the kitchen counter to maintain its shine.",
+        "name": "Adataset_task_id: 18, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Afterward, I will brush <p> the brown or black wooden bench </p> with a cushioned seat located in front of the kitchen cabinets and to the left of a chair.",
+        "name": "Adataset_task_id: 18, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Before 18 minutes are up, I will check the illumination and rotate off <p> the white lamp </p>.",
+        "name": "Adataset_task_id: 18, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Next, I will structure the contents of <p> the brown rectangular rattan basket </p> placed on the dark brown kitchen counter.",
+        "name": "Adataset_task_id: 18, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Then, I will treat down the surface of <p> the brown wooden table </p> with a smooth texture placed near the bench and adjacent to two chairs.",
+        "name": "Adataset_task_id: 18, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will tend <p> the stainless steel range hood </p> with a triangular shape above the kitchen stove to ensure proper ventilation.",
+        "name": "Adataset_task_id: 18, dataset_action_id: 6"
+    },
+    {
+        "question": "Please set up the space for an enjoyable kitchen experience, including (1) buffing the triangular-shaped stainless steel range hood higher than the kitchen stove and cabinet for effective kitchen ventilation (6 minutes), (2) monitoring the green, white cotton napkins placed on the wooden table are neatly arranged for a pleasant dining setup (6 minutes), (3) treating the brown leather and wooden chair placed within the area of the table and in front of the kitchen cabinet for fresh seating (10 minutes), (4) touching up the dark brown wooden kitchen counter embedded into a cabinet and supporting a basket for cleanliness in food preparation areas (10 minutes), (5) airing the rectangular wooden kitchen cabinet with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance (8 minutes), (6) accessing the white kitchen cabinet with a rectangular shape higher than the basket to freshen its contents (14 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 6.\n<plan> I will complete the subtasks in the optimal order: start subtask 6, subtask 1, subtask 2, recheck subtask 6, subtask 3, subtask 4, subtask 5.\n",
+        "name": "Adataset_task_id: 19, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the triangular-shaped stainless steel range hood <ref> </p>  higher than the kitchen stove and cabinet for effective kitchen ventilation. (subtask 1)",
+        "name": "task_id: 19, action_id: 0"
+    },
+    {
+        "text": "3.Then, I will dust  <p> the brown leather and wooden chair <ref> </p>  placed within the area of the table and in front of the kitchen cabinet for fresh seating. (subtask 3)",
+        "name": "task_id: 19, action_id: 1"
+    },
+    {
+        "text": "4.Afterward, I will touch up  <p> the dark brown wooden kitchen counter <ref> </p>  embedded into a cabinet and supporting a basket for cleanliness in food preparation areas. (subtask 4)",
+        "name": "task_id: 19, action_id: 2"
+    },
+    {
+        "text": "5.Next, I will air  <p> the rectangular wooden kitchen cabinet <ref> </p>  with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance. (subtask 5)",
+        "name": "task_id: 19, action_id: 3"
+    },
+    {
+        "text": "6.Finally, I will access  <p> the white kitchen cabinet <ref> </p>  with a rectangular shape higher than the basket to freshen its contents. (subtask 6)",
+        "name": "task_id: 19, action_id: 4"
+    },
+    {
+        "text": "1.First, I will access <p> the white kitchen cabinet </p> with a rectangular shape higher than the basket to freshen its contents.",
+        "name": "Adataset_task_id: 19, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the cabinet is airing, I will buff <p> the triangular-shaped stainless steel range hood </p> higher than the kitchen stove and cabinet.",
+        "name": "Adataset_task_id: 19, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Next, I will monitor <p> the green, white cotton napkins </p> placed on the wooden table are neatly arranged for a pleasant dining setup.",
+        "name": "Adataset_task_id: 19, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Before 14 minutes are up, I will return to close <p> the white kitchen cabinet </p> after ensuring its contents are freshened.",
+        "name": "Adataset_task_id: 19, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Then, I will treat <p> the brown leather and wooden chair </p> placed within the area of the table and in front of the kitchen cabinet.",
+        "name": "Adataset_task_id: 19, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Afterward, I will touch up <p> the dark brown wooden kitchen counter </p> embedded into a cabinet and supporting a basket.",
+        "name": "Adataset_task_id: 19, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will air <p> the rectangular wooden kitchen cabinet </p> with a brown finished placed 5 o'clock direction away from the table and near the stove for a neat appearance.",
+        "name": "Adataset_task_id: 19, dataset_action_id: 6"
+    },
+    {
+        "question": "Please prepare the dining area for a pleasant meal and ensure functionality of key features, including (1) shifting on the white lamp with a glass or fabric shade positioned above the table to illuminate the dining area (22 minutes), (2) smoothing the brown wooden kitchen cabinet higher than the stove and the kitchen counter to maintain its shine (6 minutes), (3) brushing the brown or black wooden bench with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area (8 minutes), (4) preparing the contents of the brown rectangular rattan basket placed on the dark brown kitchen counter (10 minutes), (5) rubbing down the surface of the brown wooden table with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness (9 minutes), (6) refreshing the stainless steel range hood with a triangular shape above the kitchen stove to ensure proper ventilation (15 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 2, subtask 3, subtask 4, subtask 5, subtask 6.\nSubtasks that do not need continuous attention to operate: subtask 1.\n<plan> I will complete the subtasks in the optimal order: start subtask 1, subtask 2, subtask 6, recheck subtask 1, subtask 3, subtask 4, subtask 5.\n",
+        "name": "Adataset_task_id: 20, task_info"
+    },
+    {
+        "text": " 1.First, I will shine  <p> the brown wooden kitchen cabinet <ref> </p>  higher than the stove and the kitchen counter to illuminate the dining area. (subtask 2)",
+        "name": "task_id: 20, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will brush  <p> the brown or black wooden bench <ref> </p>  with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area. (subtask 3)",
+        "name": "task_id: 20, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will prepare the contents of  <p> the brown rectangular rattan basket <ref> </p>  placed on the dark brown kitchen counter. (subtask 4)",
+        "name": "task_id: 20, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will start the process of shining  <p> the white lamp <ref> </p>  with a glass or fabric shade positioned above the table to illuminate the dining area. (start subtask 1)",
+        "name": "task_id: 20, action_id: 3"
+    },
+    {
+        "text": "5.While the lamp is illuminating, I will dust  <p> the brown wooden table <ref> </p>  with a smooth texture placed near the bench and adjacent to two chairs for a clean seating area. (subtask 5)",
+        "name": "task_id: 20, action_id: 4"
+    },
+    {
+        "text": "6.Before 22 minutes are up, I will return to check the lighting and turn off  <p> the lamp <ref> </p> . (recheck subtask 1)",
+        "name": "task_id: 20, action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will refresh  <p> the stainless steel range hood <ref> </p>  with a triangular shape above the kitchen stove to ensure proper ventilation. (subtask 6)",
+        "name": "task_id: 20, action_id: 6"
+    },
+    {
+        "text": "1.First, I will shift on <p> the white lamp </p> with a glass or fabric shade positioned above the table to illuminate the dining area. This will be left on as I perform other tasks.",
+        "name": "Adataset_task_id: 20, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Subsequently, I will smooth <p> the brown wooden kitchen cabinet </p> higher than the stove and the kitchen counter to maintain its shine.",
+        "name": "Adataset_task_id: 20, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Subsequently, I will refresh <p> the stainless steel range hood </p> with a triangular shape above the kitchen stove to ensure proper ventilation.",
+        "name": "Adataset_task_id: 20, dataset_action_id: 2"
+    },
+    {
+        "text": "4.As the 22 minutes come to an end, I will check the illumination and shift off <p> the white lamp </p>.",
+        "name": "Adataset_task_id: 20, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Next, I will brush <p> the brown or black wooden bench </p> with a cushioned seat located in front of the kitchen cabinets and to the left of a chair for a clean seating area.",
+        "name": "Adataset_task_id: 20, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Subsequently, I will prepare the contents of <p> the brown rectangular rattan basket </p> placed on the dark brown kitchen counter.",
+        "name": "Adataset_task_id: 20, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Lastly, I will rub down the surface of <p> the brown wooden table </p> with a smooth texture placed near the bench and adjacent to two chairs to ensure cleanliness.",
+        "name": "Adataset_task_id: 20, dataset_action_id: 6"
+    }
+]

@@ -1,0 +1,240 @@
+[
+    {
+        "question": "Please prepare the workspace for an efficient home office setup, including (1) structuring the white, cubic shelf placed behind the laptop on the desk for better access to supplies (10 minutes), (2) leveraging the silver laptop resting on the desk and adjacent to the shelf to play music (21 minutes), (3) airing the spherical coffee cup placed on the desk within the area of the laptop (4 minutes), (4) rubbing the brown leather rocking chair to the right of the desk for a cleaner look (7 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: start subtask 2, subtask 1, subtask 4, recheck subtask 2, subtask 3.\n",
+        "name": "Adataset_task_id: 0, task_info"
+    },
+    {
+        "text": " 1.First, I will structured  <p> the white, cubic shelf <ref> </p>  placed behind the laptop on the desk for better access to supplies. (subtask 1)",
+        "name": "task_id: 0, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will start airing  <p> the spherical coffee cup <ref> </p>  placed on the desk within the area of the laptop. (start subtask 2)",
+        "name": "task_id: 0, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will dust  <p> the brown leather rocking chair <ref> </p>  to the right of the desk for a cleaner look. (subtask 3)",
+        "name": "task_id: 0, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will rub  <p> the brown leather rocking chair <ref> </p>  to the right of the desk for a cleaner look. (subtask 4)",
+        "name": "task_id: 0, action_id: 3"
+    },
+    {
+        "text": "5.Before 21 minutes are up, I will return to check and finish airing  <p> the spherical coffee cup <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 0, action_id: 4"
+    },
+    {
+        "text": "1.First, I will start playing music on <p> the silver laptop </p> resting on the desk and adjacent to the shelf.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the music is playing, I will structure <p> the white, cubic shelf </p> placed behind the laptop on the desk for better access to supplies.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Afterwards, I will rub <p> the brown leather rocking chair </p> to the right of the desk for a cleaner look.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Before the 21 minutes are up, I will return to <p> the silver laptop </p> to stop the music.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Finally, I will air <p> the spherical coffee cup </p> placed on the desk within the area of the laptop.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 4"
+    },
+    {
+        "question": "Please prepare the workspace for an efficient home office setup, including (1) grouping the white, cubic shelf placed behind the laptop on the desk for better access to supplies (15 minutes), (2) making use of the silver laptop resting on the desk and adjacent to the shelf to play music (18 minutes), (3) brushing the spherical coffee cup placed on the desk within the area of the laptop (4 minutes), (4) brushing the brown leather rocking chair to the right of the desk for a cleaner look (9 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: start subtask 2, subtask 1, recheck subtask 2, subtask 3, subtask 4.\n",
+        "name": "Adataset_task_id: 1, task_info"
+    },
+    {
+        "text": " 1.First, I will group  <p> the white, cubic shelf <ref> </p>  placed behind the laptop on the desk for better access to supplies. (subtask 1)",
+        "name": "task_id: 1, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will make use of  <p> the silver laptop <ref> </p>  resting on the desk and adjacent to the shelf to play music. (subtask 2)",
+        "name": "task_id: 1, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will brush  <p> the spherical coffee cup <ref> </p>  placed on the desk within the area of the laptop. (subtask 3)",
+        "name": "task_id: 1, action_id: 2"
+    },
+    {
+        "text": "4.Finally, I will spruce up  <p> the brown leather rocking chair <ref> </p>  to the right of the desk for a cleaner look. (subtask 4)",
+        "name": "task_id: 1, action_id: 3"
+    },
+    {
+        "text": "1.First, I will start playing music on <p> the silver laptop </p> resting on the desk and adjacent to the shelf.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the music is playing, I will group <p> the white, cubic shelf </p> placed behind the laptop on the desk for better access to supplies.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Once 18 minutes are nearing completion, I will return to the laptop and stop <p> the music </p>.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Next, I will brush <p> the spherical coffee cup </p> placed on the desk within the area of the laptop.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Finally, I will brush <p> the brown leather rocking chair </p> to the right of the desk for a cleaner look.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 4"
+    },
+    {
+        "question": "Please ensure the cleanliness and organization of personal items, including (1) tending the brown leather storage ottoman positioned to the right of the roomba (10 minutes), (2) smoothing the black and white wall clock hanging above the couch (9 minutes), (3) arranging the items within the black leather backpack resting on the ottoman (11 minutes), (4) rubbing the brown leather couch positioned behind the stool (15 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: None.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, subtask 3, subtask 4.\n",
+        "name": "Adataset_task_id: 2, task_info"
+    },
+    {
+        "text": " 1.First, I will tune  <p> the brown leather storage ottoman <ref> </p>  positioned to the right of the roomba. (subtask 1)",
+        "name": "task_id: 2, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will smooth  <p> the black and white wall clock <ref> </p>  hanging above the couch. (subtask 2)",
+        "name": "task_id: 2, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will arrange the items within  <p> the black leather backpack <ref> </p>  resting on the ottoman. (subtask 3)",
+        "name": "task_id: 2, action_id: 2"
+    },
+    {
+        "text": "4.Lastly, I will rub  <p> the brown leather couch <ref> </p>  positioned behind the stool. (subtask 4)",
+        "name": "task_id: 2, action_id: 3"
+    },
+    {
+        "text": "1.First, I will tend <p> the brown leather storage ottoman </p> positioned to the right of the roomba.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will smooth <p> the black and white wall clock </p> hanging above the couch.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will arrange the items within <p> the black leather backpack </p> resting on the ottoman.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Finally, I will rub <p> the brown leather couch </p> positioned behind the stool.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 3"
+    },
+    {
+        "question": "Please prepare the workspace for an efficient home office setup, including (1) preparing the white, cubic shelf placed behind the laptop on the desk for better access to supplies (6 minutes), (2) making use of the silver laptop resting on the desk and adjacent to the shelf to play music (23 minutes), (3) airing the spherical coffee cup placed on the desk within the area of the laptop (5 minutes), (4) rubbing the brown leather rocking chair to the right of the desk for a cleaner look (9 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: start subtask 2, subtask 1, subtask 3, subtask 4, recheck subtask 2.\n",
+        "name": "Adataset_task_id: 3, task_info"
+    },
+    {
+        "text": " 1.First, I will prepare  <p> the white, cubic shelf <ref> </p>  placed behind the laptop on the desk for better access to supplies. (subtask 1)",
+        "name": "task_id: 3, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will make use of  <p> the silver laptop <ref> </p>  resting on the desk and adjacent to the shelf to play music. (subtask 2)",
+        "name": "task_id: 3, action_id: 1"
+    },
+    {
+        "text": "4.Finally, I will rub  <p> the brown leather rocking chair <ref> </p>  to the right of the desk for a cleaner look. (subtask 4)",
+        "name": "task_id: 3, action_id: 2"
+    },
+    {
+        "text": "1.First, I will make use of <p> the silver laptop </p> resting on the desk and adjacent to the shelf to start playing music.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the music is playing, I will prepare <p> the white, cubic shelf </p> placed behind the laptop on the desk for better access to supplies.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Next, I will air <p> the spherical coffee cup </p> placed on the desk within the area of the laptop.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Following that, I will rub <p> the brown leather rocking chair </p> to the right of the desk for a cleaner look.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Finally, before 23 minutes are up, I will return to <p> the laptop </p> and stop the music.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 4"
+    },
+    {
+        "question": "Please prepare the workspace for an efficient home office setup, including (1) preparing the white, cubic shelf placed behind the laptop on the desk for better access to supplies (10 minutes), (2) making use of the silver laptop resting on the desk and adjacent to the shelf to play music (20 minutes), (3) buffing the spherical coffee cup placed on the desk within the area of the laptop (4 minutes), (4) brushing the brown leather rocking chair to the right of the desk for a cleaner look (13 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: subtask 2.\n<plan> I will complete the subtasks in the optimal order: subtask 1, start subtask 2, subtask 3, subtask 4, recheck subtask 2.\n",
+        "name": "Adataset_task_id: 4, task_info"
+    },
+    {
+        "text": " 1.First, I will prepare  <p> the white, cubic shelf <ref> </p>  placed behind the laptop on the desk for better access to supplies. (subtask 1)",
+        "name": "task_id: 4, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will make use of  <p> the silver laptop <ref> </p>  resting on the desk and adjacent to the shelf to play music. (subtask 2)",
+        "name": "task_id: 4, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will buff  <p> the spherical coffee cup <ref> </p>  placed on the desk within the area of the laptop. (subtask 3)",
+        "name": "task_id: 4, action_id: 2"
+    },
+    {
+        "text": "4.Finally, I will brush  <p> the brown leather rocking chair <ref> </p>  to the right of the desk for a cleaner look. (subtask 4)",
+        "name": "task_id: 4, action_id: 3"
+    },
+    {
+        "text": "1.First, I will prepare <p> the white, cubic shelf </p> placed behind the laptop on the desk for better access to supplies.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Once the shelf is organized, I will start playing music on <p> the silver laptop </p> resting on the desk and adjacent to the shelf. The music will play for 20 minutes.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 1"
+    },
+    {
+        "text": "3.While the music is playing, I will buff <p> the spherical coffee cup </p> placed on the desk within the area of the laptop.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 2"
+    },
+    {
+        "text": "4.After dusting the coffee cup, I will brush <p> the brown leather rocking chair </p> to the right of the desk for a cleaner look.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before 20 minutes are up, I will go back to <p> the laptop </p> to stop the music.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 4"
+    },
+    {
+        "question": "Please tidy and arrange the seating and storage areas, including (1) maintaining the structured, red wooden toolbox resting on the stool (9 minutes), (2) grouping the tools in the blue wooden toolbox placed within the area of the stool (8 minutes), (3) brushing the tissue box placed on the ottoman next to the backpack (7 minutes), (4) touching up the brown leather zebra patterned couch positioned behind the stool (11 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: None.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, subtask 3, subtask 4.\n",
+        "name": "Adataset_task_id: 5, task_info"
+    },
+    {
+        "text": " 1.First, I will maintain  <p> the structured, red wooden toolbox <ref> </p>  resting on the stool. (subtask 1)",
+        "name": "task_id: 5, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will grouped the tools in  <p> the blue wooden toolbox <ref> </p>  placed within the area of the stool. (subtask 2)",
+        "name": "task_id: 5, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will brush  <p> the tissue box <ref> </p>  placed on the ottoman next to the backpack. (subtask 3)",
+        "name": "task_id: 5, action_id: 2"
+    },
+    {
+        "text": "4.Finally, I will touch up  <p> the brown leather zebra patterned couch <ref> </p>  positioned behind the stool. (subtask 4)",
+        "name": "task_id: 5, action_id: 3"
+    },
+    {
+        "text": "1.First, I will maintain <p> the structured, red wooden toolbox </p> resting on the stool.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will group the tools in <p> the blue wooden toolbox </p> placed within the area of the stool.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will brush <p> the tissue box </p> placed on the ottoman next to the backpack.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Finally, I will touch up <p> the brown leather zebra patterned couch </p> positioned behind the stool.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 3"
+    }
+]

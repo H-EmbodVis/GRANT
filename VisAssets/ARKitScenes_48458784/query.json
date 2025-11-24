@@ -1,0 +1,295 @@
+[
+    {
+        "question": "Please prepare the space for a cozy evening at home, including (1) buffing the cabinet above another cabinet and positioned next to a kitchen cabinet (10 minutes), (2) touching up the stainless steel kitchen cabinet to the right of the table and adjacent to another cabinet (10 minutes), (3) making sure to clean the small white refrigerator adjacent to the stainless steel cabinet (11 minutes), (4) brushing the white wooden coffee table with its classic design next to the sofa (9 minutes), (5) smoothing the white wooden storage cabinet with a smooth texture to the left of another cabinet (8 minutes), (6) activating the white stainless steel dishwasher with a top and bottom part, located to the right of the cabinet and the table, for dishwashing (49 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 6.\n<plan> I will complete the subtasks in the optimal order: start subtask 6, subtask 1, subtask 2, subtask 3, subtask 4, subtask 5, recheck subtask 6.\n",
+        "name": "Adataset_task_id: 0, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the cabinet <ref> </p>  above another cabinet and positioned next to a kitchen cabinet. (subtask 1)",
+        "name": "task_id: 0, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will touch up  <p> the stainless steel kitchen cabinet <ref> </p>  to the right of the table and adjacent to another cabinet. (subtask 2)",
+        "name": "task_id: 0, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will activate  <p> the white stainless steel dishwasher <ref> </p>  with a top and bottom part, located to the right of the cabinet and the table, for dishwashing. (start subtask 6)",
+        "name": "task_id: 0, action_id: 2"
+    },
+    {
+        "text": "4.While the dishwasher is running, I will clean  <p> the small white refrigerator <ref> </p>  adjacent to the stainless steel cabinet. (subtask 3)",
+        "name": "task_id: 0, action_id: 3"
+    },
+    {
+        "text": "5.Afterward, I will brush  <p> the white wooden coffee table <ref> </p>  with its classic design next to the sofa. (subtask 4)",
+        "name": "task_id: 0, action_id: 4"
+    },
+    {
+        "text": "6.Next, I will smooth  <p> the white wooden storage cabinet <ref> </p>  with a smooth texture to the left of another cabinet. (subtask 5)",
+        "name": "task_id: 0, action_id: 5"
+    },
+    {
+        "text": "7.Before 49 minutes are up, I will return to check and finish the activation of  <p> the white stainless steel dishwasher <ref> </p> . (recheck subtask 6)",
+        "name": "task_id: 0, action_id: 6"
+    },
+    {
+        "text": "1.First, I will start the operation of <p> the white stainless steel dishwasher </p> with its top and bottom parts located to the right of the cabinet and the table for dishwashing, which will run for 49 minutes.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the dishwasher is running, I will buff <p> the cabinet </p> above another cabinet and positioned next to a kitchen cabinet.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Next, I will touch up <p> the stainless steel kitchen cabinet </p> to the right of the table and adjacent to another cabinet.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Then, I will clean <p> the small white refrigerator </p> adjacent to the stainless steel cabinet.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Afterward, I will brush <p> the white wooden coffee table </p> with its classic design next to the sofa.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Next, I will smooth <p> the white wooden storage cabinet </p> with a smooth texture to the left of another cabinet.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before 49 minutes are up, I will return to check and stop the operation of <p> the white stainless steel dishwasher </p>.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 6"
+    },
+    {
+        "question": "Please prepare the space for a cozy evening at home, including (1) buffing the cabinet above another cabinet and positioned next to a kitchen cabinet (6 minutes), (2) smoothing the stainless steel kitchen cabinet to the right of the table and adjacent to another cabinet (10 minutes), (3) making sure to clean the small white refrigerator adjacent to the stainless steel cabinet (11 minutes), (4) rubbing the white wooden coffee table with its classic design next to the sofa (10 minutes), (5) touching up the white wooden storage cabinet with a smooth texture to the left of another cabinet (9 minutes), (6) managing the white stainless steel dishwasher with a top and bottom part, located to the right of the cabinet and the table, for dishwashing (41 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 6.\n<plan> I will complete the subtasks in the optimal order: subtask 1, start subtask 6, subtask 2, subtask 3, subtask 4, subtask 5, recheck subtask 6.\n",
+        "name": "Adataset_task_id: 1, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the cabinet <ref> </p>  above another cabinet and positioned next to a kitchen cabinet. (subtask 1)",
+        "name": "task_id: 1, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will smooth  <p> the stainless steel kitchen cabinet <ref> </p>  to the right of the table and adjacent to another cabinet. (subtask 2)",
+        "name": "task_id: 1, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will make sure to clean  <p> the small white refrigerator <ref> </p>  adjacent to the stainless steel cabinet. (subtask 3)",
+        "name": "task_id: 1, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will rub  <p> the white wooden coffee table <ref> </p>  with its classic design next to the sofa. (subtask 4)",
+        "name": "task_id: 1, action_id: 3"
+    },
+    {
+        "text": "5.Next, I will touch up  <p> the white wooden storage cabinet <ref> </p>  with a smooth texture to the left of another cabinet. (subtask 5)",
+        "name": "task_id: 1, action_id: 4"
+    },
+    {
+        "text": "6.Finally, I will manage  <p> the white stainless steel dishwasher <ref> </p>  with a top and bottom part, located to the right of the cabinet and the table, for dishwashing. (subtask 6)",
+        "name": "task_id: 1, action_id: 5"
+    },
+    {
+        "text": "1.First, I will buff <p> the cabinet </p> above another cabinet and positioned next to a kitchen cabinet.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Then, I will start operating <p> the white stainless steel dishwasher </p> with a top and bottom part, located to the right of the cabinet and the table, for dishwashing.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Next, I will smooth <p> the stainless steel kitchen cabinet </p> to the right of the table and adjacent to another cabinet.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Then, I will clean <p> the small white refrigerator </p> adjacent to the stainless steel cabinet.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Afterward, I will rub <p> the white wooden coffee table </p> with its classic design next to the sofa.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Next, I will touch up <p> the white wooden storage cabinet </p> with a smooth texture to the left of another cabinet.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before 41 minutes are up, I will check and complete the dishwashing task by shutting off <p> the white stainless steel dishwasher </p>.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 6"
+    },
+    {
+        "question": "Please prepare the space for a cozy evening at home, including (1) buffing the cabinet above another cabinet and positioned next to a kitchen cabinet (8 minutes), (2) touching up the stainless steel kitchen cabinet to the right of the table and adjacent to another cabinet (9 minutes), (3) making sure to clean the small white refrigerator adjacent to the stainless steel cabinet (10 minutes), (4) brushing the white wooden coffee table with its classic design next to the sofa (7 minutes), (5) buffing the white wooden storage cabinet with a smooth texture to the left of another cabinet (7 minutes), (6) running the white stainless steel dishwasher with a top and bottom part, located to the right of the cabinet and the table, for dishwashing (41 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 6.\n<plan> I will complete the subtasks in the optimal order: start subtask 6, subtask 1, subtask 2, subtask 3, subtask 4, recheck subtask 6, subtask 5.\n",
+        "name": "Adataset_task_id: 2, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the cabinet <ref> </p>  above another cabinet and positioned next to a kitchen cabinet. (subtask 1)",
+        "name": "task_id: 2, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will touch up  <p> the stainless steel kitchen cabinet <ref> </p>  to the right of the table and adjacent to another cabinet. (subtask 2)",
+        "name": "task_id: 2, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will start  <p> the white stainless steel dishwasher <ref> </p>  with a top and bottom part, located to the right of the cabinet and the table, for dishwashing. (start subtask 6)",
+        "name": "task_id: 2, action_id: 2"
+    },
+    {
+        "text": "4.While the dishwasher is running, I will clean  <p> the small white refrigerator <ref> </p>  adjacent to the stainless steel cabinet. (subtask 3)",
+        "name": "task_id: 2, action_id: 3"
+    },
+    {
+        "text": "5.Next, I will brush  <p> the white wooden coffee table <ref> </p>  with its classic design next to the sofa. (subtask 4)",
+        "name": "task_id: 2, action_id: 4"
+    },
+    {
+        "text": "6.Then, I will buff  <p> the white wooden storage cabinet <ref> </p>  with a smooth texture to the left of another cabinet. (subtask 5)",
+        "name": "task_id: 2, action_id: 5"
+    },
+    {
+        "text": "7.Before 41 minutes are up, I will return to check and stop  <p> the white stainless steel dishwasher <ref> </p> . (recheck subtask 6)",
+        "name": "task_id: 2, action_id: 6"
+    },
+    {
+        "text": "1.First, I will run <p> the white stainless steel dishwasher </p> with a top and bottom part, located to the right of the cabinet and the table, for dishwashing.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the dishwasher is running, I will buff <p> the cabinet </p> above another cabinet and positioned next to a kitchen cabinet.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Next, I will touch up <p> the stainless steel kitchen cabinet </p> to the right of the table and adjacent to another cabinet.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Then, I will make sure to clean <p> the small white refrigerator </p> adjacent to the stainless steel cabinet.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Afterward, I will brush <p> the white wooden coffee table </p> with its classic design next to the sofa.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before the 41 minutes are up, I will return to the dishwasher to ensure <p> the dishwashing process is complete and turn it off </p>.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will buff <p> the white wooden storage cabinet </p> with a smooth texture to the left of another cabinet.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 6"
+    },
+    {
+        "question": "Please prepare the space for a cozy evening at home, including (1) airing the cabinet above another cabinet and positioned next to a kitchen cabinet (8 minutes), (2) touching up the stainless steel kitchen cabinet to the right of the table and adjacent to another cabinet (11 minutes), (3) making sure to clean the small white refrigerator adjacent to the stainless steel cabinet (10 minutes), (4) treating the white wooden coffee table with its classic design next to the sofa (9 minutes), (5) touching up the white wooden storage cabinet with a smooth texture to the left of another cabinet (8 minutes), (6) activating the white stainless steel dishwasher with a top and bottom part, located to the right of the cabinet and the table, for dishwashing (36 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 6.\n<plan> I will complete the subtasks in the optimal order: subtask 2, start subtask 6, subtask 1, subtask 3, subtask 4, subtask 5, recheck subtask 6.\n",
+        "name": "Adataset_task_id: 3, task_info"
+    },
+    {
+        "text": " 1.First, I will activate  <p> the white stainless steel dishwasher <ref> </p>  with a top and bottom part, located to the right of the cabinet and the table, to start the dishwashing process. (start subtask 6)",
+        "name": "task_id: 3, action_id: 0"
+    },
+    {
+        "text": "2.While the dishwasher is running, I will air  <p> the cabinet <ref> </p>  above another cabinet and positioned next to a kitchen cabinet. (subtask 1)",
+        "name": "task_id: 3, action_id: 1"
+    },
+    {
+        "text": "3.Next, I will make sure to clean  <p> the small white refrigerator <ref> </p>  adjacent to the stainless steel cabinet. (subtask 2)",
+        "name": "task_id: 3, action_id: 2"
+    },
+    {
+        "text": "4.Then, I will clean  <p> the white wooden coffee table <ref> </p>  with its classic design next to the sofa. (subtask 3)",
+        "name": "task_id: 3, action_id: 3"
+    },
+    {
+        "text": "5.Afterward, I will dust  <p> the white wooden storage cabinet <ref> </p>  with a smooth texture to the left of another cabinet. (subtask 4)",
+        "name": "task_id: 3, action_id: 4"
+    },
+    {
+        "text": "6.Before 36 minutes are up, I will return to  <p> the dishwasher <ref> </p>  to check and finish the dishwashing process. (recheck subtask 6)",
+        "name": "task_id: 3, action_id: 5"
+    },
+    {
+        "text": "1.First, I will touch up <p> the stainless steel kitchen cabinet </p> to the right of the table and adjacent to another cabinet.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Afterwards, I will start <p> the dishwasher </p> to begin operating for dishwashing. It has a cycle that will run for 36 minutes.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 1"
+    },
+    {
+        "text": "3.While the dishwasher is running, I will air <p> the cabinet </p> above another cabinet and positioned next to a kitchen cabinet.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Next, I will ensure to clean <p> the small white refrigerator </p> adjacent to the stainless steel cabinet.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Subsequently, I will treat <p> the white wooden coffee table </p> with its classic design next to the sofa.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Thereafter, I will touch up <p> the white wooden storage cabinet </p> with a smooth texture to the left of another cabinet.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before 36 minutes are up, I will return to check <p> the dishwasher </p> , ensuring it has completed its operation.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 6"
+    },
+    {
+        "question": "Prepare the space for a cozy evening at home, including (1) airing the cabinet above another cabinet and positioned next to a kitchen cabinet (10 minutes), (2) touching up the stainless steel kitchen cabinet to the right of the table and adjacent to another cabinet (7 minutes), (3) making sure to clean the small white refrigerator adjacent to the stainless steel cabinet (9 minutes), (4) brushing the white wooden coffee table with its classic design next to the sofa (7 minutes), (5) smoothing the white wooden storage cabinet with a smooth texture to the left of another cabinet (7 minutes), (6) managing the white stainless steel dishwasher with a top and bottom part, located to the right of the cabinet and the table, for dishwashing (30 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 6.\n<plan> I will complete the subtasks in the optimal order: start subtask 6, subtask 1, subtask 2, subtask 3, recheck subtask 6, subtask 4, subtask 5.\n",
+        "name": "Adataset_task_id: 4, task_info"
+    },
+    {
+        "text": " 1.First, I will start airing  <p> the cabinet <ref> </p>  above another cabinet and positioned next to a kitchen cabinet. (start subtask 1)",
+        "name": "task_id: 4, action_id: 0"
+    },
+    {
+        "text": "3.Next, I will make sure to clean  <p> the small white refrigerator <ref> </p>  adjacent to the stainless steel cabinet. (subtask 3)",
+        "name": "task_id: 4, action_id: 1"
+    },
+    {
+        "text": "4.Then, I will brush  <p> the white wooden coffee table <ref> </p>  with its classic design next to the sofa. (subtask 4)",
+        "name": "task_id: 4, action_id: 2"
+    },
+    {
+        "text": "5.Afterward, I will smooth  <p> the white wooden storage cabinet <ref> </p>  with a smooth texture to the left of another cabinet. (subtask 5)",
+        "name": "task_id: 4, action_id: 3"
+    },
+    {
+        "text": "6.Before 10 minutes are up, I will return to  <p> the cabinet <ref> </p>  and finish airing it. (recheck subtask 1)",
+        "name": "task_id: 4, action_id: 4"
+    },
+    {
+        "text": "7.Finally, I will manage  <p> the white stainless steel dishwasher <ref> </p>  with a top and bottom part, located to the right of the cabinet and the table, for dishwashing. (subtask 6)",
+        "name": "task_id: 4, action_id: 5"
+    },
+    {
+        "text": "1.First, I will start operating <p> the white stainless steel dishwasher </p> with a top and bottom part, located to the right of the cabinet and the table, for dishwashing.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the dishwasher is running, I will air <p> the cabinet </p> above another cabinet and positioned next to a kitchen cabinet.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Next, I will touch up <p> the stainless steel kitchen cabinet </p> to the right of the table and adjacent to another cabinet.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Then, I will make sure to clean <p> the small white refrigerator </p> adjacent to the stainless steel cabinet.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before the 30 minutes are up, I will return to check and stop <p> the dishwasher </p> after the dishwashing is complete.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 4"
+    },
+    {
+        "text": "6.After finishing with the dishwasher, I will brush <p> the white wooden coffee table </p> with its classic design next to the sofa.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will smooth <p> the white wooden storage cabinet </p> with a smooth texture to the left of another cabinet.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 6"
+    }
+]

@@ -1,0 +1,1488 @@
+[
+    {
+        "question": "Please arrange the living room area for a cozy reading experience, including (1) structuring the white plastic chair with a spherical shape and oblong 3D form near the plastic table (8 minutes), (2) smoothing the black flat screen TV resting on the top of the TV stand (16 minutes), (3) buffing the white and green octopus-shaped puppet made of cloth beside the toilet (6 minutes), (4) flipping on the white glass table lamp with a shiny metal structure placed on the TV stand for illumination (16 minutes), (5) maintaining the brown, grey, or beige rectangular leather sofa adjacent to the wooden cabinet (10 minutes), (6) treating the surface of the brown leather armchair with a dark upholstery lower than the lamp (6 minutes), (7) brushing down the rectangular wooden table with a gray and white color scheme next to the leather sofa (6 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 4.\n<plan> I will complete the subtasks in the optimal order: subtask 2, start subtask 4, subtask 1, subtask 3, recheck subtask 4, subtask 5, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 0, task_info"
+    },
+    {
+        "text": " 1.First, I will structured  <p> the white plastic chair <ref> </p>  with a spherical shape and oblong 3D form near the plastic table. (subtask 1)",
+        "name": "task_id: 0, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will buff  <p> the white and green octopus-shaped poly <ref> </p>  made of cloth beside the toilet. (subtask 2)",
+        "name": "task_id: 0, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will start the process of starting to illuminate the surface of  <p> the brown leather sofa <ref> </p>  adjacent to the wooden cabinet. (start subtask 4)",
+        "name": "task_id: 0, action_id: 2"
+    },
+    {
+        "text": "4.While the sofa is illuminating, I will buff  <p> the white and green octopus-shaped poly <ref> </p>  made of cloth beside the toilet. (subtask 3)",
+        "name": "task_id: 0, action_id: 3"
+    },
+    {
+        "text": "6.Next, I will maintain  <p> the brown, grey, or beige rectangular leather sofa <ref> </p>  adjacent to the wooden cabinet. (subtask 5)",
+        "name": "task_id: 0, action_id: 4"
+    },
+    {
+        "text": "7.Then, I will dust  <p> the rectangular wooden table <ref> </p>  with a gray and white color scheme next to the leather sofa. (subtask 6)",
+        "name": "task_id: 0, action_id: 5"
+    },
+    {
+        "text": "8.Finally, I will brush down  <p> the rectangular wooden table <ref> </p>  with a gray and white color scheme next to the leather sofa. (subtask 7)",
+        "name": "task_id: 0, action_id: 6"
+    },
+    {
+        "text": "1.First, I will smooth <p> the black flat screen TV </p> resting on the top of the TV stand.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Then, I will flip on <p> the white glass table lamp </p> with a shiny metal structure placed on the TV stand for illumination, and proceed with other tasks.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Next, I will structure <p> the white plastic chair </p> with a spherical shape and oblong 3D form near the plastic table.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterwards, I will buff <p> the white and green octopus-shaped puppet </p> made of cloth beside the toilet.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before 16 minutes are up, I will return to check <p> the white glass table lamp </p> and turn it off.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Following that, I will maintain <p> the brown, grey, or beige rectangular leather sofa </p> adjacent to the wooden cabinet.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Next, I will treat the surface of <p> the brown leather armchair </p> with dark upholstery lower than the lamp.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finishing up, I will brush down <p> the rectangular wooden table </p> with a gray and white color scheme next to the leather sofa.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 7"
+    },
+    {
+        "question": "Please arrange the living room area for a cozy reading experience, including (1) preparing the white plastic chair with a spherical shape and oblong 3D form near the plastic table (8 minutes), (2) buffing the black flat screen TV resting on the top of the TV stand (12 minutes), (3) airing the white and green octopus-shaped puppet made of cloth beside the toilet (6 minutes), (4) flipping on the white glass table lamp with a shiny metal structure placed on the TV stand for illumination (22 minutes), (5) maintaining the brown, grey, or beige rectangular leather sofa adjacent to the wooden cabinet (8 minutes), (6) treating the surface of the brown leather armchair with a dark upholstery lower than the lamp (7 minutes), (7) brushing down the rectangular wooden table with a gray and white color scheme next to the leather sofa (9 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 4.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, start subtask 4, subtask 3, subtask 5, subtask 6, recheck subtask 4, subtask 7.\n",
+        "name": "Adataset_task_id: 1, task_info"
+    },
+    {
+        "text": " 1.First, I will prepare  <p> the white plastic chair <ref> </p>  with a spherical shape and oblong 3D form near the plastic table. (subtask 1)",
+        "name": "task_id: 1, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will buff  <p> the black flat screen TV <ref> </p>  resting on the top of the TV stand. (subtask 2)",
+        "name": "task_id: 1, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will air  <p> the white and green octopus-shaped poly <ref> </p>  made of cloth beside the toilet. (subtask 3)",
+        "name": "task_id: 1, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will maintain  <p> the brown, grey, or beige rectangular leather sofa <ref> </p>  adjacent to the wooden cabinet. (subtask 5)",
+        "name": "task_id: 1, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will start the process of airing  <p> the white and green octopus-shaped poly <ref> </p>  made of cloth beside the toilet. (start subtask 4)",
+        "name": "task_id: 1, action_id: 4"
+    },
+    {
+        "text": "6.Next, I will dust  <p> the surface of  <p> the brown leather armchair <ref> </p>  with a dark upholstery lower than the lamp. (subtask 6)",
+        "name": "task_id: 1, action_id: 5"
+    },
+    {
+        "text": "7.Then, I will brush down  <p> the rectangular wooden table <ref> </p>  with a gray and white color scheme next to the leather sofa. (subtask 7)",
+        "name": "task_id: 1, action_id: 6"
+    },
+    {
+        "text": "8.Before 22 minutes are up, I will return to check and finish airing  <p> the white and green octopus-shaped poly <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 1, action_id: 7"
+    },
+    {
+        "text": "1.First, I will prepare <p> the white plastic chair </p> with a spherical shape and oblong 3D form near the plastic table.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will buff <p> the black flat screen TV </p> resting on the top of the TV stand.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will flip on <p> the white glass table lamp </p> with a shiny metal structure placed on the TV stand for illumination. While the lamp is on, I can proceed with other tasks.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 2"
+    },
+    {
+        "text": "4.While the lamp provides illumination, I will air <p> the white and green octopus-shaped puppet </p> made of cloth beside the toilet.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 3"
+    },
+    {
+        "text": "5.After that, I will maintain <p> the brown, grey, or beige rectangular leather sofa </p> adjacent to the wooden cabinet.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Subsequently, I will treat the surface of <p> the brown leather armchair </p> with a dark upholstery lower than the lamp.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before the 22 minutes are up, I will return to turn off <p> the white glass table lamp </p>.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will brush down <p> the rectangular wooden table </p> with a gray and white color scheme next to the leather sofa.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 7"
+    },
+    {
+        "question": "Please arrange the living room area for a cozy reading experience, including (1) grouping the white plastic chair with a spherical shape and oblong 3D form near the plastic table (7 minutes), (2) buffing the black flat screen TV resting on the top of the TV stand (14 minutes), (3) airing the white and green octopus-shaped puppet made of cloth beside the toilet (5 minutes), (4) activating on the white glass table lamp with a shiny metal structure placed on the TV stand for illumination (23 minutes), (5) refreshing the brown, grey, or beige rectangular leather sofa adjacent to the wooden cabinet (13 minutes), (6) rubbing the surface of the brown leather armchair with a dark upholstery lower than the lamp (7 minutes), (7) brushing down the rectangular wooden table with a gray and white color scheme next to the leather sofa (8 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 4.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 3, start subtask 4, subtask 2, subtask 7, recheck subtask 4, subtask 5, subtask 6.\n",
+        "name": "Adataset_task_id: 2, task_info"
+    },
+    {
+        "text": " 1.First, I will arrange  <p> the white plastic chair <ref> </p>  with a spherical shape and oblong 3D form near the plastic table. (subtask 1)",
+        "name": "task_id: 2, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will buff  <p> the black flat screen TV <ref> </p>  resting on the top of the TV stand. (subtask 2)",
+        "name": "task_id: 2, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will air  <p> the white and green octopus-shaped poly <ref> </p>  made of cloth beside the toilet. (subtask 3)",
+        "name": "task_id: 2, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will activate on  <p> the white glass table lamp <ref> </p>  with a shiny metal structure placed on the TV stand for illumination. (start subtask 4)",
+        "name": "task_id: 2, action_id: 3"
+    },
+    {
+        "text": "5.Next, I will refresh  <p> the brown, grey, or beige rectangular leather sofa <ref> </p>  adjacent to the wooden cabinet. (subtask 5)",
+        "name": "task_id: 2, action_id: 4"
+    },
+    {
+        "text": "6.Then, I will dust  <p> the brown leather armchair <ref> </p>  with a dark upholstery lower than the lamp. (subtask 6)",
+        "name": "task_id: 2, action_id: 5"
+    },
+    {
+        "text": "7.Before 23 minutes are up, I will return to turn off  <p> the white glass table lamp <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 2, action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will brush down  <p> the rectangular wooden table <ref> </p>  with a gray and white color scheme next to the leather sofa. (subtask 7)",
+        "name": "task_id: 2, action_id: 7"
+    },
+    {
+        "text": "1.First, I will group <p> the white plastic chair </p> with a spherical shape and oblong 3D form near the plastic table.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Afterwards, I will air <p> the white and green octopus-shaped puppet </p> made of cloth beside the toilet.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 1"
+    },
+    {
+        "text": "3.After that, I will activate on <p> the white glass table lamp </p> with a shiny metal structure placed on the TV stand for illumination. This will take 23 minutes, and I can perform other tasks in this time.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 2"
+    },
+    {
+        "text": "4.While the lamp is on, I will buff <p> the black flat screen TV </p> resting on the top of the TV stand.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Later, I will brush down <p> the rectangular wooden table </p> with a gray and white color scheme next to the leather sofa.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before 23 minutes are up, I will return to <p> the white glass table lamp </p> and turn it off after it has provided the necessary illumination.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Subsequently, I will refresh <p> the brown, grey, or beige rectangular leather sofa </p> adjacent to the wooden cabinet.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Lastly, I will rub the surface of <p> the brown leather armchair </p> with a dark upholstery lower than the lamp.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 7"
+    },
+    {
+        "question": "Please arrange the living room area for a cozy reading experience, including (1) preparing the white plastic chair with a spherical shape and oblong 3D form near the plastic table (8 minutes), (2) buffing the black flat screen TV resting on the top of the TV stand (11 minutes), (3) airing the white and green octopus-shaped puppet made of cloth beside the toilet (7 minutes), (4) changing on the white glass table lamp with a shiny metal structure placed on the TV stand for illumination (23 minutes), (5) maintaining the brown, grey, or beige rectangular leather sofa adjacent to the wooden cabinet (10 minutes), (6) rubbing the surface of the brown leather armchair with a dark upholstery lower than the lamp (11 minutes), (7) rubbing down the rectangular wooden table with a gray and white color scheme next to the leather sofa (7 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 4.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 3, start subtask 4, subtask 2, subtask 6, recheck subtask 4, subtask 5, subtask 7.\n",
+        "name": "Adataset_task_id: 3, task_info"
+    },
+    {
+        "text": " 1.First, I will prepare  <p> the white plastic chair <ref> </p>  with a spherical shape and oblong 3D form near the plastic table. (subtask 1)",
+        "name": "task_id: 3, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will buff  <p> the black flat screen TV <ref> </p>  resting on the top of the TV stand. (subtask 2)",
+        "name": "task_id: 3, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will air  <p> the white and green octopus-shaped poly <ref> </p>  made of cloth beside the toilet. (subtask 3)",
+        "name": "task_id: 3, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will turn on  <p> the white glass table lamp <ref> </p>  with a shiny metal structure placed on the TV stand for illumination. (start subtask 4)",
+        "name": "task_id: 3, action_id: 3"
+    },
+    {
+        "text": "5.Next, I will maintain  <p> the brown, grey, or beige rectangular leather sofa <ref> </p>  adjacent to the wooden cabinet. (subtask 5)",
+        "name": "task_id: 3, action_id: 4"
+    },
+    {
+        "text": "6.Then, I will dust  <p> the brown leather armchair <ref> </p>  with a dark upholstery lower than the lamp. (subtask 6)",
+        "name": "task_id: 3, action_id: 5"
+    },
+    {
+        "text": "7.Before 23 minutes are up, I will return to turn off  <p> the white glass table lamp <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 3, action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will dust down  <p> the rectangular wooden table <ref> </p>  with a gray and white color scheme next to the leather sofa. (subtask 7)",
+        "name": "task_id: 3, action_id: 7"
+    },
+    {
+        "text": "1.First, I will prepare <p> the white plastic chair </p> with a spherical shape and oblong 3D form near the plastic table.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 0"
+    },
+    {
+        "text": "2.After that, I will air <p> the white and green octopus-shaped puppet </p> made of cloth beside the toilet.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Subsequently, I will change on <p> the white glass table lamp </p> with a shiny metal structure placed on the TV stand for illumination, allowing it to stay on while I proceed with other tasks.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will buff <p> the black flat screen TV </p> resting on the top of the TV stand.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 3"
+    },
+    {
+        "text": "5.In the next step, I will rub the surface of <p> the brown leather armchair </p> with a dark upholstery lower than the lamp.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before the 23 minutes are up, I will return to check if <p> the white glass table lamp </p> is providing proper illumination and turn it off.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Later, I will maintain <p> the brown, grey, or beige rectangular leather sofa </p> adjacent to the wooden cabinet.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Lastly, I will rub down <p> the rectangular wooden table </p> with a gray and white color scheme next to the leather sofa.",
+        "name": "Adataset_task_id: 3, dataset_action_id: 7"
+    },
+    {
+        "question": "Please arrange the living room area for a cozy reading experience, including (1) grouping the white plastic chair with a spherical shape and oblong 3D form near the plastic table (6 minutes), (2) smoothing the black flat screen TV resting on the top of the TV stand (11 minutes), (3) brushing the white and green octopus-shaped puppet made of cloth beside the toilet (5 minutes), (4) activating on the white glass table lamp with a shiny metal structure placed on the TV stand for illumination (23 minutes), (5) tending the brown, grey, or beige rectangular leather sofa adjacent to the wooden cabinet (11 minutes), (6) brushing the surface of the brown leather armchair with a dark upholstery lower than the lamp (8 minutes), (7) brushing down the rectangular wooden table with a gray and white color scheme next to the leather sofa (7 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 4.\n<plan> I will complete the subtasks in the optimal order: start subtask 4, subtask 1, subtask 2, subtask 3, recheck subtask 4, subtask 5, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 4, task_info"
+    },
+    {
+        "text": " 1.First, I will arrange  <p> the white plastic chair <ref> </p>  with a spherical shape and oblong 3D form near the plastic table. (subtask 1)",
+        "name": "task_id: 4, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will smooth  <p> the black flat screen TV <ref> </p>  resting on the top of the TV stand. (subtask 2)",
+        "name": "task_id: 4, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will brush  <p> the white and green octopus-shaped poly <ref> </p>  made of cloth beside the toilet. (subtask 3)",
+        "name": "task_id: 4, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will activate on  <p> the white glass table lamp <ref> </p>  with a shiny metal structure placed on the TV stand for illumination. (start subtask 4)",
+        "name": "task_id: 4, action_id: 3"
+    },
+    {
+        "text": "5.Next, I will tune  <p> the brown, grey, or beige rectangular leather sofa <ref> </p>  adjacent to the wooden cabinet. (subtask 5)",
+        "name": "task_id: 4, action_id: 4"
+    },
+    {
+        "text": "6.Then, I will brush the surface of  <p> the brown leather armchair <ref> </p>  with a dark upholstery lower than the lamp. (subtask 6)",
+        "name": "task_id: 4, action_id: 5"
+    },
+    {
+        "text": "7.Before 23 minutes are up, I will return to turn off  <p> the white glass table lamp <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 4, action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will brush down  <p> the rectangular wooden table <ref> </p>  with a gray and white color scheme next to the leather sofa. (subtask 7)",
+        "name": "task_id: 4, action_id: 7"
+    },
+    {
+        "text": "1.First, I will activate on <p> the white glass table lamp </p> with a shiny metal structure placed on the TV stand for illumination. The needed execution time is 23 minutes, allowing me to perform other tasks in the interim.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 0"
+    },
+    {
+        "text": "2.While the lamp is on, I will group <p> the white plastic chair </p> with a spherical shape and oblong 3D form near the plastic table.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Next, I will smooth <p> the black flat screen TV </p> resting on the top of the TV stand.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Then, I will brush <p> the white and green octopus-shaped puppet </p> made of cloth beside the toilet.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before 23 minutes are up, I will return to ensure <p> the lamp </p> provides sufficient illumination and turn it off.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Afterward, I will tend <p> the brown, grey, or beige rectangular leather sofa </p> adjacent to the wooden cabinet.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Next, I will brush the surface of <p> the brown leather armchair </p> with a dark upholstery lower than the lamp.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will brush down <p> the rectangular wooden table </p> with a gray and white color scheme next to the leather sofa.",
+        "name": "Adataset_task_id: 4, dataset_action_id: 7"
+    },
+    {
+        "question": "Please arrange the living room area for a cozy reading experience, including (1) grouping the white plastic chair with a spherical shape and oblong 3D form near the plastic table (8 minutes), (2) buffing the black flat screen TV resting on the top of the TV stand (13 minutes), (3) buffing the white and green octopus-shaped puppet made of cloth beside the toilet (5 minutes), (4) activating on the white glass table lamp with a shiny metal structure placed on the TV stand for illumination (18 minutes), (5) refreshing the brown, grey, or beige rectangular leather sofa adjacent to the wooden cabinet (9 minutes), (6) rubbing the surface of the brown leather armchair with a dark upholstery lower than the lamp (12 minutes), (7) rubbing down the rectangular wooden table with a gray and white color scheme next to the leather sofa (9 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 4.\n<plan> I will complete the subtasks in the optimal order: subtask 2, subtask 3, start subtask 4, subtask 1, subtask 5, recheck subtask 4, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 5, task_info"
+    },
+    {
+        "text": " 1.First, I will arrange  <p> the white plastic chair <ref> </p>  with a spherical shape and oblong 3D form near the plastic table. (subtask 1)",
+        "name": "task_id: 5, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will buff  <p> the black flat screen TV <ref> </p>  resting on the top of the TV stand. (subtask 2)",
+        "name": "task_id: 5, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will buff  <p> the white and green octopus-shaped poly <ref> </p>  made of cloth beside the toilet. (subtask 3)",
+        "name": "task_id: 5, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will refresh  <p> the brown, grey, or beige rectangular leather sofa <ref> </p>  adjacent to the wooden cabinet. (subtask 5)",
+        "name": "task_id: 5, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will activate on  <p> the white glass table lamp <ref> </p>  with a shiny metal structure placed on the TV stand for illumination. (start subtask 4)",
+        "name": "task_id: 5, action_id: 4"
+    },
+    {
+        "text": "6.Next, I will dust  <p> the brown leather armchair <ref> </p>  with a dark upholstery lower than the lamp. (subtask 6)",
+        "name": "task_id: 5, action_id: 5"
+    },
+    {
+        "text": "7.Before 18 minutes are up, I will return to turn off  <p> the white glass table lamp <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 5, action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will dust down  <p> the rectangular wooden table <ref> </p>  with a gray and white color scheme next to the leather sofa. (subtask 7)",
+        "name": "task_id: 5, action_id: 7"
+    },
+    {
+        "text": "1.First, I will buff <p> the black flat screen TV </p> resting on the top of the TV stand.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Subsequently, I will buff <p> the white and green octopus-shaped puppet </p> made of cloth beside the toilet.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Next, I will activate on <p> the white glass table lamp </p> with a shiny metal structure placed on the TV stand for illumination.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 2"
+    },
+    {
+        "text": "4.While the lamp is switched on, I will group <p> the white plastic chair </p> with a spherical shape and oblong 3D form near the plastic table.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Later, I will refresh <p> the brown, grey, or beige rectangular leather sofa </p> adjacent to the wooden cabinet.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before 18 minutes are up, I will return to turn off <p> the white glass table lamp </p>.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 5"
+    },
+    {
+        "text": "7.After that, I will rub the surface of <p> the brown leather armchair </p> with a dark upholstery lower than the lamp.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will rub down <p> the rectangular wooden table </p> with a gray and white color scheme next to the leather sofa.",
+        "name": "Adataset_task_id: 5, dataset_action_id: 7"
+    },
+    {
+        "question": "Please clean and organize the central area for an enjoyable gathering, including (1) airing the flowering cactus plant with a spherical shape on the couch table (9 minutes), (2) rubbing down the rectangular wooden couch table with a white and black color scheme supporting a cactus plant (10 minutes), (3) refreshing the white, stainless steel or beech wood toilet with a shiny finish supporting two vases (10 minutes), (4) tending the white plastic, rectangular-shaped table below the shelf and supporting a laptop (11 minutes), (5) arranging the white, wicker-textured rectangular basket next to the gray leather armchair (7 minutes), (6) monitoring the blanket inside the sofa with a soft and fluffy wool texture is neatly arranged (8 minutes), (7) airing the white and stainless steel, rectangular display case with glass shelves to the left of the cabinet (14 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: None.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 6, task_info"
+    },
+    {
+        "text": " 1.First, I will air  <p> the flowering cactus plant <ref> </p>  with a spherical shape on the couch table. (subtask 1)",
+        "name": "task_id: 6, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will dust  <p> the rectangular wooden couch table <ref> </p>  with a white and black color scheme supporting a cactus plant. (subtask 2)",
+        "name": "task_id: 6, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will refresh  <p> the white, stainless steel or beech wood toilet <ref> </p>  with a shiny finish supporting two vases. (subtask 3)",
+        "name": "task_id: 6, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will tune  <p> the white plastic, rectangular-shaped table <ref> </p>  below the shelf and supporting a laptop. (subtask 4)",
+        "name": "task_id: 6, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will start airing  <p> the white and stainless steel, rectangular display case <ref> </p>  with glass shelves to the left of the cabinet. (start subtask 7)",
+        "name": "task_id: 6, action_id: 4"
+    },
+    {
+        "text": "6.Next, I will arrange  <p> the white, wicker-textured rectangular basket <ref> </p>  next to the gray leather armchair. (subtask 5)",
+        "name": "task_id: 6, action_id: 5"
+    },
+    {
+        "text": "7.Then, I will monitor  <p> the blanket <ref> </p>  inside the sofa with a soft and fluffy wool texture is neatly arranged. (subtask 6)",
+        "name": "task_id: 6, action_id: 6"
+    },
+    {
+        "text": "8.Before 14 minutes are up, I will return to check and finish airing  <p> the white and stainless steel, rectangular display case <ref> </p> . (recheck subtask 7)",
+        "name": "task_id: 6, action_id: 7"
+    },
+    {
+        "text": "1.First, I will air <p> the flowering cactus plant </p> with a spherical shape on the couch table.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will rub down <p> the rectangular wooden couch table </p> with a white and black color scheme supporting a cactus plant.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will refresh <p> the white, stainless steel or beech wood toilet </p> with a shiny finish supporting two vases.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will tend <p> the white plastic, rectangular-shaped table </p> below the shelf and supporting a laptop.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Next, I will arrange <p> the white, wicker-textured rectangular basket </p> next to the gray leather armchair.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Then, I will monitor <p> the blanket </p> inside the sofa with a soft and fluffy wool texture is neatly arranged.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will air <p> the white and stainless steel, rectangular display case </p> with glass shelves to the left of the cabinet.",
+        "name": "Adataset_task_id: 6, dataset_action_id: 6"
+    },
+    {
+        "question": "Please arrange the living room area for a cozy reading experience, including (1) structuring the white plastic chair with a spherical shape and oblong 3D form near the plastic table (8 minutes), (2) touching up the black flat screen TV resting on the top of the TV stand (12 minutes), (3) brushing the white and green octopus-shaped puppet made of cloth beside the toilet (5 minutes), (4) flipping on the white glass table lamp with a shiny metal structure placed on the TV stand for illumination (18 minutes), (5) refreshing the brown, grey, or beige rectangular leather sofa adjacent to the wooden cabinet (11 minutes), (6) rubbing the surface of the brown leather armchair with a dark upholstery lower than the lamp (7 minutes), (7) treating down the rectangular wooden table with a gray and white color scheme next to the leather sofa (8 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 4.\n<plan> I will complete the subtasks in the optimal order: subtask 1, start subtask 4, subtask 2, subtask 3, recheck subtask 4, subtask 5, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 7, task_info"
+    },
+    {
+        "text": " 1.First, I will structured  <p> the white plastic chair <ref> </p>  with a spherical shape and oblong 3D form near the plastic table. (subtask 1)",
+        "name": "task_id: 7, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will brush  <p> the white and green octopus-shaped poly made of cloth <ref> </p>  beside the toilet. (subtask 2)",
+        "name": "task_id: 7, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will brush  <p> the white and green octopus-shaped poly <ref> </p>  made of cloth beside the toilet. (subtask 3)",
+        "name": "task_id: 7, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will start to refresh  <p> the brown, grey, or beige rectangular leather sofa <ref> </p>  adjacent to the wooden cabinet. (start subtask 4)",
+        "name": "task_id: 7, action_id: 3"
+    },
+    {
+        "text": "5.While the sofa is being refreshed, I will refresh  <p> the brown, grey, or beige rectangular leather sofa <ref> </p>  adjacent to the wooden cabinet. (subtask 5)",
+        "name": "task_id: 7, action_id: 4"
+    },
+    {
+        "text": "6.Next, I will polish the surface of  <p> the brown leather armchair <ref> </p>  with a dark upholstery lower than the lamp. (subtask 6)",
+        "name": "task_id: 7, action_id: 5"
+    },
+    {
+        "text": "7.Before 18 minutes are up, I will return to check and finish refreshing  <p> the brown, grey, or beige rectangular leather sofa <ref> </p>  adjacent to the wooden cabinet. (recheck subtask 4)",
+        "name": "task_id: 7, action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will treat down  <p> the rectangular wooden table <ref> </p>  with a gray and white color scheme next to the leather sofa. (subtask 7)",
+        "name": "task_id: 7, action_id: 7"
+    },
+    {
+        "text": "1.First, I will structure <p> the white plastic chair </p> with a spherical shape and oblong 3D form near the plastic table.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Then, I will flip on <p> the white glass table lamp </p> with a shiny metal structure placed on the TV stand for illumination. While the lamp is on, I will proceed with other tasks.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Next, I will touch up <p> the black flat screen TV </p> resting on the top of the TV stand.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Then, I will brush <p> the white and green octopus-shaped puppet </p> made of cloth beside the toilet.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before 18 minutes are up, I will return to turn off <p> the white glass table lamp </p>.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Afterwards, I will refresh <p> the brown, grey, or beige rectangular leather sofa </p> adjacent to the wooden cabinet.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Next, I will rub the surface of <p> the brown leather armchair </p> with a dark upholstery lower than the lamp.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will treat down <p> the rectangular wooden table </p> with a gray and white color scheme next to the leather sofa.",
+        "name": "Adataset_task_id: 7, dataset_action_id: 7"
+    },
+    {
+        "question": "Please arrange the living room area for a cozy reading experience, including (1) structuring the white plastic chair with a spherical shape and oblong 3D form near the plastic table (8 minutes), (2) smoothing the black flat screen TV resting on the top of the TV stand (12 minutes), (3) brushing the white and green octopus-shaped puppet made of cloth beside the toilet (6 minutes), (4) activating on the white glass table lamp with a shiny metal structure placed on the TV stand for illumination (24 minutes), (5) tending the brown, grey, or beige rectangular leather sofa adjacent to the wooden cabinet (8 minutes), (6) rubbing the surface of the brown leather armchair with a dark upholstery lower than the lamp (7 minutes), (7) rubbing down the rectangular wooden table with a gray and white color scheme next to the leather sofa (8 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 4.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, subtask 3, start subtask 4, subtask 5, subtask 6, subtask 7, recheck subtask 4.\n",
+        "name": "Adataset_task_id: 8, task_info"
+    },
+    {
+        "text": " 1.First, I will structured  <p> the white plastic chair <ref> </p>  with a spherical shape and oblong 3D form near the plastic table. (subtask 1)",
+        "name": "task_id: 8, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will activate on  <p> the white glass table lamp <ref> </p>  with a shiny metal structure placed on the TV stand for illumination. (start subtask 4)",
+        "name": "task_id: 8, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will smooth  <p> the black flat screen TV <ref> </p>  resting on the top of the TV stand. (subtask 2)",
+        "name": "task_id: 8, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will brush  <p> the white and green octopus-shaped poly <ref> </p>  made of cloth beside the toilet. (subtask 3)",
+        "name": "task_id: 8, action_id: 3"
+    },
+    {
+        "text": "5.Before 24 minutes are up, I will return to turn off  <p> the white glass table lamp <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 8, action_id: 4"
+    },
+    {
+        "text": "6.Next, I will tune  <p> the brown, grey, or beige rectangular leather sofa <ref> </p>  adjacent to the wooden cabinet. (subtask 5)",
+        "name": "task_id: 8, action_id: 5"
+    },
+    {
+        "text": "7.Then, I will dust  <p> the rectangular wooden table <ref> </p>  with a gray and white color scheme next to the leather sofa. (subtask 6)",
+        "name": "task_id: 8, action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will dust down  <p> the rectangular wooden table <ref> </p>  with a gray and white color scheme next to the leather sofa. (subtask 7)",
+        "name": "task_id: 8, action_id: 7"
+    },
+    {
+        "text": "1.First, I will structure <p> the white plastic chair </p> with a spherical shape and oblong 3D form near the plastic table.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will smooth <p> the black flat screen TV </p> resting on the top of the TV stand.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will brush <p> the white and green octopus-shaped puppet </p> made of cloth beside the toilet.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Next, I will activate on <p> the white glass table lamp </p> with a shiny metal structure placed on the TV stand for illumination.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Then, I will tend <p> the brown, grey, or beige rectangular leather sofa </p> adjacent to the wooden cabinet.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Afterward, I will rub the surface of <p> the brown leather armchair </p> with a dark upholstery lower than the lamp.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Next, I will rub down <p> the rectangular wooden table </p> with a gray and white color scheme next to the leather sofa.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Before 24 minutes are up, I will return to check <p> the white glass table lamp </p> and turn it off.",
+        "name": "Adataset_task_id: 8, dataset_action_id: 7"
+    },
+    {
+        "question": "Please arrange the living room area for a cozy reading experience, including (1) grouping the white plastic chair with a spherical shape and oblong 3D form near the plastic table (9 minutes), (2) buffing the black flat screen TV resting on the top of the TV stand (15 minutes), (3) brushing the white and green octopus-shaped puppet made of cloth beside the toilet (5 minutes), (4) activating on the white glass table lamp with a shiny metal structure placed on the TV stand for illumination (15 minutes), (5) maintaining the brown, grey, or beige rectangular leather sofa adjacent to the wooden cabinet (10 minutes), (6) brushing the surface of the brown leather armchair with a dark upholstery lower than the lamp (10 minutes), (7) rubbing down the rectangular wooden table with a gray and white color scheme next to the leather sofa (7 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 4.\n<plan> I will complete the subtasks in the optimal order: subtask 2, start subtask 4, subtask 1, subtask 3, recheck subtask 4, subtask 5, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 9, task_info"
+    },
+    {
+        "text": " 1.First, I will arrange  <p> the white plastic chair <ref> </p>  with a spherical shape and oblong 3D form near the plastic table. (subtask 1)",
+        "name": "task_id: 9, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will buff  <p> the black flat screen TV <ref> </p>  resting on the top of the TV stand. (subtask 2)",
+        "name": "task_id: 9, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will brush  <p> the white and green octopus-shaped poly <ref> </p>  made of cloth beside the toilet. (subtask 3)",
+        "name": "task_id: 9, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will maintain  <p> the brown, grey, or beige rectangular leather sofa <ref> </p>  adjacent to the wooden cabinet. (subtask 5)",
+        "name": "task_id: 9, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will activate on  <p> the white glass table lamp <ref> </p>  with a shiny metal structure placed on the TV stand for illumination. (start subtask 4)",
+        "name": "task_id: 9, action_id: 4"
+    },
+    {
+        "text": "6.While the lamp is on, I will brush the surface of  <p> the brown leather armchair <ref> </p>  with a dark upholstery lower than the lamp. (subtask 6)",
+        "name": "task_id: 9, action_id: 5"
+    },
+    {
+        "text": "7.Before 15 minutes are up, I will return to turn off  <p> the white glass table lamp <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 9, action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will dust  <p> the chair <ref> </p>  with a dark upholstery lower than the lamp. (subtask 7)",
+        "name": "task_id: 9, action_id: 7"
+    },
+    {
+        "text": "1.First, I will buff <p> the black flat screen TV </p> resting on the top of the TV stand.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Then, I will activate on <p> the white glass table lamp </p> with a shiny metal structure placed on the TV stand for illumination. While the lamp is illuminating, I can perform other tasks.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 1"
+    },
+    {
+        "text": "3.During the illumination, I will group <p> the white plastic chair </p> with a spherical shape and oblong 3D form near the plastic table.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 2"
+    },
+    {
+        "text": "4.After that, I will brush <p> the white and green octopus-shaped puppet </p> made of cloth beside the toilet.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Before the 15 minutes are up, I will return to activate off <p> the table lamp </p>.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Then, I will maintain <p> the brown, grey, or beige rectangular leather sofa </p> adjacent to the wooden cabinet.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Afterwards, I will brush the surface of <p> the brown leather armchair </p> with a dark upholstery lower than the lamp.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will rub down <p> the rectangular wooden table </p> with a gray and white color scheme next to the leather sofa.",
+        "name": "Adataset_task_id: 9, dataset_action_id: 7"
+    },
+    {
+        "question": "Please prepare the space to create a soothing atmosphere for relaxation, including (1) buffing the white wicker basket within the area of the storage cabinet (6 minutes), (2) maintaining the circular, shiny white stainless steel plate positioned below the TV holding area (10 minutes), (3) refreshing the oblong-shaped, white wooden TV stand positioned below the wall shelf and supporting a flat screen TV (11 minutes), (4) brushing the elegant white spherical lamp above the brown leather armchair (8 minutes), (5) making use of the black aluminum MacBook Pro with a smooth, matte finish and a white screen to play relaxing music (26 minutes), (6) buffing the wooden cubical shelf positioned above the table with a white and plastic texture (11 minutes), (7) tending the tall white vase with a gold rim supported by the toilet (9 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 2, start subtask 5, subtask 1, subtask 3, subtask 4, recheck subtask 5, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 10, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the white wicker basket <ref> </p>  within the area of the storage cabinet. (subtask 1)",
+        "name": "task_id: 10, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will maintain  <p> the circular, shiny white stainless steel plate <ref> </p>  positioned below the TV holding area. (subtask 2)",
+        "name": "task_id: 10, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will refresh  <p> the oblong-shaped, white wooden TV stand <ref> </p>  positioned below the wall shelf and supporting a flat screen TV. (subtask 3)",
+        "name": "task_id: 10, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will start playing music on  <p> the black aluminum matte finish <ref> </p>  and leave it playing. (start subtask 5)",
+        "name": "task_id: 10, action_id: 3"
+    },
+    {
+        "text": "5.While the music is playing, I will brush  <p> the elegant white spherical lamp <ref> </p>  above the brown leather armchair. (subtask 4)",
+        "name": "task_id: 10, action_id: 4"
+    },
+    {
+        "text": "6.Next, I will make use of  <p> the black aluminum matte finish and a white screen <ref> </p>  to play relaxing music. (subtask 6)",
+        "name": "task_id: 10, action_id: 5"
+    },
+    {
+        "text": "7.Before 26 minutes are up, I will return to stop the music on  <p> the black aluminum matte finish <ref> </p> . (recheck subtask 5)",
+        "name": "task_id: 10, action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will tune  <p> the tall white vase <ref> </p>  with a gold rim supported by the toilet. (subtask 7)",
+        "name": "task_id: 10, action_id: 7"
+    },
+    {
+        "text": "1.First, I will maintain <p> the circular, shiny white stainless steel plate </p> positioned below the TV holding area.",
+        "name": "Adataset_task_id: 10, dataset_action_id: 0"
+    },
+    {
+        "text": "2.In the next step, I will begin playing relaxing music on <p> the black aluminum MacBook Pro </p> with a smooth, matte finish and a white screen.",
+        "name": "Adataset_task_id: 10, dataset_action_id: 1"
+    },
+    {
+        "text": "3.While the music is playing, I will buff <p> the white wicker basket </p> within the area of the storage cabinet.",
+        "name": "Adataset_task_id: 10, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Then, I will refresh <p> the oblong-shaped, white wooden TV stand </p> positioned below the wall shelf and supporting a flat screen TV.",
+        "name": "Adataset_task_id: 10, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Then, I will brush <p> the elegant white spherical lamp </p> above the brown leather armchair.",
+        "name": "Adataset_task_id: 10, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before 26 minutes are up, I will stop the music and close <p> the MacBook Pro </p>.",
+        "name": "Adataset_task_id: 10, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Later, I will buff <p> the wooden cubical shelf </p> positioned above the table with a white and plastic texture.",
+        "name": "Adataset_task_id: 10, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will tend <p> the tall white vase </p> with a gold rim supported by the toilet.",
+        "name": "Adataset_task_id: 10, dataset_action_id: 7"
+    },
+    {
+        "question": "Please prepare the space to create a soothing atmosphere for relaxation, including (1) buffing the white wicker basket within the area of the storage cabinet (6 minutes), (2) tending the circular, shiny white stainless steel plate positioned below the TV holding area (12 minutes), (3) tending the oblong-shaped, white wooden TV stand positioned below the wall shelf and supporting a flat screen TV (9 minutes), (4) airing the elegant white spherical lamp above the brown leather armchair (6 minutes), (5) leveraging the black aluminum MacBook Pro with a smooth, matte finish and a white screen to play relaxing music (21 minutes), (6) touching up the wooden cubical shelf positioned above the table with a white and plastic texture (10 minutes), (7) tending the tall white vase with a gold rim supported by the toilet (8 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 3, subtask 4, start subtask 5, subtask 2, subtask 7, recheck subtask 5, subtask 6.\n",
+        "name": "Adataset_task_id: 11, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the white wicker basket <ref> </p>  within the area of the storage cabinet. (subtask 1)",
+        "name": "task_id: 11, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will tune  <p> the circular, shiny white stainless steel plate <ref> </p>  positioned below the TV holding area. (subtask 2)",
+        "name": "task_id: 11, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will tending  <p> the oblong-shaped, white wooden TV stand <ref> </p>  positioned below the wall shelf and supporting a flat screen TV. (subtask 3)",
+        "name": "task_id: 11, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will start playing relaxing music on  <p> the black aluminum matte finish <ref> </p>  and leave it playing. (start subtask 5)",
+        "name": "task_id: 11, action_id: 3"
+    },
+    {
+        "text": "5.While the music is playing, I will air  <p> the elegant white spherical lamp <ref> </p>  above the brown leather armchair. (subtask 4)",
+        "name": "task_id: 11, action_id: 4"
+    },
+    {
+        "text": "6.Next, I will dust  <p> the wooden cubical shelf <ref> </p>  positioned above the table with a white and plastic texture. (subtask 6)",
+        "name": "task_id: 11, action_id: 5"
+    },
+    {
+        "text": "7.Before 21 minutes are up, I will return to stop the music and turn off  <p> the black aluminum matte finish <ref> </p> . (recheck subtask 5)",
+        "name": "task_id: 11, action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will tune  <p> the tall white vase <ref> </p>  with a gold rim supported by the toilet. (subtask 7)",
+        "name": "task_id: 11, action_id: 7"
+    },
+    {
+        "text": "1.First, I will buff <p> the white wicker basket </p> within the area of the storage cabinet.",
+        "name": "Adataset_task_id: 11, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Thereafter, I will tend <p> the oblong-shaped, white wooden TV stand </p> positioned below the wall shelf and supporting a flat screen TV.",
+        "name": "Adataset_task_id: 11, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Thereafter, I will air <p> the elegant white spherical lamp </p> above the brown leather armchair.",
+        "name": "Adataset_task_id: 11, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Subsequently, I will leverage <p> the black aluminum MacBook Pro </p> with a smooth, matte finish and a white screen to start playing relaxing music.",
+        "name": "Adataset_task_id: 11, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Next, I will tend <p> the circular, shiny white stainless steel plate </p> positioned below the TV holding area.",
+        "name": "Adataset_task_id: 11, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Next, I will tend <p> the tall white vase </p> with a gold rim supported by the toilet.",
+        "name": "Adataset_task_id: 11, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before the 21 minutes are up, I will return to the MacBook Pro to stop <p> the music </p>.",
+        "name": "Adataset_task_id: 11, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will touch up <p> the wooden cubical shelf </p> positioned above the table with a white and plastic texture.",
+        "name": "Adataset_task_id: 11, dataset_action_id: 7"
+    },
+    {
+        "question": "Please prepare the space to create a soothing atmosphere for relaxation, including (1) buffing the white wicker basket within the area of the storage cabinet (8 minutes), (2) maintaining the circular, shiny white stainless steel plate positioned below the TV holding area (10 minutes), (3) tending the oblong-shaped, white wooden TV stand positioned below the wall shelf and supporting a flat screen TV (10 minutes), (4) buffing the elegant white spherical lamp above the brown leather armchair (8 minutes), (5) leveraging the black aluminum MacBook Pro with a smooth, matte finish and a white screen to play relaxing music (20 minutes), (6) buffing the wooden cubical shelf positioned above the table with a white and plastic texture (11 minutes), (7) maintaining the tall white vase with a gold rim supported by the toilet (8 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, subtask 3, start subtask 5, subtask 4, subtask 6, recheck subtask 5, subtask 7.\n",
+        "name": "Adataset_task_id: 12, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the white wicker basket <ref> </p>  within the area of the storage cabinet. (subtask 1)",
+        "name": "task_id: 12, action_id: 0"
+    },
+    {
+        "text": "3.Then, I will tune  <p> the oblong-shaped, white wooden TV stand <ref> </p>  positioned below the wall shelf and supporting a flat screen TV. (subtask 3)",
+        "name": "task_id: 12, action_id: 1"
+    },
+    {
+        "text": "4.Afterward, I will buff  <p> the elegant white spherical lamp <ref> </p>  above the brown leather armchair. (subtask 4)",
+        "name": "task_id: 12, action_id: 2"
+    },
+    {
+        "text": "5.Then, I will switch on  <p> the black aluminum matte finish and a white screen <ref> </p>  to play relaxing music. (start subtask 5)",
+        "name": "task_id: 12, action_id: 3"
+    },
+    {
+        "text": "6.While the music is playing, I will buff  <p> the wooden cubical shelf <ref> </p>  positioned above the table with a white and plastic texture. (subtask 6)",
+        "name": "task_id: 12, action_id: 4"
+    },
+    {
+        "text": "7.Before 20 minutes are up, I will return to turn off  <p> the black aluminum matte finish <ref> </p> . (recheck subtask 5)",
+        "name": "task_id: 12, action_id: 5"
+    },
+    {
+        "text": "8.Finally, I will maintain  <p> the tall white vase <ref> </p>  with a gold rim supported by the toilet. (subtask 7)",
+        "name": "task_id: 12, action_id: 6"
+    },
+    {
+        "text": "1.First, I will buff <p> the white wicker basket </p> within the area of the storage cabinet.",
+        "name": "Adataset_task_id: 12, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will maintain <p> the circular, shiny white stainless steel plate </p> positioned below the TV holding area.",
+        "name": "Adataset_task_id: 12, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will tend <p> the oblong-shaped, white wooden TV stand </p> positioned below the wall shelf and supporting a flat screen TV.",
+        "name": "Adataset_task_id: 12, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will start <p> the MacBook Pro </p> to play relaxing music. The music will play for 20 minutes, during which I can execute other tasks.",
+        "name": "Adataset_task_id: 12, dataset_action_id: 3"
+    },
+    {
+        "text": "5.While the music is playing, I will buff <p> the elegant white spherical lamp </p> above the brown leather armchair.",
+        "name": "Adataset_task_id: 12, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Next, I will buff <p> the wooden cubical shelf </p> positioned above the table with a white and plastic texture.",
+        "name": "Adataset_task_id: 12, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before 20 minutes are up, I will stop the music on <p> the MacBook Pro </p>.",
+        "name": "Adataset_task_id: 12, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will maintain <p> the tall white vase </p> with a gold rim supported by the toilet.",
+        "name": "Adataset_task_id: 12, dataset_action_id: 7"
+    },
+    {
+        "question": "Please prepare the space to create a soothing atmosphere for relaxation, including (1) buffing the white wicker basket within the area of the storage cabinet (8 minutes), (2) maintaining the circular, shiny white stainless steel plate positioned below the TV holding area (11 minutes), (3) refreshing the oblong-shaped, white wooden TV stand positioned below the wall shelf and supporting a flat screen TV (8 minutes), (4) buffing the elegant white spherical lamp above the brown leather armchair (8 minutes), (5) making use of the black aluminum MacBook Pro with a smooth, matte finish and a white screen to play relaxing music (17 minutes), (6) smoothing the wooden cubical shelf positioned above the table with a white and plastic texture (12 minutes), (7) tending the tall white vase with a gold rim supported by the toilet (8 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, start subtask 5, subtask 3, subtask 4, recheck subtask 5, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 13, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the white wicker basket <ref> </p>  within the area of the storage cabinet. (subtask 1)",
+        "name": "task_id: 13, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will maintain  <p> the circular, shiny white stainless steel plate <ref> </p>  positioned below the TV holding area. (subtask 2)",
+        "name": "task_id: 13, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will refresh  <p> the oblong-shaped, white wooden TV stand <ref> </p>  positioned below the wall shelf and supporting a flat screen TV. (subtask 3)",
+        "name": "task_id: 13, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will buff  <p> the elegant white spherical lamp <ref> </p>  above the brown leather armchair. (subtask 4)",
+        "name": "task_id: 13, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will start playing music on  <p> the black aluminum matte finish <ref> </p>  and leave it playing. (start subtask 5)",
+        "name": "task_id: 13, action_id: 4"
+    },
+    {
+        "text": "6.While the music is playing, I will smooth  <p> the wooden cubical shelf <ref> </p>  positioned above the table with a white and plastic texture. (subtask 6)",
+        "name": "task_id: 13, action_id: 5"
+    },
+    {
+        "text": "7.Before 17 minutes are up, I will return to stop the music on  <p> the black aluminum matte finish <ref> </p> . (recheck subtask 5)",
+        "name": "task_id: 13, action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will tune  <p> the tall white vase <ref> </p>  with a gold rim supported by the toilet. (subtask 7)",
+        "name": "task_id: 13, action_id: 7"
+    },
+    {
+        "text": "1.First, I will buff <p> the white wicker basket </p> within the area of the storage cabinet.",
+        "name": "Adataset_task_id: 13, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will maintain <p> the circular, shiny white stainless steel plate </p> positioned below the TV holding area.",
+        "name": "Adataset_task_id: 13, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will make use of <p> the black aluminum MacBook Pro </p> with a smooth, matte finish and a white screen to start playing relaxing music. This will continue for 17 minutes.",
+        "name": "Adataset_task_id: 13, dataset_action_id: 2"
+    },
+    {
+        "text": "4.After starting the music, I will refresh <p> the oblong-shaped, white wooden TV stand </p> positioned below the wall shelf and supporting a flat screen TV.",
+        "name": "Adataset_task_id: 13, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Then, I will buff <p> the elegant white spherical lamp </p> above the brown leather armchair.",
+        "name": "Adataset_task_id: 13, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before the 17 minutes are up, I will return to <p> the black aluminum MacBook Pro </p> and stop the music.",
+        "name": "Adataset_task_id: 13, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Next, I will smooth <p> the wooden cubical shelf </p> positioned above the table with a white and plastic texture.",
+        "name": "Adataset_task_id: 13, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will tend <p> the tall white vase </p> with a gold rim supported by the toilet.",
+        "name": "Adataset_task_id: 13, dataset_action_id: 7"
+    },
+    {
+        "question": "Please prepare the space to create a soothing atmosphere for relaxation, including (1) touching up the white wicker basket within the area of the storage cabinet (8 minutes), (2) refreshing the circular, shiny white stainless steel plate positioned below the TV holding area (9 minutes), (3) refreshing the oblong-shaped, white wooden TV stand positioned below the wall shelf and supporting a flat screen TV (8 minutes), (4) buffing the elegant white spherical lamp above the brown leather armchair (8 minutes), (5) utilizing the black aluminum MacBook Pro with a smooth, matte finish and a white screen to play relaxing music (28 minutes), (6) smoothing the wooden cubical shelf positioned above the table with a white and plastic texture (10 minutes), (7) maintaining the tall white vase with a gold rim supported by the toilet (10 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 3, subtask 4, start subtask 5, subtask 1, subtask 2, subtask 6, recheck subtask 5, subtask 7.\n",
+        "name": "Adataset_task_id: 14, task_info"
+    },
+    {
+        "text": " 1.First, I will touch up  <p> the white wicker basket <ref> </p>  within the area of the storage cabinet. (subtask 1)",
+        "name": "task_id: 14, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will refresh  <p> the circular, shiny white stainless steel plate <ref> </p>  positioned below the TV holding area. (subtask 2)",
+        "name": "task_id: 14, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will refresh  <p> the oblong-shaped, white wooden TV stand <ref> </p>  positioned below the wall shelf and supporting a flat screen TV. (subtask 3)",
+        "name": "task_id: 14, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will utilize  <p> the black aluminum matte finish <ref> </p>  and a white screen to play relaxing music. Once set, I can leave it while it plays. (start subtask 5)",
+        "name": "task_id: 14, action_id: 3"
+    },
+    {
+        "text": "5.While the music is playing, I will buff  <p> the elegant white spherical lamp <ref> </p>  above the brown leather armchair. (subtask 4)",
+        "name": "task_id: 14, action_id: 4"
+    },
+    {
+        "text": "6.Next, I will smooth  <p> the wooden cubical shelf <ref> </p>  positioned above the table with a white and plastic texture. (subtask 6)",
+        "name": "task_id: 14, action_id: 5"
+    },
+    {
+        "text": "7.Then, I will maintain  <p> the tall white vase <ref> </p>  with a gold rim supported by the toilet. (subtask 7)",
+        "name": "task_id: 14, action_id: 6"
+    },
+    {
+        "text": "8.Before 28 minutes are up, I will return to stop the music and turn off  <p> the black aluminum matte finish <ref> </p> . (recheck subtask 5)",
+        "name": "task_id: 14, action_id: 7"
+    },
+    {
+        "text": "1.First, I will refresh <p> the oblong-shaped, white wooden TV stand </p> positioned below the wall shelf and supporting a flat screen TV.",
+        "name": "Adataset_task_id: 14, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Thereafter, I will buff <p> the elegant white spherical lamp </p> above the brown leather armchair.",
+        "name": "Adataset_task_id: 14, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Afterwards, I will start the relaxing music on <p> the black aluminum MacBook Pro </p> with a smooth, matte finish and a white screen. Once set, I can leave it to play while I perform other tasks.",
+        "name": "Adataset_task_id: 14, dataset_action_id: 2"
+    },
+    {
+        "text": "4.While the music plays, I will touch up <p> the white wicker basket </p> within the area of the storage cabinet.",
+        "name": "Adataset_task_id: 14, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Later, I will refresh <p> the circular, shiny white stainless steel plate </p> positioned below the TV holding area.",
+        "name": "Adataset_task_id: 14, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Following that, I will smooth <p> the wooden cubical shelf </p> positioned above the table with a white and plastic texture.",
+        "name": "Adataset_task_id: 14, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before the 28 minutes are complete, I will return to stop the music on <p> the MacBook Pro </p>.",
+        "name": "Adataset_task_id: 14, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finishing up, I will maintain <p> the tall white vase </p> with a gold rim supported by the toilet.",
+        "name": "Adataset_task_id: 14, dataset_action_id: 7"
+    },
+    {
+        "question": "Please prepare the space to create a soothing atmosphere for relaxation, including (1) smoothing the white wicker basket within the area of the storage cabinet (8 minutes), (2) maintaining the circular, shiny white stainless steel plate positioned below the TV holding area (7 minutes), (3) tending the oblong-shaped, white wooden TV stand positioned below the wall shelf and supporting a flat screen TV (11 minutes), (4) brushing the elegant white spherical lamp above the brown leather armchair (7 minutes), (5) making use of the black aluminum MacBook Pro with a smooth, matte finish and a white screen to play relaxing music (15 minutes), (6) buffing the wooden cubical shelf positioned above the table with a white and plastic texture (8 minutes), (7) refreshing the tall white vase with a gold rim supported by the toilet (10 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 3, start subtask 5, subtask 2, subtask 4, recheck subtask 5, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 15, task_info"
+    },
+    {
+        "text": " 1.First, I will smooth  <p> the white wicker basket <ref> </p>  within the area of the storage cabinet. (subtask 1)",
+        "name": "task_id: 15, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will maintain  <p> the circular, shiny white stainless steel plate <ref> </p>  positioned below the TV holding area. (subtask 2)",
+        "name": "task_id: 15, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will tune  <p> the oblong-shaped, white wooden TV stand <ref> </p>  positioned below the wall shelf and supporting a flat screen TV. (subtask 3)",
+        "name": "task_id: 15, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will brush  <p> the elegant white spherical lamp <ref> </p>  above the brown leather armchair. (subtask 4)",
+        "name": "task_id: 15, action_id: 3"
+    },
+    {
+        "text": "5.Next, I will make use of  <p> the black aluminum matte finish <ref> </p>  and a white screen to play relaxing music. (subtask 5)",
+        "name": "task_id: 15, action_id: 4"
+    },
+    {
+        "text": "6.Then, I will buff  <p> the wooden cubical shelf <ref> </p>  positioned above the table with a white and plastic texture. (subtask 6)",
+        "name": "task_id: 15, action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will refresh  <p> the tall white vase <ref> </p>  with a gold rim supported by the toilet. (subtask 7)",
+        "name": "task_id: 15, action_id: 6"
+    },
+    {
+        "text": "1.First, I will smooth <p> the white wicker basket </p> within the area of the storage cabinet.",
+        "name": "Adataset_task_id: 15, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Following that, I will tend <p> the oblong-shaped, white wooden TV stand </p> positioned below the wall shelf and supporting a flat screen TV.",
+        "name": "Adataset_task_id: 15, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Next, I will start playing relaxing music on <p> the black aluminum MacBook Pro </p> with a smooth, matte finish and a white screen. During this period, I will leave it playing and move on to other tasks.",
+        "name": "Adataset_task_id: 15, dataset_action_id: 2"
+    },
+    {
+        "text": "4.While the music is playing, I will maintain <p> the circular, shiny white stainless steel plate </p> positioned below the TV holding area.",
+        "name": "Adataset_task_id: 15, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Following that, I will brush <p> the elegant white spherical lamp </p> above the brown leather armchair.",
+        "name": "Adataset_task_id: 15, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before 15 minutes are up, I will check the MacBook Pro and stop <p> the music </p>.",
+        "name": "Adataset_task_id: 15, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Following that, I will buff <p> the wooden cubical shelf </p> positioned above the table with a white and plastic texture.",
+        "name": "Adataset_task_id: 15, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will refresh <p> the tall white vase </p> with a gold rim supported by the toilet.",
+        "name": "Adataset_task_id: 15, dataset_action_id: 7"
+    },
+    {
+        "question": "Please prepare the space to create a soothing atmosphere for relaxation, including (1) smoothing the white wicker basket within the area of the storage cabinet (8 minutes), (2) refreshing the circular, shiny white stainless steel plate positioned below the TV holding area (12 minutes), (3) maintaining the oblong-shaped, white wooden TV stand positioned below the wall shelf and supporting a flat screen TV (11 minutes), (4) airing the elegant white spherical lamp above the brown leather armchair (10 minutes), (5) making use of the black aluminum MacBook Pro with a smooth, matte finish and a white screen to play relaxing music (20 minutes), (6) touching up the wooden cubical shelf positioned above the table with a white and plastic texture (10 minutes), (7) maintaining the tall white vase with a gold rim supported by the toilet (7 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 2, subtask 4, start subtask 5, subtask 1, subtask 3, recheck subtask 5, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 16, task_info"
+    },
+    {
+        "text": " 1.First, I will smooth  <p> the white wicker basket <ref> </p>  within the area of the storage cabinet. (subtask 1)",
+        "name": "task_id: 16, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will refresh  <p> the circular, shiny white stainless steel plate <ref> </p>  positioned below the TV holding area. (subtask 2)",
+        "name": "task_id: 16, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will maintain  <p> the oblong-shaped, white wooden TV stand <ref> </p>  positioned below the wall shelf and supporting a flat screen TV. (subtask 3)",
+        "name": "task_id: 16, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will air  <p> the elegant white spherical lamp <ref> </p>  above the brown leather armchair. (subtask 4)",
+        "name": "task_id: 16, action_id: 3"
+    },
+    {
+        "text": "5.Next, I will make use of  <p> the black aluminum matte finish and a white screen <ref> </p>  to play relaxing music. (subtask 5)",
+        "name": "task_id: 16, action_id: 4"
+    },
+    {
+        "text": "6.Then, I will touch up  <p> the wooden cubical shelf <ref> </p>  positioned above the table with a white and plastic texture. (subtask 6)",
+        "name": "task_id: 16, action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will maintain  <p> the tall white vase <ref> </p>  with a gold rim supported by the toilet. (subtask 7)",
+        "name": "task_id: 16, action_id: 6"
+    },
+    {
+        "text": "1.First, I will refresh <p> the circular, shiny white stainless steel plate </p> positioned below the TV holding area.",
+        "name": "Adataset_task_id: 16, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Thereafter, I will air <p> the elegant white spherical lamp </p> above the brown leather armchair.",
+        "name": "Adataset_task_id: 16, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Following that, I will start playing relaxing music on <p> the black aluminum MacBook Pro </p>. I will leave it playing while I continue with other tasks.",
+        "name": "Adataset_task_id: 16, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Next, I will smooth <p> the white wicker basket </p> within the area of the storage cabinet.",
+        "name": "Adataset_task_id: 16, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Afterwards, I will maintain <p> the oblong-shaped, white wooden TV stand </p> positioned below the wall shelf and supporting a flat screen TV.",
+        "name": "Adataset_task_id: 16, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before the 20 minutes are up, I will return to <p> the MacBook Pro </p> to stop the music and close it properly.",
+        "name": "Adataset_task_id: 16, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Next, I will touch up <p> the wooden cubical shelf </p> positioned above the table with a white and plastic texture.",
+        "name": "Adataset_task_id: 16, dataset_action_id: 6"
+    },
+    {
+        "text": "8.To finish, I will maintain <p> the tall white vase </p> with a gold rim supported by the toilet.",
+        "name": "Adataset_task_id: 16, dataset_action_id: 7"
+    },
+    {
+        "question": "Please prepare the space to create a soothing atmosphere for relaxation, including (1) smoothing the white wicker basket within the area of the storage cabinet (8 minutes), (2) maintaining the circular, shiny white stainless steel plate positioned below the TV holding area (10 minutes), (3) tending the oblong-shaped, white wooden TV stand positioned below the wall shelf and supporting a flat screen TV (12 minutes), (4) buffing the elegant white spherical lamp above the brown leather armchair (6 minutes), (5) utilizing the black aluminum MacBook Pro with a smooth, matte finish and a white screen to play relaxing music (17 minutes), (6) touching up the wooden cubical shelf positioned above the table with a white and plastic texture (14 minutes), (7) tending the tall white vase with a gold rim supported by the toilet (7 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 3, start subtask 5, subtask 2, subtask 4, recheck subtask 5, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 17, task_info"
+    },
+    {
+        "text": " 1.First, I will smooth  <p> the white wicker basket <ref> </p>  within the area of the storage cabinet. (subtask 1)",
+        "name": "task_id: 17, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will maintain  <p> the circular, shiny white stainless steel plate <ref> </p>  positioned below the TV holding area. (subtask 2)",
+        "name": "task_id: 17, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will tune  <p> the oblong-shaped, white wooden TV stand <ref> </p>  positioned below the wall shelf and supporting a flat screen TV. (subtask 3)",
+        "name": "task_id: 17, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will buff  <p> the elegant white spherical lamp <ref> </p>  above the brown leather armchair. (subtask 4)",
+        "name": "task_id: 17, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will utilize  <p> the black aluminum matte finish <ref> </p>  and a white screen to play relaxing music. Once set, I can leave it while it plays. (start subtask 5)",
+        "name": "task_id: 17, action_id: 4"
+    },
+    {
+        "text": "6.While the music is playing, I will tune  <p> the tall white vase <ref> </p>  with a gold rim supported by the toilet. (subtask 6)",
+        "name": "task_id: 17, action_id: 5"
+    },
+    {
+        "text": "7.Before 17 minutes are up, I will return to check and stop the music on  <p> the black aluminum matte finish <ref> </p> . (recheck subtask 5)",
+        "name": "task_id: 17, action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will tune  <p> the tall white vase <ref> </p>  with a gold rim supported by the toilet. (subtask 7)",
+        "name": "task_id: 17, action_id: 7"
+    },
+    {
+        "text": "1.First, I will smooth <p> the white wicker basket </p> within the area of the storage cabinet.",
+        "name": "Adataset_task_id: 17, dataset_action_id: 0"
+    },
+    {
+        "text": "2.In the next step, I will tend <p> the oblong-shaped, white wooden TV stand </p> positioned below the wall shelf and supporting a flat screen TV.",
+        "name": "Adataset_task_id: 17, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Later, I will utilize <p> the black aluminum MacBook Pro </p> with a smooth, matte finish and a white screen to play relaxing music. While the music is playing, I can perform other subtasks.",
+        "name": "Adataset_task_id: 17, dataset_action_id: 2"
+    },
+    {
+        "text": "4.After that, I will maintain <p> the circular, shiny white stainless steel plate </p> positioned below the TV holding area.",
+        "name": "Adataset_task_id: 17, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Thereafter, I will buff <p> the elegant white spherical lamp </p> above the brown leather armchair.",
+        "name": "Adataset_task_id: 17, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before 17 minutes are up as the relaxing music plays, I will return to <p> the MacBook Pro </p> and stop the music.",
+        "name": "Adataset_task_id: 17, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Subsequently, I will touch up <p> the wooden cubical shelf </p> positioned above the table with a white and plastic texture.",
+        "name": "Adataset_task_id: 17, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finishing up, I will tend <p> the tall white vase </p> with a gold rim supported by the toilet.",
+        "name": "Adataset_task_id: 17, dataset_action_id: 7"
+    },
+    {
+        "question": "Please prepare the space to create a soothing atmosphere for relaxation, including (1) smoothing the white wicker basket within the area of the storage cabinet (5 minutes), (2) tending the circular, shiny white stainless steel plate positioned below the TV holding area (6 minutes), (3) tending the oblong-shaped, white wooden TV stand positioned below the wall shelf and supporting a flat screen TV (9 minutes), (4) airing the elegant white spherical lamp above the brown leather armchair (9 minutes), (5) making use of the black aluminum MacBook Pro with a smooth, matte finish and a white screen to play relaxing music (24 minutes), (6) touching up the wooden cubical shelf positioned above the table with a white and plastic texture (8 minutes), (7) refreshing the tall white vase with a gold rim supported by the toilet (6 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, subtask 3, start subtask 5, subtask 4, subtask 6, subtask 7, recheck subtask 5.\n",
+        "name": "Adataset_task_id: 18, task_info"
+    },
+    {
+        "text": " 1.First, I will smooth  <p> the white wicker basket <ref> </p>  within the area of the storage cabinet. (subtask 1)",
+        "name": "task_id: 18, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will tune  <p> the circular, shiny white stainless steel plate <ref> </p>  positioned below the TV holding area. (subtask 2)",
+        "name": "task_id: 18, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will tune  <p> the oblong-shaped, white wooden TV stand <ref> </p>  positioned below the wall shelf and supporting a flat screen TV. (subtask 3)",
+        "name": "task_id: 18, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will make use of  <p> the black aluminum matte finish and a white screen <ref> </p>  to play relaxing music. (subtask 4)",
+        "name": "task_id: 18, action_id: 3"
+    },
+    {
+        "text": "5.Next, I will tune  <p> the oblong-shaped, white wooden TV stand <ref> </p>  positioned below the wall shelf and supporting a flat screen TV. (subtask 5)",
+        "name": "task_id: 18, action_id: 4"
+    },
+    {
+        "text": "6.Then, I will touch up  <p> the wooden cubical shelf <ref> </p>  positioned above the table with a white and plastic texture. (subtask 6)",
+        "name": "task_id: 18, action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will refresh  <p> the tall white vase <ref> </p>  with a gold rim supported by the toilet. (subtask 7)",
+        "name": "task_id: 18, action_id: 6"
+    },
+    {
+        "text": "1.First, I will smooth <p> the white wicker basket </p> within the area of the storage cabinet.",
+        "name": "Adataset_task_id: 18, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will tend <p> the circular, shiny white stainless steel plate </p> positioned below the TV holding area.",
+        "name": "Adataset_task_id: 18, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will tend <p> the oblong-shaped, white wooden TV stand </p> positioned below the wall shelf and supporting a flat screen TV.",
+        "name": "Adataset_task_id: 18, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will make use of <p> the black aluminum MacBook Pro </p> with a smooth, matte finish and a white screen to play relaxing music for 24 minutes.",
+        "name": "Adataset_task_id: 18, dataset_action_id: 3"
+    },
+    {
+        "text": "5.While the music is playing, I will air <p> the elegant white spherical lamp </p> above the brown leather armchair.",
+        "name": "Adataset_task_id: 18, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Next, I will touch up <p> the wooden cubical shelf </p> positioned above the table with a white and plastic texture.",
+        "name": "Adataset_task_id: 18, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Then, I will refresh <p> the tall white vase </p> with a gold rim supported by the toilet.",
+        "name": "Adataset_task_id: 18, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Before the 24 minutes are up, I will return to <p> the MacBook Pro </p> and stop playing the music.",
+        "name": "Adataset_task_id: 18, dataset_action_id: 7"
+    },
+    {
+        "question": "Please organize the living room to ensure a neat and welcoming environment, including (1) airing the circular, white metal lamp with a shiny finish placed on the cabinet (9 minutes), (2) rubbing the white, rectangular mirror with a black frame located to the right of the cabinet (9 minutes), (3) verifying that the wooden shelf with a triangular shape above the potted plant is dust-free (9 minutes), (4) brushing the wooden rectangular table with a smooth finish and a gray and white color scheme placed within the area of the leather sofa (12 minutes), (5) rubbing down the white shelf with a cubical shape above the table (6 minutes), (6) categorizing the contents of the white wicker basket with a lift-off lid placed within the cabinet area (8 minutes), (7) grouping the white glass-topped cabinet below another cabinet (8 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: None.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 19, task_info"
+    },
+    {
+        "text": " 1.First, I will air  <p> the circular, white metal lamp <ref> </p>  with a shiny finish placed on the cabinet. (subtask 1)",
+        "name": "task_id: 19, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will dust  <p> the white, rectangular mirror <ref> </p>  with a black frame located to the right of the cabinet. (subtask 2)",
+        "name": "task_id: 19, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will verify that  <p> the wooden shelf <ref> </p>  with a triangular shape above the potted plant is dust-free. (subtask 3)",
+        "name": "task_id: 19, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will brush  <p> the wooden rectangular table <ref> </p>  with a smooth finish and a gray and white color scheme placed within the area of the leather sofa. (subtask 4)",
+        "name": "task_id: 19, action_id: 3"
+    },
+    {
+        "text": "5.Next, I will dust down  <p> the white shelf <ref> </p>  with a cubical shape above the table. (subtask 5)",
+        "name": "task_id: 19, action_id: 4"
+    },
+    {
+        "text": "6.Then, I will categorize the contents of  <p> the white wicker basket <ref> </p>  with a lid placed within the cabinet area. (subtask 6)",
+        "name": "task_id: 19, action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will categorize the contents of  <p> the white glass-topped cabinet <ref> </p>  below another cabinet. (subtask 7)",
+        "name": "task_id: 19, action_id: 6"
+    },
+    {
+        "text": "1.First, I will air <p> the circular, white metal lamp </p> with a shiny finish placed on the cabinet.",
+        "name": "Adataset_task_id: 19, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will rub <p> the white, rectangular mirror </p> with a black frame located to the right of the cabinet.",
+        "name": "Adataset_task_id: 19, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will verify that <p> the wooden shelf </p> with a triangular shape above the potted plant is dust-free.",
+        "name": "Adataset_task_id: 19, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will brush <p> the wooden rectangular table </p> with a smooth finish and a gray and white color scheme placed within the area of the leather sofa.",
+        "name": "Adataset_task_id: 19, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Next, I will rub down <p> the white shelf </p> with a cubical shape above the table.",
+        "name": "Adataset_task_id: 19, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Subsequently, I will categorize the contents of <p> the white wicker basket </p> with a lift-off lid placed within the cabinet area.",
+        "name": "Adataset_task_id: 19, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Finally, I will group <p> the white glass-topped cabinet </p> below another cabinet.",
+        "name": "Adataset_task_id: 19, dataset_action_id: 6"
+    },
+    {
+        "question": "Please prepare the space to create a soothing atmosphere for relaxation, including (1) buffing the white wicker basket within the area of the storage cabinet (8 minutes), (2) refreshing the circular, shiny white stainless steel plate positioned below the TV holding area (11 minutes), (3) refreshing the oblong-shaped, white wooden TV stand positioned below the wall shelf and supporting a flat screen TV (9 minutes), (4) buffing the elegant white spherical lamp above the brown leather armchair (7 minutes), (5) utilizing the black aluminum MacBook Pro with a smooth, matte finish and a white screen to play relaxing music (13 minutes), (6) buffing the wooden cubical shelf positioned above the table with a white and plastic texture (9 minutes), (7) tending the tall white vase with a gold rim supported by the toilet (7 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 1, start subtask 5, subtask 2, recheck subtask 5, subtask 3, subtask 4, subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 20, task_info"
+    },
+    {
+        "text": " 1.First, I will buff  <p> the white wicker basket <ref> </p>  within the area of the storage cabinet. (subtask 1)",
+        "name": "task_id: 20, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will refresh  <p> the circular, shiny white stainless steel plate <ref> </p>  positioned below the TV holding area. (subtask 2)",
+        "name": "task_id: 20, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will refresh  <p> the oblong-shaped, white wooden TV stand <ref> </p>  positioned below the wall shelf and supporting a flat screen TV. (subtask 3)",
+        "name": "task_id: 20, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will start playing music on  <p> the black aluminum matte finish <ref> </p>  and leave it playing. (start subtask 5)",
+        "name": "task_id: 20, action_id: 3"
+    },
+    {
+        "text": "5.While the music is playing, I will buff  <p> the elegant white spherical lamp <ref> </p>  above the brown leather armchair. (subtask 4)",
+        "name": "task_id: 20, action_id: 4"
+    },
+    {
+        "text": "6.Before 13 minutes are up, I will return to stop the music on  <p> the black aluminum matte finish <ref> </p> . (recheck subtask 5)",
+        "name": "task_id: 20, action_id: 5"
+    },
+    {
+        "text": "7.Next, I will buff  <p> the wooden cubical shelf <ref> </p>  positioned above the table with a white and plastic texture. (subtask 6)",
+        "name": "task_id: 20, action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will tune  <p> the tall white vase <ref> </p>  with a gold rim supported by the toilet. (subtask 7)",
+        "name": "task_id: 20, action_id: 7"
+    },
+    {
+        "text": "1.First, I will buff <p> the white wicker basket </p> within the area of the storage cabinet.",
+        "name": "Adataset_task_id: 20, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Then, I will utilize <p> the black aluminum MacBook Pro </p> with a smooth, matte finish and a white screen to start playing relaxing music for 13 minutes.",
+        "name": "Adataset_task_id: 20, dataset_action_id: 1"
+    },
+    {
+        "text": "3.While the music is playing, I will refresh <p> the circular, shiny white stainless steel plate </p> positioned below the TV holding area.",
+        "name": "Adataset_task_id: 20, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Before 13 minutes are up, I will return to <p> the MacBook Pro </p> to stop the music.",
+        "name": "Adataset_task_id: 20, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Next, I will refresh <p> the oblong-shaped, white wooden TV stand </p> positioned below the wall shelf and supporting a flat screen TV.",
+        "name": "Adataset_task_id: 20, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Afterward, I will buff <p> the elegant white spherical lamp </p> above the brown leather armchair.",
+        "name": "Adataset_task_id: 20, dataset_action_id: 5"
+    },
+    {
+        "text": "7.I will then buff <p> the wooden cubical shelf </p> positioned above the table with a white and plastic texture.",
+        "name": "Adataset_task_id: 20, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will tend <p> the tall white vase </p> with a gold rim supported by the toilet.",
+        "name": "Adataset_task_id: 20, dataset_action_id: 7"
+    },
+    {
+        "question": "Please arrange the living room area for a cozy reading experience, including (1) preparing the white plastic chair with a spherical shape and oblong 3D form near the plastic table (8 minutes), (2) touching up the black flat screen TV resting on the top of the TV stand (13 minutes), (3) buffing the white and green octopus-shaped puppet made of cloth beside the toilet (4 minutes), (4) activating on the white glass table lamp with a shiny metal structure placed on the TV stand for illumination (16 minutes), (5) refreshing the brown, grey, or beige rectangular leather sofa adjacent to the wooden cabinet (12 minutes), (6) brushing the surface of the brown leather armchair with a dark upholstery lower than the lamp (11 minutes), (7) rubbing down the rectangular wooden table with a gray and white color scheme next to the leather sofa (7 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 5, subtask 6, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 4.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, start subtask 4, subtask 3, subtask 6, recheck subtask 4, subtask 5, subtask 7.\n",
+        "name": "Adataset_task_id: 21, task_info"
+    },
+    {
+        "text": " 1.First, I will prepare  <p> the white plastic chair <ref> </p>  with a spherical shape and oblong 3D form near the plastic table. (subtask 1)",
+        "name": "task_id: 21, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will touch up  <p> the black flat screen TV <ref> </p>  resting on the top of the TV stand. (subtask 2)",
+        "name": "task_id: 21, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will buff  <p> the white and green octopus-shaped poly <ref> </p>  made of cloth beside the toilet. (subtask 3)",
+        "name": "task_id: 21, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will refresh  <p> the brown, grey, or beige rectangular leather sofa <ref> </p>  adjacent to the wooden cabinet. (subtask 5)",
+        "name": "task_id: 21, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will activate on  <p> the white glass table lamp <ref> </p>  with a shiny metal structure placed on the TV stand for illumination. (start subtask 4)",
+        "name": "task_id: 21, action_id: 4"
+    },
+    {
+        "text": "6.While the lamp is on, I will brush the surface of  <p> the brown leather armchair <ref> </p>  with a dark upholstery lower than the lamp. (subtask 6)",
+        "name": "task_id: 21, action_id: 5"
+    },
+    {
+        "text": "7.Before 16 minutes are up, I will return to turn off  <p> the white glass table lamp <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 21, action_id: 6"
+    },
+    {
+        "text": "8.Finally, I will dust  <p> the rug <ref> </p>  with a gray and white color scheme next to the leather sofa. (subtask 7)",
+        "name": "task_id: 21, action_id: 7"
+    },
+    {
+        "text": "1.First, I will prepare <p> the white plastic chair </p> with a spherical shape and oblong 3D form near the plastic table.",
+        "name": "Adataset_task_id: 21, dataset_action_id: 0"
+    },
+    {
+        "text": "2.After that, I will touch up <p> the black flat screen TV </p> resting on the top of the TV stand.",
+        "name": "Adataset_task_id: 21, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will activate on <p> the white glass table lamp </p> with a shiny metal structure placed on the TV stand for illumination. I can leave it on as I perform the next task.",
+        "name": "Adataset_task_id: 21, dataset_action_id: 2"
+    },
+    {
+        "text": "4.While the lamp is on, I will buff <p> the white and green octopus-shaped puppet </p> made of cloth beside the toilet.",
+        "name": "Adataset_task_id: 21, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Then, I will brush the surface of <p> the brown leather armchair </p> with a dark upholstery lower than the lamp.",
+        "name": "Adataset_task_id: 21, dataset_action_id: 4"
+    },
+    {
+        "text": "6.At the end of or before the 16 minutes for the lamp are up, I will ensure the illumination is appropriate and turn off <p> the white glass table lamp </p>.",
+        "name": "Adataset_task_id: 21, dataset_action_id: 5"
+    },
+    {
+        "text": "7.In the next step, I will refresh <p> the brown, grey, or beige rectangular leather sofa </p> adjacent to the wooden cabinet.",
+        "name": "Adataset_task_id: 21, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Finishing up, I will rub down <p> the rectangular wooden table </p> with a gray and white color scheme next to the leather sofa.",
+        "name": "Adataset_task_id: 21, dataset_action_id: 7"
+    }
+]

@@ -1,0 +1,177 @@
+[
+    {
+        "question": "Please organize and clean the kitchen area while ensuring optimal functionality of the appliances, including (1) refreshing the wooden chair in front of the round wooden coffee table and to the left of the metallic chair with a folding design (7 minutes), (2) brushing the round wooden coffee table with a smooth texture, supporting a backpack and a blue bag, next to another table in the conference room (8 minutes), (3) touching up the surface of the double bowl stainless steel sink placed within the stainless steel cabinets (8 minutes), (4) brushing down the sleek stainless steel cabinets beside the white column and above the dishwasher (11 minutes), (5) maintaining the blue and white neoprene backpack resting on top of the round wooden coffee table with a glass top, located in the conference room (7 minutes), (6) putting into action the stainless steel dishwasher with a modern design, located within the stainless steel cabinets, to clean the load (32 minutes), (7) touching up the smooth, shiny surface of the stainless steel microwave located inside the stainless steel cabinets (10 minutes).",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 6.\n<plan> I will complete the subtasks in the optimal order: subtask 4, start subtask 6, subtask 1, subtask 2, subtask 3, subtask 5, recheck subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 0, task_info"
+    },
+    {
+        "text": "1.First, I will brush down <p> the sleek stainless steel cabinets </p> beside the white column and above the dishwasher. (subtask 4)",
+        "name": "Adataset_task_id: 0, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Subsequently, I will start running <p> the stainless steel dishwasher </p> with a modern design, located within the stainless steel cabinets, to clean the load. Since it does not require my continuous attention, I can perform other tasks. (start subtask 6)",
+        "name": "Adataset_task_id: 0, dataset_action_id: 1"
+    },
+    {
+        "text": "3.While the dishwasher is running, I will refresh <p> the wooden chair </p> in front of the round wooden coffee table and to the left of the metallic chair with a folding design. (subtask 1)",
+        "name": "Adataset_task_id: 0, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterwards, I will brush <p> the round wooden coffee table </p> with a smooth texture, supporting a backpack and a blue bag, next to another table in the conference room. (subtask 2)",
+        "name": "Adataset_task_id: 0, dataset_action_id: 3"
+    },
+    {
+        "text": "5.In the next step, I will touch up the surface of <p> the double bowl stainless steel sink </p> placed within the stainless steel cabinets. (subtask 3)",
+        "name": "Adataset_task_id: 0, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Afterwards, I will maintain <p> the blue and white neoprene backpack </p> resting on top of the round wooden coffee table with a glass top, located in the conference room. (subtask 5)",
+        "name": "Adataset_task_id: 0, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before 32 minutes are up, I will return to check if the load has been properly cleaned and finish the task by turning off <p> the dishwasher </p>. (recheck subtask 6)",
+        "name": "Adataset_task_id: 0, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Lastly, I will touch up the smooth, shiny surface of <p> the stainless steel microwave </p> located inside the stainless steel cabinets. (subtask 7)",
+        "name": "Adataset_task_id: 0, dataset_action_id: 7"
+    },
+    {
+        "question": "Please organize and clean the kitchen area while ensuring optimal functionality of the appliances, including (1) refreshing the wooden chair in front of the round wooden coffee table and to the left of the metallic chair with a folding design (6 minutes), (2) airing the round wooden coffee table with a smooth texture, supporting a backpack and a blue bag, next to another table in the conference room (11 minutes), (3) touching up the surface of the double bowl stainless steel sink placed within the stainless steel cabinets (6 minutes), (4) brushing down the sleek stainless steel cabinets beside the white column and above the dishwasher (11 minutes), (5) tending the blue and white neoprene backpack resting on top of the round wooden coffee table with a glass top, located in the conference room (6 minutes), (6) executing the stainless steel dishwasher with a modern design, located within the stainless steel cabinets, to clean the load (26 minutes), (7) buffing the smooth, shiny surface of the stainless steel microwave located inside the stainless steel cabinets (12 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 6.\n<plan> I will complete the subtasks in the optimal order: subtask 2, subtask 4, subtask 5, start subtask 6, subtask 1, subtask 3, subtask 7, recheck subtask 6.\n",
+        "name": "Adataset_task_id: 1, task_info"
+    },
+    {
+        "text": " 1.First, I will refresh  <p> the wooden chair <ref> </p>  in front of the round wooden coffee table and to the left of the metallic chair with a folding design. (subtask 1)",
+        "name": "task_id: 1, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will dust  <p> the sleek stainless steel cabinets <ref> </p>  beside the white column and above the dishwasher. (subtask 3)",
+        "name": "task_id: 1, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will brush down  <p> the sleek stainless steel cabinets <ref> </p>  beside the white column and above the dishwasher. (subtask 4)",
+        "name": "task_id: 1, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will tune  <p> the blue and white neoprene backpack <ref> </p>  resting on top of the round wooden coffee table with a glass top, located in the conference room. (subtask 5)",
+        "name": "task_id: 1, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will start the process of airing  <p> the round wooden coffee table <ref> </p>  with a smooth texture, supporting a backpack and a blue bag, next to another table in the conference room. (start subtask 2)",
+        "name": "task_id: 1, action_id: 4"
+    },
+    {
+        "text": "6.While the coffee table is airing, I will execute  <p> the stainless steel dishwasher <ref> </p>  with a modern design, located within the stainless steel cabinets, to clean the load. (subtask 6)",
+        "name": "task_id: 1, action_id: 5"
+    },
+    {
+        "text": "7.Next, I will buff the smooth, shiny surface of  <p> the stainless steel microwave <ref> </p>  located inside the stainless steel cabinets. (subtask 7)",
+        "name": "task_id: 1, action_id: 6"
+    },
+    {
+        "text": "8.Before 26 minutes are up, I will return to check and finish the airing of  <p> the round wooden coffee table <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 1, action_id: 7"
+    },
+    {
+        "text": "1.First, I will air <p> the round wooden coffee table </p> with a smooth texture, supporting a backpack and a blue bag, next to another table in the conference room.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will brush down <p> the sleek stainless steel cabinets </p> beside the white column and above the dishwasher.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Following that, I will tend <p> the blue and white neoprene backpack </p> resting on top of the round wooden coffee table with a glass top in the conference room.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 2"
+    },
+    {
+        "text": "4.After that, I will start running <p> the stainless steel dishwasher </p> with a modern design, located within the stainless steel cabinets, to clean the load. It takes 26 minutes.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 3"
+    },
+    {
+        "text": "5.While the dishwasher is running, I will refresh <p> the wooden chair </p> in front of the round wooden coffee table and to the left of the metallic chair with a folding design.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Subsequently, I will touch up the surface of <p> the double bowl stainless steel sink </p> placed within the stainless steel cabinets.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Next, I will buff the smooth, shiny surface of <p> the stainless steel microwave </p> located inside the stainless steel cabinets.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 6"
+    },
+    {
+        "text": "8.Before the 26 minutes are up, I will return to finish checking that the load is properly cleaned and stop <p> the stainless steel dishwasher </p>.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 7"
+    },
+    {
+        "question": "Please organize and clean the kitchen area while ensuring optimal functionality of the appliances, including (1) refreshing the wooden chair in front of the round wooden coffee table and to the left of the metallic chair with a folding design (6 minutes), (2) airing the round wooden coffee table with a smooth texture, supporting a backpack and a blue bag, next to another table in the conference room (8 minutes), (3) smoothing the surface of the double bowl stainless steel sink placed within the stainless steel cabinets (7 minutes), (4) rubbing down the sleek stainless steel cabinets beside the white column and above the dishwasher (9 minutes), (5) refreshing the blue and white neoprene backpack resting on top of the round wooden coffee table with a glass top, located in the conference room (6 minutes), (6) putting into action the stainless steel dishwasher with a modern design, located within the stainless steel cabinets, to clean the load (21 minutes), (7) touching up the smooth, shiny surface of the stainless steel microwave located inside the stainless steel cabinets (9 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4, subtask 5, subtask 7.\nSubtasks that do not need continuous attention to operate: subtask 6.\n<plan> I will complete the subtasks in the optimal order: subtask 3, subtask 4, start subtask 6, subtask 1, subtask 2, subtask 5, recheck subtask 6, subtask 7.\n",
+        "name": "Adataset_task_id: 2, task_info"
+    },
+    {
+        "text": " 1.First, I will refresh  <p> the wooden chair <ref> </p>  in front of the round wooden coffee table and to the left of the metallic chair with a folding design. (subtask 1)",
+        "name": "task_id: 2, action_id: 0"
+    },
+    {
+        "text": "2.Next, I will polish the surface of  <p> the double bowl stainless steel sink <ref> </p>  placed within the stainless steel cabinets. (subtask 3)",
+        "name": "task_id: 2, action_id: 1"
+    },
+    {
+        "text": "3.Then, I will dust  <p> the sleek stainless steel cabinets <ref> </p>  beside the white column and above the dishwasher. (subtask 4)",
+        "name": "task_id: 2, action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will refresh  <p> the blue and white neoprene backpack <ref> </p>  resting on top of the round wooden coffee table with a glass top, located in the conference room. (subtask 5)",
+        "name": "task_id: 2, action_id: 3"
+    },
+    {
+        "text": "5.Then, I will start by opening  <p> the stainless steel dishwasher <ref> </p>  with a modern design, located within the stainless steel cabinets, to clean the load. (start subtask 2)",
+        "name": "task_id: 2, action_id: 4"
+    },
+    {
+        "text": "6.While the dishwasher is airing, I will polish  <p> the smooth, shiny surface <ref> </p>  of  <p> the stainless steel microwave <ref> </p>  located inside the stainless steel cabinets. (subtask 6)",
+        "name": "task_id: 2, action_id: 5"
+    },
+    {
+        "text": "7.Next, I will touch up the smooth, shiny surface of  <p> the stainless steel microwave <ref> </p>  located inside the stainless steel cabinets. (subtask 7)",
+        "name": "task_id: 2, action_id: 6"
+    },
+    {
+        "text": "8.Before 21 minutes are up, I will return to close  <p> the stainless steel dishwasher <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 2, action_id: 7"
+    },
+    {
+        "text": "1.First, I will smooth the surface of <p> the double bowl stainless steel sink </p> placed within the stainless steel cabinets.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will rub down <p> the sleek stainless steel cabinets </p> beside the white column and above the dishwasher.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Later, I will put into action <p> the stainless steel dishwasher </p> with a modern design, located within the stainless steel cabinets, to clean the load. I can leave the dishwasher to operate while I do other tasks.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 2"
+    },
+    {
+        "text": "4.While the dishwasher is running, I will refresh <p> the wooden chair </p> in front of the round wooden coffee table and to the left of the metallic chair with a folding design.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Afterwards, I will air <p> the round wooden coffee table </p> with a smooth texture, supporting a backpack and a blue bag, next to another table in the conference room.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Afterwards, I will refresh <p> the blue and white neoprene backpack </p> resting on top of the round wooden coffee table with a glass top located in the conference room.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 5"
+    },
+    {
+        "text": "7.Before the 21 minutes are up, I will return to check on <p> the stainless steel dishwasher </p> and complete the task by ensuring the load is properly cleaned.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 6"
+    },
+    {
+        "text": "8.To finish, I will touch up the smooth, shiny surface of <p> the stainless steel microwave </p> located inside the stainless steel cabinets.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 7"
+    }
+]

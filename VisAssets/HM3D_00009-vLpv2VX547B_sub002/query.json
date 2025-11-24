@@ -1,0 +1,133 @@
+[
+    {
+        "question": "Please organize and clean the kitchen for better functionality, including (1) brushing the range hood which is higher than a stovetop and a tray (8 minutes), (2) airing the kitchen cabinet below the range hood (6 minutes), (3) buffing the stovetop that is supporting a tray, higher than a chest, and below the range hood (10 minutes), (4) leveraging the oven lower than a kitchen cabinet to bake a dish (39 minutes), (5) tending the toaster aligned with multiple bottles and a soap dispenser (13 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 4.\n<plan> I will complete the subtasks in the optimal order: start subtask 4, subtask 1, subtask 2, subtask 3, subtask 5, recheck subtask 4.\n",
+        "name": "Adataset_task_id: 0, task_info"
+    },
+    {
+        "text": "2.Next, I will air  <p> the kitchen cabinet <ref> </p>  below the range hood. (subtask 2)",
+        "name": "task_id: 0, action_id: 0"
+    },
+    {
+        "text": "3.Then, I will start  <p> the oven <ref> </p>  lower than a kitchen cabinet to bake a dish. Once set, I can leave it while it bakes. (start subtask 4)",
+        "name": "task_id: 0, action_id: 1"
+    },
+    {
+        "text": "5.Next, I will tune  <p> the toaster <ref> </p>  aligned with multiple bottles and a soap dispenser. (subtask 5)",
+        "name": "task_id: 0, action_id: 2"
+    },
+    {
+        "text": "6.Before the 39 minutes are up, I will return to check if the dish is baked and turn off  <p> the oven <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 0, action_id: 3"
+    },
+    {
+        "text": "1.First, I will leverage <p> the oven </p> lower than a kitchen cabinet to start baking a dish. Once initiated, I can leave it to bake while I perform other tasks.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will brush <p> the range hood </p> which is higher than a stovetop and a tray.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will air <p> the kitchen cabinet </p> below the range hood.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will buff <p> the stovetop </p> that is supporting a tray, higher than a chest, and below the range hood.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Subsequently, I will tend <p> the toaster </p> aligned with multiple bottles and a soap dispenser.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Finally, I will return to <p> the oven </p> and check the dish before the 39 minutes are up, and finish the baking process.",
+        "name": "Adataset_task_id: 0, dataset_action_id: 5"
+    },
+    {
+        "question": "Please organize and clean the kitchen for better functionality, including (1) buffing the range hood which is higher than a stovetop and a tray (5 minutes), (2) airing the kitchen cabinet below the range hood (6 minutes), (3) buffing the stovetop that is supporting a tray, higher than a chest, and below the range hood (12 minutes), (4) utilizing the oven lower than a kitchen cabinet to bake a dish (26 minutes), (5) refreshing the toaster aligned with multiple bottles and a soap dispenser (12 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 5.\nSubtasks that do not need continuous attention to operate: subtask 4.\n<plan> I will complete the subtasks in the optimal order: subtask 1, subtask 2, start subtask 4, subtask 3, subtask 5, recheck subtask 4.\n",
+        "name": "Adataset_task_id: 1, task_info"
+    },
+    {
+        "text": "2.Then, I will start utilizing  <p> the oven <ref> </p>  lower than a kitchen cabinet to bake a dish. Once set, I can leave it while it bakes. (start subtask 4)",
+        "name": "task_id: 1, action_id: 0"
+    },
+    {
+        "text": "3.While the dish is baking, I will air  <p> the kitchen cabinet <ref> </p>  below the range hood. (subtask 2)",
+        "name": "task_id: 1, action_id: 1"
+    },
+    {
+        "text": "5.Before 26 minutes are up, I will return to check if the dish is baked and turn off  <p> the oven <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 1, action_id: 2"
+    },
+    {
+        "text": "6.Finally, I will refresh  <p> the toaster <ref> </p>  aligned with multiple bottles and a soap dispenser. (subtask 5)",
+        "name": "task_id: 1, action_id: 3"
+    },
+    {
+        "text": "1.First, I will buff <p> the range hood </p> which is higher than a stovetop and a tray.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will air <p> the kitchen cabinet </p> below the range hood.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will start <p> the oven </p> to bake a dish. Once set, I can leave it while it bakes.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 2"
+    },
+    {
+        "text": "4.During the baking time, I will buff <p> the stovetop </p> that is supporting a tray, higher than a chest, and below the range hood.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 3"
+    },
+    {
+        "text": "5.After that, I will refresh <p> the toaster </p> aligned with multiple bottles and a soap dispenser.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before 26 minutes are up, I will return to check if the dish is properly baked and turn off <p> the oven </p>.",
+        "name": "Adataset_task_id: 1, dataset_action_id: 5"
+    },
+    {
+        "question": "Please tidy up the dining area for an enjoyable meal, including (1) brushing the chair below the lamp and within the dining table area (7 minutes), (2) buffing the cup inside a coffee maker (5 minutes), (3) treating down the paper towel on the stovetop's top, 12 o'clock direction from a tray (7 minutes), (4) refreshing the dining table lower than the lamp (8 minutes), (5) activating on the lamp above the chair for additional lighting (22 minutes) (with grounding)",
+        "thinking": "Subtasks that require continuous attention to operate: subtask 1, subtask 2, subtask 3, subtask 4.\nSubtasks that do not need continuous attention to operate: subtask 5.\n<plan> I will complete the subtasks in the optimal order: subtask 1, start subtask 5, subtask 2, subtask 3, subtask 4, recheck subtask 5.\n",
+        "name": "Adataset_task_id: 2, task_info"
+    },
+    {
+        "text": "2.Then, I will activate on  <p> the lamp <ref> </p>  above the chair for additional lighting. Once set, I can leave it while it provides light. (start subtask 5)",
+        "name": "task_id: 2, action_id: 0"
+    },
+    {
+        "text": "5.Then, I will refresh  <p> the dining table <ref> </p>  lower than the lamp. (subtask 4)",
+        "name": "task_id: 2, action_id: 1"
+    },
+    {
+        "text": "6.Before 22 minutes are up, I will return to turn off  <p> the lamp <ref> </p> . (recheck subtask 5)",
+        "name": "task_id: 2, action_id: 2"
+    },
+    {
+        "text": "1.First, I will brush <p> the chair </p> below the lamp and within the dining table area.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 0"
+    },
+    {
+        "text": "2.Next, I will activate on <p> the lamp </p> above the chair for additional lighting to enhance visibility, and let it remain on.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 1"
+    },
+    {
+        "text": "3.Then, I will buff <p> the cup </p> inside a coffee maker.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 2"
+    },
+    {
+        "text": "4.Afterward, I will treat down <p> the paper towel </p> on the stovetop's top, located at the 12 o'clock direction from a tray.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 3"
+    },
+    {
+        "text": "5.Next, I will refresh <p> the dining table </p> which is lower than the lamp.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 4"
+    },
+    {
+        "text": "6.Before 22 minutes have elapsed, I will return to turn off <p> the lamp </p> , ensuring it served its purpose for the required time.",
+        "name": "Adataset_task_id: 2, dataset_action_id: 5"
+    }
+]

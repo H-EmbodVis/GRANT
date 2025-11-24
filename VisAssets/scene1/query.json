@@ -1,0 +1,422 @@
+[
+    {
+        "text": "First, I will tune  <p> the smooth, flat screen <ref> </p>  of  <p> the black TV <ref> </p>  made of glass and metal, mounted above the shoe rack. (subtask 2)",
+        "name": "task_id: 0, action_id: 0"
+    },
+    {
+        "text": "Subsequently, I will open  <p> the white, wooden, smooth sliding door <ref> </p>  to improve air circulation. (start subtask 4)",
+        "name": "task_id: 0, action_id: 1"
+    },
+    {
+        "text": "While the door is open, I will brush down the surface of  <p> the white, rectangular wooden table <ref> </p>  with a smooth surface, located to the right of the shoe rack and to the right of the box. (subtask 1)",
+        "name": "task_id: 0, action_id: 2"
+    },
+    {
+        "text": "Next, I will tune  <p> the smooth, flat screen <ref> </p>  of  <p> the black TV <ref> </p>  made of glass and metal, mounted above the shoe rack. (subtask 3)",
+        "name": "task_id: 0, action_id: 3"
+    },
+    {
+        "text": "Before 18 minutes are up, I will return to close  <p> the white, wooden, smooth sliding door <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 0, action_id: 4"
+    },
+    {
+        "text": "Finally, I will buff  <p> the white, spherical lamp <ref> </p>  made of stainless steel, plastic, or glass above the bed. (subtask 5)",
+        "name": "task_id: 0, action_id: 5"
+    },
+    {
+        "text": "<s>First, I will open  <p> the smooth black material <ref> </p>  with a mirror in front of the chair and bed to allow natural light. (start subtask 2)",
+        "name": "task_id: 1, action_id: 0"
+    },
+    {
+        "text": "While the curtain is open, I will uncover  <p> the glass-door <ref> </p>  , white wardrobe with a mirror in front of the chair and bed. (subtask 1)",
+        "name": "task_id: 1, action_id: 1"
+    },
+    {
+        "text": "Next, I will place  <p> the blackout curtain <ref> </p>  , made of smooth black material, open to allow natural light. (subtask 3)",
+        "name": "task_id: 1, action_id: 2"
+    },
+    {
+        "text": "Before 22 minutes are up, I will return to close  <p> the curtain <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 1, action_id: 3"
+    },
+    {
+        "text": "Finally, I will monitor  <p> the white, plastic, or metal shoe rack <ref> </p>  with a triangular shape, located to the right of the box. (subtask 5)",
+        "name": "task_id: 1, action_id: 4"
+    },
+    {
+        "text": "<s>First, I will open  <p> the blackout curtain <ref> </p>  made of smooth black material to allow natural light. (start subtask 2)",
+        "name": "task_id: 2, action_id: 0"
+    },
+    {
+        "text": "While the curtain is open, I will reveal  <p> the glass-door <ref> </p>  , white wardrobe with a mirror in front of the chair and bed. (subtask 1)",
+        "name": "task_id: 2, action_id: 1"
+    },
+    {
+        "text": "Before 19 minutes are up, I will return to close  <p> the blackout curtain <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 2, action_id: 2"
+    },
+    {
+        "text": "Next, I will rub the smooth wooden surface of  <p> the white, cube-shaped nightstand <ref> </p>  aligned with another nightstand and below a lamp. (subtask 3)",
+        "name": "task_id: 2, action_id: 3"
+    },
+    {
+        "text": "Finally, I will smooth  <p> the white chair <ref> </p>  with a spherical shape and smooth texture in front of the box and to the left of the table. (subtask 4)",
+        "name": "task_id: 2, action_id: 4"
+    },
+    {
+        "text": "First, I will start by dusting  <p> the stainless steel and plastic air conditioner <ref> </p>  with a shiny exterior and smooth texture. (subtask 1)",
+        "name": "task_id: 3, action_id: 0"
+    },
+    {
+        "text": "Next, I will brush  <p> the white, wooden nightstand <ref> </p>  with a smooth texture beneath a lamp, aligned with another nightstand. (subtask 2)",
+        "name": "task_id: 3, action_id: 1"
+    },
+    {
+        "text": "Then, I will start to unseal  <p> the white, wooden, rectangular door <ref> </p>  to ventilate the space. (start subtask 3)",
+        "name": "task_id: 3, action_id: 2"
+    },
+    {
+        "text": "While the door is ventilating, I will buff the surface of  <p> the black or white glass lamp <ref> </p>  made of metal, above the other nightstand. (subtask 4)",
+        "name": "task_id: 3, action_id: 3"
+    },
+    {
+        "text": "Before 15 minutes are up, I will return to check and finish the ventilation of  <p> the white, wooden, rectangular door <ref> </p> . (recheck subtask 3)",
+        "name": "task_id: 3, action_id: 4"
+    },
+    {
+        "text": "Finally, I will tune  <p> the arrange items <ref> </p>  in  <p> the white, square box <ref> </p>  with a smooth texture, near the bed and far from the wardrobe. (subtask 5)",
+        "name": "task_id: 3, action_id: 5"
+    },
+    {
+        "text": "First, I will start by cleaning the surface of  <p> the white, rectangular wooden table <ref> </p>  with a smooth surface, located to the right of the shoe rack and to the right of the box. (subtask 1)",
+        "name": "task_id: 4, action_id: 0"
+    },
+    {
+        "text": "Next, I will open  <p> the white, wooden, smooth sliding door <ref> </p>  to improve air circulation. (start subtask 4)",
+        "name": "task_id: 4, action_id: 1"
+    },
+    {
+        "text": "While the door is open, I will refresh the smooth, flat screen of  <p> the black TV <ref> </p>  made of glass and metal, mounted above the shoe rack. (subtask 2)",
+        "name": "task_id: 4, action_id: 2"
+    },
+    {
+        "text": "Then, I will buff  <p> the white, smooth-textured picture <ref> </p>  above the nightstand. (subtask 3)",
+        "name": "task_id: 4, action_id: 3"
+    },
+    {
+        "text": "Before 18 minutes are up, I will return to close  <p> the white, wooden, smooth sliding door <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 4, action_id: 4"
+    },
+    {
+        "text": "Finally, I will air  <p> the white, spherical lamp <ref> </p>  made of stainless steel, plastic, or glass above the bed. (subtask 5)",
+        "name": "task_id: 4, action_id: 5"
+    },
+    {
+        "text": "<s>First, I will reveal  <p> the glass-door <ref> </p>  , white wardrobe with a mirror in front of the chair and bed. (subtask 1)",
+        "name": "task_id: 5, action_id: 0"
+    },
+    {
+        "text": "Next, I will open  <p> the glass-door <ref> </p>  , white wardrobe with a mirror in front of the chair and bed to allow natural light. (start subtask 2)",
+        "name": "task_id: 5, action_id: 1"
+    },
+    {
+        "text": "While the wardrobe is open, I will continue to tidy up the smooth wooden surface of  <p> the white, cube-shaped nightstand <ref> </p>  aligned with another nightstand and below a lamp. (subtask 4)",
+        "name": "task_id: 5, action_id: 2"
+    },
+    {
+        "text": "Subsequently, I will verify  <p> the white, plastic, or metal shoe rack <ref> </p>  with a triangular shape is well organized, located to the right of the box. (subtask 5)",
+        "name": "task_id: 5, action_id: 3"
+    },
+    {
+        "text": "Before 18 minutes are up, I will return to close  <p> the glass-door <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 5, action_id: 4"
+    },
+    {
+        "text": "Finally, I will place  <p> the blackout curtain <ref> </p>  , made of smooth black material, open to allow natural light. (subtask 3)",
+        "name": "task_id: 5, action_id: 5"
+    },
+    {
+        "text": "First, I will dust  <p> the stainless steel and plastic air conditioner <ref> </p>  with a shiny exterior and smooth texture. (subtask 1)",
+        "name": "task_id: 6, action_id: 0"
+    },
+    {
+        "text": "Next, I will buff  <p> the white, wooden nightstand <ref> </p>  with a smooth texture beneath a lamp, aligned with another nightstand. (subtask 2)",
+        "name": "task_id: 6, action_id: 1"
+    },
+    {
+        "text": "Then, I will make accessible  <p> the white, wooden, rectangular door <ref> </p>  to ventilate the space. (subtask 3)",
+        "name": "task_id: 6, action_id: 2"
+    },
+    {
+        "text": "Afterward, I will smooth the surface of  <p> the black or white glass lamp <ref> </p>  made of metal, above the other nightstand. (subtask 4)",
+        "name": "task_id: 6, action_id: 3"
+    },
+    {
+        "text": "Finally, I will tune  <p> the tending and arranging items <ref> </p>  in  <p> the white, square box <ref> </p>  with a smooth texture, near the bed and far from the wardrobe. (subtask 5)",
+        "name": "task_id: 6, action_id: 4"
+    },
+    {
+        "text": "<s>First, I will reveal  <p> the glass-door <ref> </p>  , white wardrobe with a mirror in front of the chair and bed. (subtask 1)",
+        "name": "task_id: 7, action_id: 0"
+    },
+    {
+        "text": "Next, I will open  <p> the glass-door <ref> </p>  , white wardrobe with a mirror in front of the chair and bed to allow natural light. (start subtask 2)",
+        "name": "task_id: 7, action_id: 1"
+    },
+    {
+        "text": "While the wardrobe is open, I will dust the smooth wooden surface of  <p> the white, cube-shaped nightstand <ref> </p>  aligned with another nightstand and below a lamp. (subtask 3)",
+        "name": "task_id: 7, action_id: 2"
+    },
+    {
+        "text": "Before 17 minutes are up, I will return to check and close  <p> the glass-door <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 7, action_id: 3"
+    },
+    {
+        "text": "Finally, I will monitor  <p> the white, plastic, or metal shoe rack <ref> </p>  with a triangular shape in front of the box and to the left of the table. (subtask 5)",
+        "name": "task_id: 7, action_id: 4"
+    },
+    {
+        "text": "First, I will refresh the smooth, flat screen of  <p> the black TV <ref> </p>  made of glass and metal, mounted above the shoe rack. (subtask 3)",
+        "name": "task_id: 8, action_id: 0"
+    },
+    {
+        "text": "Next, I will open  <p> the white, wooden, smooth sliding door <ref> </p>  to improve air circulation. (start subtask 4)",
+        "name": "task_id: 8, action_id: 1"
+    },
+    {
+        "text": "While the door is open, I will start airing  <p> the white, smooth-textured picture <ref> </p>  above the nightstand. (subtask 1)",
+        "name": "task_id: 8, action_id: 2"
+    },
+    {
+        "text": "Next, I will refresh  <p> the smooth, flat screen <ref> </p>  of the black TV made of glass and metal, mounted above the shoe rack. (subtask 2)",
+        "name": "task_id: 8, action_id: 3"
+    },
+    {
+        "text": "Before 21 minutes are up, I will return to close  <p> the white, wooden, smooth sliding door <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 8, action_id: 4"
+    },
+    {
+        "text": "First, I will brush  <p> the stainless steel and plastic air conditioner <ref> </p>  with a shiny exterior and smooth texture. (subtask 1)",
+        "name": "task_id: 9, action_id: 0"
+    },
+    {
+        "text": "Next, I will brush  <p> the white, wooden nightstand <ref> </p>  with a smooth texture beneath a lamp, aligned with another nightstand. (subtask 2)",
+        "name": "task_id: 9, action_id: 1"
+    },
+    {
+        "text": "Subsequently, I will open  <p> the white, wooden nightstand <ref> </p>  with a smooth texture beneath a lamp, aligned with another nightstand, to start ventilating the space. (start subtask 3)",
+        "name": "task_id: 9, action_id: 2"
+    },
+    {
+        "text": "While the space is being ventilated, I will refresh and arrange items in  <p> the white, square notes <ref> </p>  with a smooth texture, near the bed and far from the wardrobe. (subtask 5)",
+        "name": "task_id: 9, action_id: 3"
+    },
+    {
+        "text": "Before 11 minutes are up, I will return to close  <p> the white, wooden nightstand <ref> </p>  after sufficient ventilation. (recheck subtask 3)",
+        "name": "task_id: 9, action_id: 4"
+    },
+    {
+        "text": "Finally, I will smooth the surface of  <p> the black or white glass lamp <ref> </p>  made of metal, above the other nightstand. (subtask 4)",
+        "name": "task_id: 9, action_id: 5"
+    },
+    {
+        "text": "First, I will refresh the smooth, flat screen of  <p> the black TV <ref> </p>  made of glass and metal, mounted above the shoe rack. (subtask 2)",
+        "name": "task_id: 10, action_id: 0"
+    },
+    {
+        "text": "Next, I will buff  <p> the white, smooth-textured picture <ref> </p>  above the nightstand. (subtask 3)",
+        "name": "task_id: 10, action_id: 1"
+    },
+    {
+        "text": "Subsequently, I will open  <p> the white, wooden, smooth sliding door <ref> </p>  to improve air circulation. (start subtask 4)",
+        "name": "task_id: 10, action_id: 2"
+    },
+    {
+        "text": "While the door is open, I will brush down the surface of  <p> the white, rectangular wooden table <ref> </p>  with a smooth surface, located to the right of the shoe rack and to the right of the box. (subtask 1)",
+        "name": "task_id: 10, action_id: 3"
+    },
+    {
+        "text": "Before 13 minutes are up, I will return to close  <p> the white, wooden, smooth sliding door <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 10, action_id: 4"
+    },
+    {
+        "text": "First, I will rub down the surface of  <p> the white, rectangular wooden table <ref> </p>  with a smooth surface, located to the right of the shoe rack and to the right of the box. (subtask 1)",
+        "name": "task_id: 11, action_id: 0"
+    },
+    {
+        "text": "Next, I will tending the smooth, flat screen of  <p> the black TV <ref> </p>  made of glass and metal, mounted above the shoe rack. (subtask 3)",
+        "name": "task_id: 11, action_id: 1"
+    },
+    {
+        "text": "Subsequently, I will open  <p> the white, wooden, smooth sliding door <ref> </p>  to improve air circulation. (start subtask 4)",
+        "name": "task_id: 11, action_id: 2"
+    },
+    {
+        "text": "While the door is open, I will tend the smooth, flat screen of  <p> the black TV <ref> </p>  made of glass and metal, mounted above the shoe rack. (subtask 2)",
+        "name": "task_id: 11, action_id: 3"
+    },
+    {
+        "text": "Before 15 minutes are up, I will return to close  <p> the white, wooden, smooth sliding door <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 11, action_id: 4"
+    },
+    {
+        "text": "Finally, I will shift open  <p> the white, wooden, smooth sliding door <ref> </p>  to improve air circulation. (subtask 5)",
+        "name": "task_id: 11, action_id: 5"
+    },
+    {
+        "text": "<s>First, I will exposure  <p> the glass-door <ref> </p>  , white wardrobe with a mirror in front of the chair and bed. (subtask 1)",
+        "name": "task_id: 12, action_id: 0"
+    },
+    {
+        "text": "Next, I will open  <p> the blackout curtain <ref> </p>  made of smooth black material to allow natural light. (start subtask 2)",
+        "name": "task_id: 12, action_id: 1"
+    },
+    {
+        "text": "While the curtain is open, I will brush the smooth wooden surface of  <p> the white, cube-shaped nightstand <ref> </p>  aligned with another nightstand and below a lamp. (subtask 3)",
+        "name": "task_id: 12, action_id: 2"
+    },
+    {
+        "text": "Then, I will buff  <p> the white chair <ref> </p>  with a spherical shape and smooth texture in front of the box and to the left of the table. (subtask 4)",
+        "name": "task_id: 12, action_id: 3"
+    },
+    {
+        "text": "Subsequently, I will monitor  <p> the white, plastic, or metal shoe rack <ref> </p>  with a triangular shape, located to the right of the box. (subtask 5)",
+        "name": "task_id: 12, action_id: 4"
+    },
+    {
+        "text": "Before 26 minutes are up, I will return to close  <p> the blackout curtain <ref> </p> . (recheck subtask 2)",
+        "name": "task_id: 12, action_id: 5"
+    },
+    {
+        "text": "Finally, I will monitor  <p> the white, plastic, or metal shoe rack <ref> </p>  with a triangular shape, located to the right of the box. (subtask 3)",
+        "name": "task_id: 12, action_id: 6"
+    },
+    {
+        "text": "Finally, I will monitor  <p> the white, plastic, or metal shoe rack <ref> </p>  with a triangular shape, located to the right of the box. (subtask 4)",
+        "name": "task_id: 12, action_id: 7"
+    },
+    {
+        "text": "Finally, I will monitor  <p> the white, plastic, or metal shoe rack <ref> </p>  with a triangular shape, located to the right of the box. (subtask 5)",
+        "name": "task_id: 12, action_id: 8"
+    },
+    {
+        "text": "Before the 26 minutes are up, I will return to  <p> the blackout curtain <ref> </p>  and close it if needed. (recheck subtask 2)",
+        "name": "task_id: 12, action_id: 9"
+    },
+    {
+        "text": "<s>First, I will set down  <p> the blackout curtain <ref> </p>  , made of smooth black material, open to allow natural light. Once set, I can leave it while it remains open. (start subtask 2)",
+        "name": "task_id: 13, action_id: 0"
+    },
+    {
+        "text": "While the curtain is open, I will start by exposing  <p> the glass-door <ref> </p>  , white wardrobe with a mirror in front of the chair and bed. (subtask 1)",
+        "name": "task_id: 13, action_id: 1"
+    },
+    {
+        "text": "Before 17 minutes are up, I will return to check and adjust  <p> the blackout curtain <ref> </p>  if necessary. (recheck subtask 2)",
+        "name": "task_id: 13, action_id: 2"
+    },
+    {
+        "text": "Next, I will proceed to clean the surface of  <p> the white, cube-shaped nightstand <ref> </p>  aligned with another nightstand and below a lamp. (subtask 3)",
+        "name": "task_id: 13, action_id: 3"
+    },
+    {
+        "text": "Then, I will smooth  <p> the white chair <ref> </p>  with a spherical shape and smooth texture in front of the box and to the left of the table. (subtask 4)",
+        "name": "task_id: 13, action_id: 4"
+    },
+    {
+        "text": "Finally, I will verify  <p> the white, plastic, or metal shoe rack <ref> </p>  with a triangular shape is well organized, located to the right of the box. (subtask 5)",
+        "name": "task_id: 13, action_id: 5"
+    },
+    {
+        "text": "First, I will start by airing  <p> the white, wooden nightstand <ref> </p>  with a smooth texture beneath a lamp, aligned with another nightstand. (subtask 1)",
+        "name": "task_id: 14, action_id: 0"
+    },
+    {
+        "text": "Next, I will air  <p> the white, wooden, rectangular door <ref> </p>  to ventilate the space. (subtask 2)",
+        "name": "task_id: 14, action_id: 1"
+    },
+    {
+        "text": "Then, I will unseal  <p> the white, wooden, rectangular door <ref> </p>  to ventilate the space. (subtask 3)",
+        "name": "task_id: 14, action_id: 2"
+    },
+    {
+        "text": "Afterward, I will buff the surface of  <p> the black or white glass lamp <ref> </p>  made of metal, above the other nightstand. (subtask 4)",
+        "name": "task_id: 14, action_id: 3"
+    },
+    {
+        "text": "Finally, I will tune  <p> the arrangement items <ref> </p>  in the white, square box with a smooth texture, near the bed and far from the wardrobe. (subtask 5)",
+        "name": "task_id: 14, action_id: 4"
+    },
+    {
+        "text": "First, I will dust  <p> the stainless steel and plastic air conditioner <ref> </p>  with a shiny exterior and smooth texture. (subtask 1)",
+        "name": "task_id: 15, action_id: 0"
+    },
+    {
+        "text": "Next, I will start by opening  <p> the white, wooden, rectangular door <ref> </p>  to ventilate the space. (start subtask 3)",
+        "name": "task_id: 15, action_id: 1"
+    },
+    {
+        "text": "While the room is ventilating, I will buff  <p> the white, wooden nightstand <ref> </p>  with a smooth texture beneath a lamp, aligned with another nightstand. (subtask 2)",
+        "name": "task_id: 15, action_id: 2"
+    },
+    {
+        "text": "Then, I will unseal  <p> the white, wooden, rectangular door <ref> </p>  to ventilate the space. (subtask 4)",
+        "name": "task_id: 15, action_id: 3"
+    },
+    {
+        "text": "Before 17 minutes are up, I will return to close  <p> the white, wooden, rectangular door <ref> </p> . (recheck subtask 3)",
+        "name": "task_id: 15, action_id: 4"
+    },
+    {
+        "text": "Finally, I will maintain and arrange items in  <p> the white, square box <ref> </p>  with a smooth texture, near the bed and far from the wardrobe. (subtask 5)",
+        "name": "task_id: 15, action_id: 5"
+    },
+    {
+        "text": "First, I will rub down the surface of  <p> the white, rectangular wooden table <ref> </p>  with a smooth surface, located to the right of the shoe rack and to the right of the box. (subtask 1)",
+        "name": "task_id: 16, action_id: 0"
+    },
+    {
+        "text": "Next, I will tending the smooth, flat screen of  <p> the black TV <ref> </p>  made of glass and metal, mounted above the shoe rack. (subtask 2)",
+        "name": "task_id: 16, action_id: 1"
+    },
+    {
+        "text": "Afterward, I will open  <p> the white, wooden, smooth sliding door <ref> </p>  to improve air circulation. (start subtask 4)",
+        "name": "task_id: 16, action_id: 2"
+    },
+    {
+        "text": "While the door is open, I will air  <p> the white, spherical lamp <ref> </p>  made of stainless steel, plastic, or glass above the bed. (subtask 5)",
+        "name": "task_id: 16, action_id: 3"
+    },
+    {
+        "text": "Before 10 minutes are up, I will return to close  <p> the white, wooden, smooth sliding door <ref> </p> . (recheck subtask 4)",
+        "name": "task_id: 16, action_id: 4"
+    },
+    {
+        "text": "Finally, I will air  <p> the white, spherical lamp <ref> </p>  made of stainless steel, plastic, or glass above the bed. (subtask 5)",
+        "name": "task_id: 16, action_id: 5"
+    },
+    {
+        "text": "First, I will start to refresh and arrange items in  <p> the white, square box <ref> </p>  with a smooth texture, near the bed and far from the wardrobe. (start subtask 3)",
+        "name": "task_id: 17, action_id: 0"
+    },
+    {
+        "text": "While the wardrobe is being refreshed, I will dust and buff  <p> the white, wooden nightstand <ref> </p>  with a smooth texture beneath a lamp, aligned with another nightstand. (subtask 1)",
+        "name": "task_id: 17, action_id: 1"
+    },
+    {
+        "text": "Next, I will buff  <p> the white, wooden nightstand <ref> </p>  with a smooth texture beneath a lamp, aligned with another nightstand. (subtask 2)",
+        "name": "task_id: 17, action_id: 2"
+    },
+    {
+        "text": "Before 16 minutes are up, I will return to check and finish refreshing and arranging items in  <p> the white, square box <ref> </p> . (recheck subtask 3)",
+        "name": "task_id: 17, action_id: 3"
+    },
+    {
+        "text": "Then, I will touch up the surface of  <p> the black or white glass lamp <ref> </p>  made of metal, above the other nightstand. (subtask 4)",
+        "name": "task_id: 17, action_id: 4"
+    },
+    {
+        "text": "Finally, I will refresh and arrange items in  <p> the white, square box <ref> </p>  with a smooth texture, near the bed and far from the wardrobe. (subtask 5)",
+        "name": "task_id: 17, action_id: 5"
+    }
+]

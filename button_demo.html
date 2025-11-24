@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS 26 液态玻璃效果演示</title>
+    <style>
+        /* 使用更现代的盒模型 */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            
+            /* 动态的液态背景 */
+            background: linear-gradient(315deg, #ff6b6b, #f06595, #cc5de8, #845ef7, #5c7cfa, #339af0);
+            background-size: 400% 400%;
+            animation: liquidGradient 15s ease infinite;
+        }
+
+        /* 背景动画 */
+        @keyframes liquidGradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .main-title {
+            text-align: center;
+            margin-bottom: 40px;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .main-title h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-weight: 600;
+        }
+
+        .main-title p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+            margin-top: 8px;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        /* 玻璃效果卡片的核心样式 */
+        .glass-card {
+            width: 300px;
+            height: 400px;
+            padding: 30px;
+            
+            /* 1. 半透明背景 */
+            background: rgba(255, 255, 255, 0.15);
+            
+            /* 2. 核心：背景模糊滤镜 */
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px); /* 兼容 Safari */
+            
+            /* 3. 圆角和边框 */
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            
+            /* 4. 阴影增加立体感 */
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            
+            /* 内部内容布局 */
+            display: flex;
+            flex-direction: column;
+            
+            /* 动效 */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 16px 40px 0 rgba(31, 38, 135, 0.45);
+        }
+
+        .card-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .card-title {
+            font-size: 1.8rem;
+            font-weight: 500;
+            margin: 0 0 15px 0;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="main-title">
+        <h1>iOS 26 概念</h1>
+        <p>液态玻璃效果演示</p>
+    </div>
+
+    <div class="card-container">
+        <div class="glass-card">
+            <div class="card-icon">☀️</div>
+            <h2 class="card-title">天气</h2>
+            <p class="card-text">实时天气更新，精准预测未来15天。动态粒子效果模拟当前天气状况，为您带来沉浸式体验。</p>
+        </div>
+
+        <div class="glass-card">
+            <div class="card-icon">🎵</div>
+            <h2 class="card-title">音乐</h2>
+            <p class="card-text">空间音频与动态头部追踪技术结合，创造身临其境的听觉盛宴。AI 推荐引擎，发现你的下一首最爱。</p>
+        </div>
+        
+        <div class="glass-card">
+            <div class="card-icon">❤️</div>
+            <h2 class="card-title">健康</h2>
+            <p class="card-text">全面追踪您的健康数据，从心率到睡眠质量。新增情绪感知功能，通过传感器分析您的心理状态。</p>
+        </div>
+    </div>
+
+</body>
+</html>
