@@ -1,0 +1,40 @@
+# @package data
+
+train_collation:
+  _target_: datasets.utils.VoxelizeCollate
+  ignore_label: ${data.ignore_label}
+  voxel_size: ${data.voxel_size}
+  mode: ${data.train_mode}
+  task: ${general.task}
+  ignore_class_threshold: ${general.ignore_class_threshold}
+  filter_out_classes: ${data.train_dataset.filter_out_classes}
+  label_offset: ${data.train_dataset.label_offset}
+  num_queries: ${model.num_queries}
+  bert_path: ${model.bert_path}
+  sample_class_labels: ${data.sample_class_labels}
+
+validation_collation:
+  _target_: datasets.utils.VoxelizeCollate
+  ignore_label: ${data.ignore_label}
+  voxel_size: ${data.voxel_size}
+  mode: ${data.validation_mode}
+  task: ${general.task}
+  ignore_class_threshold: ${general.ignore_class_threshold}
+  filter_out_classes: ${data.validation_dataset.filter_out_classes}
+  label_offset: ${data.validation_dataset.label_offset}
+  num_queries: ${model.num_queries}
+  bert_path: ${model.bert_path}
+  sample_class_labels: ${data.sample_class_labels}
+
+test_collation:
+  _target_: datasets.utils.VoxelizeCollate
+  ignore_label: ${data.ignore_label}
+  voxel_size: ${data.voxel_size}
+  mode: ${data.test_mode}
+  task: ${general.task}
+  ignore_class_threshold: ${general.ignore_class_threshold}
+  filter_out_classes: ${data.test_dataset.filter_out_classes}
+  label_offset: ${data.test_dataset.label_offset}
+  num_queries: ${model.num_queries}
+  bert_path: ${model.bert_path}
+  sample_class_labels: ${data.sample_class_labels}

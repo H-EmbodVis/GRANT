@@ -1,0 +1,61 @@
+general:
+  train_mode: true 
+  task: "instance_segmentation"
+  seed: 1
+  checkpoint: null
+  train_on_segments: true 
+  eval_on_segments: true
+  save_visualizations: false
+  visualization_point_size: 20
+  decoder_id: -1
+  export: false
+  use_dbscan: false
+  ignore_class_threshold: 100
+  project_name: scannet
+  experiment_name: xxx
+  num_targets: 199
+  dbscan_eps: 0.95
+  dbscan_min_points: 1
+  llm_config: ./conf/llm/tiny_vicuna.json
+  llm_data_config: ./conf/llm/det0.json
+
+  filter_scene00: False
+
+  topk_per_image: 100
+
+  save_dir: saved/${general.experiment_name}
+  
+
+  experiment_id: debug 
+  version: 1 
+
+  gpus: 1
+
+  timestamp: null 
+  load_weights: false
+  eval_type_range: only_taskscheduling 
+  save_taskscheduling_visualizations: false
+
+defaults:
+  - data: indoor
+  - data/data_loaders: simple_loader
+  - data/datasets: scannet200 
+  - data/collation_functions: voxelize_collate
+  - logging: offline
+  - model: mask3d
+  - metrics: miou
+  - optimizer: adamw
+  - scheduler: exponentiallr
+  - trainer: trainer600
+  - callbacks: callbacks_instance_segmentation
+  - matcher: hungarian_matcher 
+  - loss: set_criterion
+  
+
+
+hydra:
+  run:
+    dir: ${general.save_dir}
+  sweep:
+    dir: ${general.save_dir}
+    

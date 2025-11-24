@@ -1,0 +1,39 @@
+# @package _group_
+
+# these parameters are inherited by datasets, data_loaders and collators
+# but they might be overwritten
+
+# splits
+train_mode: train
+validation_mode: validation
+test_mode: validation 
+
+# dataset
+ignore_label: 255
+add_raw_coordinates: true 
+add_colors: true 
+add_normals: false 
+in_channels: 3 
+num_labels: 200
+task: ${general.task} 
+sub_datasets: ['ScanNet', '3RScan', 'MultiScan', "ARKitScenes", 'HM3D'] 
+dataset_sample_ratio: 1.0
+
+
+
+
+# data loader
+pin_memory: false
+num_workers: 4
+batch_size: 5 
+test_batch_size: 1
+
+# collation
+voxel_size: 0.02
+
+sample_class_labels: true
+lang_data_conf: taskscheduling,10 
+lang_query: 20 
+num_concat_texts: 2 
+lang_max_token_length: 256 
+positive_lang_query_ratio: 0.9 

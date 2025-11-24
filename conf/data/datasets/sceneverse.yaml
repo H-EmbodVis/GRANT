@@ -1,0 +1,82 @@
+# @package data
+train_dataset:
+  _target_: datasets.sceneverse.SceneVerse
+  dataset_name: "scannet200"
+  base_dir: data/SceneVerse 
+  image_augmentations_path: conf/augmentation/albumentations_aug.yaml
+  volume_augmentations_path: conf/augmentation/volumentations_aug.yaml
+  label_db_filepath: data/processed/scannet200/label_database.yaml
+  color_mean_std: data/processed/scannet200/color_mean_std.yaml
+  mode: ${data.train_mode}
+  ignore_label: ${data.ignore_label}
+  num_labels: ${data.num_labels}
+  add_raw_coordinates: ${data.add_raw_coordinates}
+  add_colors: ${data.add_colors}
+  add_normals: ${data.add_normals}
+  # different augs experiments
+  filter_out_classes: [0, 2]
+  label_offset: 2
+  sample_class_labels: ${data.sample_class_labels}
+  axis_align_coord: ${model.axis_align_coord}
+  lang_data_conf: ${data.lang_data_conf} 
+  lang_max_token_length: ${data.lang_max_token_length}
+  num_concat_texts: ${data.num_concat_texts}
+  bert_path: ${model.bert_path}
+  positive_lang_query_ratio: ${data.positive_lang_query_ratio}
+  lang_query: ${data.lang_query}
+  datasets: ${data.sub_datasets} 
+  dataset_sample_ratio: ${data.dataset_sample_ratio}
+
+validation_dataset:
+  _target_: datasets.sceneverse.SceneVerse
+  dataset_name: "scannet200"
+  base_dir: data/SceneVerse 
+  image_augmentations_path: null
+  volume_augmentations_path: null
+  label_db_filepath: data/processed/scannet200/label_database.yaml
+  color_mean_std: data/processed/scannet200/color_mean_std.yaml
+  mode: ${data.validation_mode}
+  ignore_label: ${data.ignore_label}
+  num_labels: ${data.num_labels}
+  add_raw_coordinates: ${data.add_raw_coordinates}
+  add_colors: ${data.add_colors}
+  add_normals: ${data.add_normals}
+  filter_out_classes: [0, 2]
+  label_offset: 2
+  sample_class_labels: ${data.sample_class_labels}
+  axis_align_coord: ${model.axis_align_coord}
+  lang_data_conf: ${data.lang_data_conf}
+  lang_max_token_length: ${data.lang_max_token_length}
+  num_concat_texts: ${data.num_concat_texts}
+  bert_path: ${model.bert_path}
+  positive_lang_query_ratio: ${data.positive_lang_query_ratio}
+  lang_query: ${data.lang_query}
+  datasets: ${data.sub_datasets}  
+  dataset_sample_ratio: ${data.dataset_sample_ratio}
+
+test_dataset:
+  _target_: datasets.sceneverse.SceneVerse
+  dataset_name: "scannet200"
+  base_dir: data/SceneVerse
+  image_augmentations_path: null
+  volume_augmentations_path: null
+  label_db_filepath: data/processed/scannet200/label_database.yaml
+  color_mean_std: data/processed/scannet200/color_mean_std.yaml
+  mode: ${data.test_mode}
+  ignore_label: ${data.ignore_label}
+  num_labels: ${data.num_labels}
+  add_raw_coordinates: ${data.add_raw_coordinates}
+  add_colors: ${data.add_colors}
+  add_normals: ${data.add_normals}
+  filter_out_classes: [0, 2]
+  label_offset: 2
+  sample_class_labels: ${data.sample_class_labels}
+  axis_align_coord: ${model.axis_align_coord}
+  lang_data_conf: ${data.lang_data_conf}
+  lang_max_token_length: ${data.lang_max_token_length}
+  num_concat_texts: ${data.num_concat_texts}
+  bert_path: ${model.bert_path}
+  positive_lang_query_ratio: ${data.positive_lang_query_ratio}
+  lang_query: ${data.lang_query}
+  datasets: ${data.sub_datasets}  
+  dataset_sample_ratio: ${data.dataset_sample_ratio}
