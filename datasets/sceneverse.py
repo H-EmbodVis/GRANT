@@ -30,6 +30,7 @@ from datasets.utils import read_axis_align_matrix, concatenate_texts_with_separa
 
 from datasets.language_info import lang_info_data, grounding_data
 from datasets.data_aug import *
+from conf.paths import BERT_PATH
 
 
 class SceneVerseBase(torch.utils.data.Dataset):
@@ -61,7 +62,7 @@ class SceneVerseBase(torch.utils.data.Dataset):
         positive_lang_query_ratio=0.5,
         lang_max_token_length=256,
         num_concat_texts=4,
-        bert_path="./bert-base-uncased",
+        bert_path=BERT_PATH,
         lang_data_conf='',
         sample_class_labels=False,
         axis_align_coord=False,
@@ -775,7 +776,7 @@ class SceneVerse(torch.utils.data.Dataset):
         positive_lang_query_ratio=0.5,
         lang_max_token_length=256,
         num_concat_texts=4,
-        bert_path="./bert-base-uncased",
+        bert_path=BERT_PATH,
         lang_data_conf='',
         sample_class_labels=False,
         axis_align_coord=False,
@@ -813,7 +814,7 @@ class SceneVerse(torch.utils.data.Dataset):
                 positive_lang_query_ratio=positive_lang_query_ratio,
                 lang_max_token_length=lang_max_token_length,
                 num_concat_texts=num_concat_texts,
-                bert_path=bert_path,
+                bert_path=BERT_PATH,
                 lang_data_conf=lang_data_conf,
                 sample_class_labels=sample_class_labels,
                 axis_align_coord=axis_align_coord,

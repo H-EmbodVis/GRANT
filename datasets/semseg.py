@@ -27,6 +27,7 @@ from datasets.utils import read_axis_align_matrix, concatenate_texts_with_separa
 
 from datasets.language_info import lang_info_data, grounding_data
 from datasets.data_aug import *
+from conf.paths import BERT_PATH, get_scanrefer_path
 
 
 class SemanticSegmentationDataset(torch.utils.data.Dataset):
@@ -62,7 +63,7 @@ class SemanticSegmentationDataset(torch.utils.data.Dataset):
         positive_lang_query_ratio=0.5,
         lang_max_token_length=256,
         num_concat_texts=4,
-        bert_path="./bert-base-uncased",
+        bert_path=BERT_PATH,
         lang_data_conf='',
         sample_class_labels=False,
         axis_align_coord=False,
@@ -125,7 +126,7 @@ class SemanticSegmentationDataset(torch.utils.data.Dataset):
         labels = self._load_yaml(Path(label_db_filepath))
 
         if self.filter_scene00:
-            scanrefer_path = './data/langdata/scanrefer/ScanRefer_filtered_full_withroot_addeval.json'
+            scanrefer_path = get_scanrefer_path()
             with open(scanrefer_path) as f:
                 scanrefer_source = json.load(f)
             scanrefer_scene_ids = set(

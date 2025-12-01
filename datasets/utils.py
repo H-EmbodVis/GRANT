@@ -4,7 +4,7 @@ import torch
 from random import random
 
 from transformers import AutoTokenizer, BertConfig
-
+from conf.paths import BERT_PATH
 
 class batch_lang_data:
     def __init__(self,

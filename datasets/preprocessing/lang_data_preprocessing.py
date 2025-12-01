@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 from collections import OrderedDict
 import os.path as osp
+from conf.paths import get_scanrefer_path
 
 DEBUG = False
 
@@ -27,7 +28,7 @@ def replace_punctuation(s):
 
 # ----------------------- ScanRefer ----------------------------
 if not osp.exists(lang_reformat_path / 'scanrefer_format.json'):
-    scanrefer_path = lang_root_path / 'scanrefer/ScanRefer_filtered_full_withroot_addeval.json'
+    scanrefer_path = get_scanrefer_path()
     with open(scanrefer_path) as f:
         scanrefer_source = json.load(f)
     filter_scanrefer_source = []
