@@ -2,6 +2,7 @@
 import logging
 import os
 from hashlib import md5
+import sys
 from uuid import uuid4
 import hydra
 from dotenv import load_dotenv
@@ -16,6 +17,20 @@ from utils.utils import (
 import pytorch_lightning as pl
 from pytorch_lightning import Trainer, seed_everything
 import MinkowskiEngine as ME
+
+from conf.paths import validate_paths, GRANT_CKPT, POINT_ENCODER_CKPT
+
+# Load environment variables
+load_dotenv(".env")
+
+# Validate paths before starting
+try:
+    validate_paths()
+except FileNotFoundError as e:
+    logger = logging.getLogger(__name__)
+    logger.error(f"Path validation failed: {e}")
+    logger.info("Please check your .env file or environment variables")
+    sys.exit(1)
 
 
 class RegularCheckpointing(pl.Callback):
@@ -60,9 +75,9 @@ def get_parameters(cfg: DictConfig):
         else:
             print("Note that *No* checkpoint is found.")
             
-    if cfg.general.load_weights:
+    if GRANT_CKPT:
         # If load_weights is provided, use the manual path
-        manual_checkpoint = cfg.general.load_weights
+        manual_checkpoint = GRANT_CKPT
         if os.path.exists(manual_checkpoint):
             cfg["trainer"]["resume_from_checkpoint"] = manual_checkpoint
             print(f"Load weights from manual path: {manual_checkpoint}")
@@ -82,9 +97,9 @@ def get_parameters(cfg: DictConfig):
     if cfg.general.gpus > 1:
         model = ME.MinkowskiSyncBatchNorm.convert_sync_batchnorm(model)
 
-    if cfg.general.checkpoint is not None:
+    if POINT_ENCODER_CKPT is not None:
         cfg, model = load_checkpoint_with_missing_or_exsessive_keys(cfg, model)
-        print(f"Load checkpoint from {cfg.general.checkpoint}")
+        print(f"Load checkpoint from {POINT_ENCODER_CKPT}")
 
     logger.info(flatten_dict(OmegaConf.to_container(cfg, resolve=True)))
     return cfg, model, loggers
