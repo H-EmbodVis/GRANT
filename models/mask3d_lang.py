@@ -12,6 +12,7 @@ from models.modules.helpers_3detr import GenericMLP
 from torch_scatter import scatter_mean, scatter_max
 from torch.cuda.amp import autocast
 from models.modules.groundingdino import BiFormer
+from conf.paths import BERT_PATH
 
 class Mask3DLang(nn.Module):
     def __init__(
@@ -39,7 +40,7 @@ class Mask3DLang(nn.Module):
         random_queries,
         gauss_scale,
         random_normal,
-        bert_path="./bert-base-uncased",
+        bert_path=BERT_PATH,
         temperature=0.1,
         num_biformers=3,
         inter_biformers=0,
