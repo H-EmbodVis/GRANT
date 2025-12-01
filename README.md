@@ -63,8 +63,8 @@ conda install openjdk=11
 
 pip install -r requirements.txt
 
-export LD_LIBRARY_PATH=/mnt/petrelfs/share/gcc/mpc-0.8.1/lib:/mnt/petrelfs/share/gcc/mpfr-2.4.2/lib:/mnt/petrelfs/share/gcc/gmp-4.3.2/lib:/mnt/petrelfs/share/gcc/gcc-9.4.0/lib64:$LD_LIBRARY_PATH
-# Note: The above path is for a specific cluster environment. Please update it according to your system configuration.
+export LD_LIBRARY_PATH=your/custom/lib/path
+# Please update LD_LIBRARY_PATH according to your system configuration.
 
 pip3 install torch==1.12.1+cu116 torchvision==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
 pip3 install torch-scatter -f https://data.pyg.org/whl/torch-1.12.1+cu116.html
@@ -119,7 +119,7 @@ Download the point cloud encoder weights and pretrained GRANT weights from [Hugg
 ## 🚂 Training
 
 ### Preparation
-Put the pretrained weights of 3D encoder and LLM to the proper directory.
+Step 1: Put the pretrained weights of 3D encoder and LLM to the proper directory.
 ```
 GRANT
 │── pretrained                      
@@ -131,8 +131,12 @@ GRANT
 │   │   │── Tiny-Vicuna-1B        
 ```
 
+Step 2: Verify that all required environment variables are correctly defined in .env.example, then create your actual environment file by running:
+```
+cp .env.example .env
+```
 
-Run the training command: `bash scripts/train.sh`
+Step 3: Run the training command: `bash scripts/train.sh`
 
 ## 📊 Evaluation
 
