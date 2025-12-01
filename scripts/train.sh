@@ -18,7 +18,6 @@ data=${DATA} \
 data/datasets=sceneverse \
 data.dataset_sample_ratio=1 \
 model=${MODEL}  \
-general.checkpoint=Path_to_point_encoder.ckpt \
 data.batch_size=1 \
 data.num_workers=4 \
 trainer=trainer10 \

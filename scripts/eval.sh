@@ -17,7 +17,6 @@ data=${DATA} \
 data/datasets=sceneverse \
 data.dataset_sample_ratio=1 \
 model=${MODEL}  \
-general.load_weights="Path to GRANT.ckpt" \
 data.batch_size=1 \
 data.num_workers=8 \
 trainer=trainer10 \
