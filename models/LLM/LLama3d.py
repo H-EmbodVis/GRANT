@@ -291,8 +291,6 @@ class LLama3dForCausalLM(LlamaForCausalLM):
                         find_inref += len(question_quries_id)+2
                 except Exception as e:
                     print(e)
-                    from IPython import embed
-                    embed()
                     continue
             if not inference: 
                 language_embeddings_list[-1] = torch.cat(

@@ -367,8 +367,6 @@ class lang_info_data():
                 return
 
         print('Assertion Error ListofList')
-        from IPython import embed
-        embed()
 
     def remap_inst_ids(self, mapping):
         def inplace_replace_insts(rawtext_posinsts_tmp, instance_mapping_tmp):

@@ -480,9 +480,6 @@ def get_instance_masks(
                     lang_info.remap_inst_ids(instance_mapping)
         except Exception as e:
             print("Error in remapping instance ids")
-            from IPython import embed
-            embed()
-            pass
         if len(label_ids) == 0:
             return list()
 

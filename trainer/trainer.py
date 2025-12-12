@@ -392,8 +392,6 @@ class ModelingGrounded3DLLM(pl.LightningModule):
 
                     except Exception as e:
                         print(f'+++++ {lang_info.lang_type}: {e}')
-                        from IPython import embed
-                        embed()
 
                     lang_info.append_prompt_postfix()
                     lang_info.set_batch_idx(bid)

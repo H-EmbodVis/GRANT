@@ -162,7 +162,6 @@ def eval_seg_model(bid,
                             each_iou_50_f1_score[-1].append(1.0)
                     except Exception as e:
                         print(e)
-                        from IPython import embed;embed()
 
             # =============== compute masks for visualization =============
             instance_center_coords = []
